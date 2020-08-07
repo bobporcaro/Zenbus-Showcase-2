@@ -5,10 +5,17 @@ homepage:
 # ----------- NAV ------------
 nav:
   home: "Home"
-  customers: "Clients"
+
+  connect-and-play: "Connect-and-Play"
+  products: "Produits"
+  company: "Entreprises"
+  resources: "Ressources"
+
+
   ao: "Autorités Organisatrices"
   operators: "Exploitants"
   passengers: "Voyageurs"
+
   blog: "Blog"
   team: "Équipe"
   contact: "Contact"

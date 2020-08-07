@@ -4,11 +4,15 @@
 		<img src="{{ site.baseurl }}/assets/img/zenbus_logo@2x.png" alt="logo zenbus" class="panel-logo-img">
 	</header>
 	<menu class="panel-menu">
+
+		<!-- HOME -->
 		<li class="panel-menu-item home{% if page.permalink == '/' %} active{% endif %}">
 			<a href="{{ site.baseurl }}/" class="panel-menu-item-text">{{ site.data["strings"].nav.home }}</a>
 		</li>
-		<li class="panel-menu-item collectivity{% if page.permalink == '/operators/' or page.permalink == '/transport-authorities/' %} sub-active{% endif %}">
-			<button class="panel-menu-item-text">{{ site.data["strings"].nav.customers }}</button>
+
+		<!-- CONNECT & PLAY -->
+		<li class="panel-menu-item connect-and-play{% if page.permalink == '/operators/' or page.permalink == '/transport-authorities/' %} sub-active{% endif %}">
+			<button class="panel-menu-item-text">{{ site.data["strings"].nav.connect-and-play }}</button>
 			<ul class="collectivity-submenu">
 				<li class="panel-menu-item transport-authorities{% if page.permalink == '/transport-authorities/' %} active{% endif %}">
 					<a href="{{ site.baseurl }}/transport-authorities/" class="panel-menu-item-text">{{ site.data["strings"].nav.ao }}</a>
@@ -18,9 +22,28 @@
 				</li>
 			</ul>
 		</li>
+
+		<!-- PRODUCTS -->
+		<li class="panel-menu-item products{% if page.permalink == '/operators/' or page.permalink == '/transport-authorities/' %} sub-active{% endif %}">
+			<button class="panel-menu-item-text">{{ site.data["strings"].nav.products }}</button>
+		</li>
+
+		<!-- COMPANY -->
+		<li class="panel-menu-item company{% if page.permalink == '/operators/' or page.permalink == '/transport-authorities/' %} sub-active{% endif %}">
+			<button class="panel-menu-item-text">{{ site.data["strings"].nav.company }}</button>
+		</li>
+
+		<!-- RESOURCES -->
+		<li class="panel-menu-item resources{% if page.permalink == '/operators/' or page.permalink == '/transport-authorities/' %} sub-active{% endif %}">
+			<button class="panel-menu-item-text">{{ site.data["strings"].nav.resources }}</button>
+		</li>
+
+
+		<!-- REDISPATCH
+
 		<li class="panel-menu-item passenger{% if page.permalink == '/passengers/' %} active{% endif %}">
 			<a href="{{ site.baseurl }}/passengers/" class="panel-menu-item-text">{{ site.data["strings"].nav.passengers }}</a>
-		</li>
+		</li>"
 		<li class="panel-menu-item blog{% if page.url contains 'blog' %} active{% endif %}">
 			<a href="{{ site.baseurl }}/blog/" class="panel-menu-item-text">{{ site.data["strings"].nav.blog }}</a>
 		</li>
@@ -33,6 +56,9 @@
 		<li class="panel-menu-item recruit{% if page.permalink == '/job/' %} active{% endif %}">
 			<a href="{{ site.baseurl }}/job/" class="panel-menu-item-text">{{ site.data["strings"].nav.recruit }}</a>
 		</li>
+
+		 -->
+
+
 	</menu>
 </nav>
-	
