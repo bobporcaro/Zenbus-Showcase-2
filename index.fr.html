@@ -11,9 +11,9 @@ lang: fr
       <div class="home-landing-catchphrase">
          <h1 class="catchphrase-content">Le <span>cœur</span> de la donnée transport</h1>
          <div class="catchphrase-links">
-            <a class="catchphrase-links-item" href="{{ site.baseurl }}/ao/">AOM</a>
-            <a class="catchphrase-links-item" href="{{ site.baseurl }}/operators/">Exploitant</a>
-            <a class="catchphrase-links-item" href="{{ site.baseurl }}/passengers/">Voyageur</a>
+            <a class="catchphrase-links-item" href="#collectivity">AOM</a>
+            <a class="catchphrase-links-item" href="#operator">Exploitant</a>
+            <a class="catchphrase-links-item" href="#passenger">Voyageur</a>
          </div>
       </div>
       <div class="scroll-indicator" v-bind:class="{ hide: hasScrolled }" >
@@ -24,19 +24,39 @@ lang: fr
 
    <!-- Why -->
    <section class="home-why">
-      Pourquoi ?
-Confronté à une concurrence accrue des autres modes de transports, le transport collectif doit profiter du numérique pour répondre à 3 enjeux déterminants :
-Attractivité : comment améliorer l’expérience des voyageurs ?
-Performance : comment optimiser l’exploitation en temps-réel et l’offre de transport dans la durée ?
-MaaS & Loi d’Orientation des Mobilités : comment répondre aux exigences d’ouverture de données et de ré-utilisation ?
+      <div class="home-why-content">
+         <h2 class="why-tile-title">Pourquoi ?</h2>
+         <p class="why-tile-text">Confronté à une concurrence accrue des autres modes de transports, le transport collectif doit profiter du numérique pour répondre à 3 enjeux déterminants :
+            <span class="why-tile-text-sub">Attractivité</span>
+            Comment améliorer l’expérience des voyageurs ?
+
+            <span class="why-tile-text-sub">Performance</span>
+            Comment optimiser l’exploitation en temps-réel et l’offre de transport dans la durée ?
+            
+            <span class="why-tile-text-sub">MaaS & Loi d’Orientation des Mobilités</span>
+            Comment répondre aux exigences d’ouverture de données et de ré-utilisation ?
+         </p>
+      </div>
+      <div class="whyt-tile-number">
+         <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+         </ul>
+      </div>
+         
+      </div>
    </section>
 
 
    <!-- Map -->
    <section id="map" class="home-map" :class="{'show-map':isActiveMap}">
       <div class="map-tile tile">
-         <h2 class="tile-title">Zenbus près de chez vous</h2>
-         <p class="tile-text">Zenbus couvre déjà des dizaines de réseaux en France et ce sont chaque mois de nouvelles lignes de bus qui bénéficient du service. L'application se déploie aussi progressivement à l'étranger.</p>
+         <h2 class="map-tile-title">Zenbus près de chez vous</h2>
+         <p class="map-tile-text">Zenbus couvre déjà des dizaines de réseaux en France et ce sont chaque mois de nouvelles lignes de bus qui bénéficient du service. L'application se déploie aussi progressivement à l'étranger.</p>
          <footer class="map-tile-footer">
             <a href="" class="map-tile-footer-link"></a>
          </footer>
@@ -158,13 +178,14 @@ MaaS & Loi d’Orientation des Mobilités : comment répondre aux exigences d’
 
 
    <!-- Collectivity -->
-   <section class="home-collectivity tile">
+   <section class="home-collectivity tile" id="collectivity">
       <h2 class="tile-title">Les outils parfaits pour les AOM</h2>
-      <p class="tile-text">Donner envie de prendre les transports collectifs et faciliter le report modal - 
-         Maîtriser la qualité de service de mon réseau - 
-         Optimiser mon offre dans la durée - 
-         Répondre aux exigences de la LOM
-      </p>
+      <ul class="tile-text">
+         <li class="tile-text-item">Donner envie de prendre les transports collectifs et faciliter le report modal</li> 
+         <li class="tile-text-item">Maîtriser la qualité de service de mon réseau</li> 
+         <li class="tile-text-item">Optimiser mon offre dans la durée</li> 
+         <li class="tile-text-item">Répondre aux exigences de la LOM</li>
+      </ul>
       <div class="tile-content">
          <div class="tile-content-img">
             <img src="/assets/img/home/AOM.jpg" />
@@ -173,21 +194,21 @@ MaaS & Loi d’Orientation des Mobilités : comment répondre aux exigences d’
             <p class="tile-content-verbatim-text">C'est incroyable comme Zenbus est incroyable. Si je n'avais pas la moindre mesure, je dirais meme que c'est incroyable</p>
             <span class="tile-content-verbatim-author">Delphine Labbé - Présidente du fan-club de Zenbus à l'international</span>
          </div>
-         <aside class="tile-content-rex">
-            <div class="rex-item">
-               <span class="rex-item-number">100%</span>
-               <p class="rex-item-text">de nos interlocuteurs sont en recherche d’indicateurs fiables de qualité du service et de performance technique et financière</p>
+         <aside class="tile-content-roi">
+            <div class="roi-item">
+               <span class="roi-item-number">100%</span>
+               <p class="roi-item-text">de nos interlocuteurs sont en recherche d’indicateurs fiables de qualité du service et de performance technique et financière</p>
             </div>
-            <div class="rex-item">
-               <span class="rex-item-number">95%</span>
-               <p class="rex-item-text"> des jeux de données dynamiques standardisés et librement accessibles sur le Point d’Accès National</p>
+            <div class="roi-item">
+               <span class="roi-item-number">95%</span>
+               <p class="roi-item-text"> des jeux de données dynamiques standardisés et librement accessibles sur le Point d’Accès National</p>
             </div>
-            <div class="rex-item">
-               <span class="rex-item-number">+ 97%</span>
-               <p class="rex-item-text">de réabonnement au service</p>
+            <div class="roi-item">
+               <span class="roi-item-number">97%</span>
+               <p class="roi-item-text">de réabonnement au service</p>
             </div>
-            <footer class="rex-more">
-               <a class="rex-more-link" href="{{ site.baseurl }}/ao/">En savoir plus</a>
+            <footer class="roi-more">
+               <a class="roi-more-link" href="{{ site.baseurl }}/ao/">En savoir plus</a>
             </footer>
          </aside>
       </div>
@@ -195,14 +216,78 @@ MaaS & Loi d’Orientation des Mobilités : comment répondre aux exigences d’
    
 
    <!-- Operator -->
-   <section class="home-operator">
-
+   <section class="home-operator tile" id="operator">
+      <h2 class="tile-title">Les exploitants ne peuvent plus s'en passer</h2>
+      <ul class="tile-text">
+         <li class="tile-text-item">Maximiser fréquentation et recette</li> 
+         <li class="tile-text-item">Réguler efficacement</li> 
+         <li class="tile-text-item">Optimiser l’exploitation</li> 
+         <li class="tile-text-item">Faciliter le reporting auprès de l’autorité organisatrice</li>
+      </ul>
+      <div class="tile-content">
+         <div class="tile-content-img">
+            <img src="/assets/img/home/operator.jpg" />
+         </div>
+         <div class="tile-content-verbatim">
+            <p class="tile-content-verbatim-text">On m'avait promis des choses fantastiques pour RNA. Quentin m'avait dit : ça n'existe pas ! Et c'est vrai ! Ca n'existe toujours pas...</p>
+            <span class="tile-content-verbatim-author">Bruno Delamarre - Optimiste invétéré</span>
+         </div>
+         <aside class="tile-content-roi">
+            <div class="roi-item">
+               <span class="roi-item-number">86%</span>
+               <p class="roi-item-text">de nos interlocuteurs s’estiment trop peu outillés face à leurs enjeux d’exploitation</p>
+            </div>
+            <div class="roi-item">
+               <span class="roi-item-number">100%</span>
+               <p class="roi-item-text">de nos clients sont satisfaits de notre relation commerciale</p>
+            </div>
+            <div class="roi-item">
+               <span class="roi-item-number">95%</span>
+               <p class="roi-item-text">des directeurs d’exploitation indiquent JESAISPASQUOI/ENFONCTION DU REX DE DELAMARRE</p>
+            </div>
+            <footer class="roi-more">
+               <a class="roi-more-link" href="{{ site.baseurl }}/operator/">En savoir plus</a>
+            </footer>
+         </aside>
+      </div>
    </section>
 
 
    <!-- Passenger -->
-   <section class="home-passenger">
-
+   <section class="home-passenger tile">
+      <h2 class="tile-title">Des voyageurs conquis</h2>
+      <ul class="tile-text">
+         <li class="tile-text-item">Avoir de l’information précise, à tout moment </li> 
+         <li class="tile-text-item">Avoir confiance dans le réseau</li> 
+         <li class="tile-text-item">Comprendre la réalité et faire des choix pertinents</li>
+         <li class="tile-text-item">En définitive….aimer prendre le bus !</li> 
+      </ul>
+      <div class="tile-content">
+         <div class="tile-content-img">
+            <img src="/assets/img/home/passenger.jpg" />
+         </div>
+         <div class="tile-content-verbatim">
+            <p class="tile-content-verbatim-text">UNE TUERIE ! Mais ce serait encore mieux avec la traverse Bichat</p>
+            <span class="tile-content-verbatim-author">Zino - 20 messages FB, 37 tweets et 43 mails</span>
+         </div>
+         <aside class="tile-content-roi">
+            <div class="roi-item">
+               <span class="roi-item-number">43%</span>
+               <p class="roi-item-text"> des voyageurs mettent la qualité de l’information en tête de leur besoin*</p>
+            </div>
+            <div class="roi-item">
+               <span class="roi-item-number">56%</span>
+               <p class="roi-item-text">de nos utilisateurs indiquent prendre davantage le bus grâce à Zenbus</p>
+            </div>
+            <div class="roi-item">
+               <span class="roi-item-number">25%</span>
+               <p class="roi-item-text">de taux moyen de réponse à nos enquêtes mobilité</p>
+            </div>
+            <footer class="roi-more">
+               <a class="roi-more-link" href="{{ site.baseurl }}/passenger/">En savoir plus</a>
+            </footer>
+         </aside>
+      </div>
    </section>
 
    <!--
