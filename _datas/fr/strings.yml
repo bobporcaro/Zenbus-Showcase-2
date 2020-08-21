@@ -5,10 +5,35 @@ homepage:
 # ----------- NAV ------------
 nav:
   home: "Home"
-  customers: "Clients"
+  connectandplay:
+    tab: "Connect-and-Play"
+    innovation: "Innovation"
+    mynetwork: "Sur mon réseau"
+    partners: "Partenaires"
+
+  products:
+    tab:  "Produits"
+    operation: "Operation"
+    analytics: "Analytics"
+    iv: "IV"
+    api: "APIs"
+
+  company:
+    tab: "Entreprise"
+    team: "Equipe"
+    contact: "Contact"
+    recruitment: "Recrutement"
+
+  resources:
+    tab: "Ressources"
+    blog: "Blog"
+    press: "Presse"
+
+
   ao: "Autorités Organisatrices"
   operators: "Exploitants"
   passengers: "Voyageurs"
+
   blog: "Blog"
   team: "Équipe"
   contact: "Contact"
