@@ -1,38 +1,76 @@
 <button id="burgerButton" class="panel-hamburger"></button>
 <nav id="panel" class="panel">
 	<header class="panel-logo">
-		<img src="{{ site.baseurl }}/assets/img/zenbus_logo@2x.png" alt="logo zenbus" class="panel-logo-img">
+		<a href="{{ site.baseurl }}/" class="">
+			<img src="{{ site.baseurl }}/assets/img/zenbus_logo@2x.png" alt="logo zenbus" class="panel-logo-img">
+		</a>
 	</header>
 	<menu class="panel-menu">
-		<li class="panel-menu-item home{% if page.permalink == '/' %} active{% endif %}">
-			<a href="{{ site.baseurl }}/" class="panel-menu-item-text">{{ site.data["strings"].nav.home }}</a>
-		</li>
-		<li class="panel-menu-item collectivity{% if page.permalink == '/operators/' or page.permalink == '/transport-authorities/' %} sub-active{% endif %}">
-			<button class="panel-menu-item-text">{{ site.data["strings"].nav.customers }}</button>
-			<ul class="collectivity-submenu">
-				<li class="panel-menu-item transport-authorities{% if page.permalink == '/transport-authorities/' %} active{% endif %}">
-					<a href="{{ site.baseurl }}/transport-authorities/" class="panel-menu-item-text">{{ site.data["strings"].nav.ao }}</a>
+
+
+		<!-- CONNECT & PLAY -->
+		<li class="panel-menu-item connectandplay sub-active">
+			<button class="panel-menu-item-button">{{ site.data["strings"].nav.connectandplay.tab }}</button>
+			<ul class="panel-menu-item-submenu">
+				<li class="submenu-item">
+					<a href="{{ site.baseurl }}/innovation/" class="submenu-item-link">{{ site.data["strings"].nav.connectandplay.innovation }}</a>
 				</li>
-				<li class="panel-menu-item operators{% if page.permalink == '/operators/' %} active{% endif %}">
-					<a href="{{ site.baseurl }}/operators/" class="panel-menu-item-text">{{ site.data["strings"].nav.operators }}</a>
+				<li class="submenu-item">
+					<a href="{{ site.baseurl }}/mynetwork/" class="submenu-item-link">{{ site.data["strings"].nav.connectandplay.mynetwork }}</a>
+				</li>
+				<li class="submenu-item">
+					<a href="{{ site.baseurl }}/partners/" class="submenu-item-link">{{ site.data["strings"].nav.connectandplay.partners }}</a>
 				</li>
 			</ul>
 		</li>
-		<li class="panel-menu-item passenger{% if page.permalink == '/passengers/' %} active{% endif %}">
-			<a href="{{ site.baseurl }}/passengers/" class="panel-menu-item-text">{{ site.data["strings"].nav.passengers }}</a>
+
+		<!-- PRODUCTS -->
+		<li class="panel-menu-item products">
+			<button class="panel-menu-item-button">{{ site.data["strings"].nav.products.tab }}</button>
+			<ul class="panel-menu-item-submenu">
+				<li class="submenu-item">
+					<a href="{{ site.baseurl }}/ao/" class="submenu-item-link">{{ site.data["strings"].nav.products.analytics }}</a>
+				</li>
+				<li class="submenu-item">
+					<a href="{{ site.baseurl }}/operators/" class="submenu-item-link">{{ site.data["strings"].nav.products.operation }}</a>
+				</li>
+				<li class="submenu-item">
+					<a href="{{ site.baseurl }}/passengers/" class="submenu-item-link">{{ site.data["strings"].nav.products.iv }}</a>
+				</li>
+				<li class="submenu-item">
+					<a href="{{ site.baseurl }}/apis/" class="submenu-item-link">{{ site.data["strings"].nav.products.api }}</a>
+				</li>
+			</ul>
 		</li>
-		<li class="panel-menu-item blog{% if page.url contains 'blog' %} active{% endif %}">
-			<a href="{{ site.baseurl }}/blog/" class="panel-menu-item-text">{{ site.data["strings"].nav.blog }}</a>
+
+		<!-- COMPANY -->
+		<li class="panel-menu-item company">
+			<button class="panel-menu-item-button">{{ site.data["strings"].nav.company.tab }}</button>
+			<ul class="panel-menu-item-submenu">
+				<li class="submenu-item">
+					<a href="{{ site.baseurl }}/team/" class="submenu-item-link">{{ site.data["strings"].nav.company.team }}</a>
+				</li>
+				<li class="submenu-item">
+					<a href="{{ site.baseurl }}/contact/" class="submenu-item-link">{{ site.data["strings"].nav.company.contact }}</a>
+				</li>
+				<li class="submenu-item">
+					<a href="{{ site.baseurl }}/job/" class="submenu-item-link">{{ site.data["strings"].nav.company.recruitment }}</a>
+				</li>
+			</ul>
 		</li>
-		<li class="panel-menu-item team{% if page.permalink == '/team/' %} active{% endif %}">
-			<a href="{{ site.baseurl }}/team/" class="panel-menu-item-text">{{ site.data["strings"].nav.team }}</a>
+
+		<!-- RESOURCES -->
+		<li class="panel-menu-item resources">
+			<button class="panel-menu-item-button">{{ site.data["strings"].nav.resources.tab }}</button>
+			<ul class="panel-menu-item-submenu">
+				<li class="submenu-item">
+					<a href="{{ site.baseurl }}/blog/" class="submenu-item-link">{{ site.data["strings"].nav.resources.blog }}</a>
+				</li>
+				<li class="submenu-item">
+					<a href="{{ site.baseurl }}/press/" class="submenu-item-link">{{ site.data["strings"].nav.resources.press }}</a>
+				</li>
+			</ul>
 		</li>
-		<li class="panel-menu-item contact{% if page.permalink == '/contact/' %} active{% endif %}">
-			<a href="{{ site.baseurl }}/contact/" class="panel-menu-item-text">{{ site.data["strings"].nav.contact }}</a>
-		</li>
-		<li class="panel-menu-item recruit{% if page.permalink == '/job/' %} active{% endif %}">
-			<a href="{{ site.baseurl }}/job/" class="panel-menu-item-text">{{ site.data["strings"].nav.recruit }}</a>
-		</li>
+		
 	</menu>
 </nav>
-	
