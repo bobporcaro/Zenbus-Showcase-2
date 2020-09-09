@@ -9,12 +9,12 @@ var json = [
   {need: "wifi", partner: "qostelecom"},
   {need: "annexe11", partner: "lumiplan"}
 ]
-//console.log(needsLi[0].classList.item(1));
+//console.log(needsLi[0].classList.item(2));
 for(i=0; i<needsLi.length; i++){
   needsLi[i].addEventListener('mouseover', function(){
     var partnersAssociated = [];
     for(var j=0; j<json.length; j++){
-      if(this.classList.item(1) == json[j].need){
+      if(this.classList.item(2) == json[j].need){
         partnersAssociated.push(json[j].partner);
       }
     }
@@ -29,7 +29,7 @@ for(i=0; i<needsLi.length; i++){
   needsLi[i].addEventListener('mouseout', function(){
     var partnersAssociated = [];
     for(var j=0; j<json.length; j++){
-      if(this.classList.item(1) == json[j].need){
+      if(this.classList.item(2) == json[j].need){
         partnersAssociated.push(json[j].partner);
       }
     }
@@ -44,7 +44,7 @@ for(i=0; i<partnersLi.length; i++){
   partnersLi[i].addEventListener('mouseover', function(){
     var needsAssociated = [];
     for(var j=0; j<json.length; j++){
-      if(this.classList.item(1) == json[j].partner){
+      if(this.classList.item(2) == json[j].partner){
         needsAssociated.push(json[j].need);
       }
     }
@@ -59,7 +59,7 @@ for(i=0; i<needsLi.length; i++){
   partnersLi[i].addEventListener('mouseout', function(){
     var needsAssociated = [];
     for(var j=0; j<json.length; j++){
-      if(this.classList.item(1) == json[j].partner){
+      if(this.classList.item(2) == json[j].partner){
         needsAssociated.push(json[j].need);
       }
     }
