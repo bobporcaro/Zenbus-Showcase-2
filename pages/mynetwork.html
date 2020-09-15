@@ -5,8 +5,23 @@ permalink: /mynetwork/
 ---
 <div class="content-container mynetwork">
 
+	<!-- HOME -->
+	<section class="mynetwork-home">
+		<div class="mynetwork-home-catchphrase">
+         <h1 class="catchphrase-content">Profiter de Zenbus sur mon réseau, rien de plus simple</h1>
+         <div class="catchphrase-links">
+            <a class="catchphrase-links-item" href="#connect">Connecter mon bus</a>
+            <a class="catchphrase-links-item" href="#modules">Choisir mes modules</a>
+            <a class="catchphrase-links-item" href="#deploy">Déployer demain</a>
+         </div>
+      </div>
+      <div class="scroll-indicator" v-bind:class="{ hide: hasScrolled }" >
+         <span class="scroll-indicator-animate"></span>
+      </div>
+	</section>
+
 	<!-- CONNECT -->
-	<section class="connect">
+	<section id="connect" class="connect">
 		<div class="header-tile">
 			<h2 class="header-tile-title">Utiliser Zenbus, rien de plus simple !</h2>
 			<p class="header-tile-text">Tout ce qu'il vous faut, c'est de la donnée. Ca tombe bien, en tant que spécialiste de la donnée transport, nous savons comment la produire.</p>
@@ -45,79 +60,91 @@ permalink: /mynetwork/
 	</section>
 
 
-	<!-- INTERFACES -->
-	<section class="interfaces">
-
-		<!-- Passenger -->
-		<div class="header-tile">
-			<h2 class="header-tile-title">Une expérience voyageur hors du commun !</h2>
-			<p class="header-tile-text">La précision de notre donnée est telle que vous pouvez voir votre bus sur la carte au mètre et à la seconde près</p>
-		</div>
-		<div class="interfaces-passenger">
-			<ul class="interfaces-notes left">
-				<li class="interfaces-notes-item">Recevoir les dernières informations du réseau</li>
-				<li class="interfaces-notes-item">Se repérer sur son réseau</li>
-				<li class="interfaces-notes-item">Mettre en favori son arrêt ou sa ligne</li>
-			</ul>
-			<div class="interfaces-passenger-mobile">
-				<div class="phone">
-					<img class="phone-img" src="../assets/img/mynetwork/passenger.jpg">
+	<section id="modules" class="modules">
+		<ul class="modules-products">
+			<li class="modules-products-item zenbusapp">
+				<div class="products-item-dots-container">
+					<span class="products-item-dots"></span>
 				</div>
-			</div>
-			<ul class="interfaces-notes right">
-				<li class="interfaces-notes-item">Suivre en temps réel le déplacement exact de son bus</li>
-				<li class="interfaces-notes-item">Avoir des estimations précises de temps d’arrivée (ETA)</li>
-			</ul>
-			<a class="button-more" href="">En savoir plus</a>
-		</div>
-
-		<!-- Live -->
-		<div class="header-tile">
-			<h2 class="header-tile-title">L'exploitation facile et ergonomique !</h2>
-			<p class="header-tile-text">La précision de notre donnée est telle que vous pouvez voir votre bus sur la carte au mètre et à la seconde près</p>
-		</div>
-		<div class="interfaces-live">
-			<ul class="interfaces-notes left">
-				<li class="interfaces-notes-item">Filtres (véhicules, lignes, fréquence, ponctualité, haut-le-pied,..)</li>
-				<li class="interfaces-notes-item">Alertes (courses non effectuées, déviations, ponctualité)</li>
-				<li class="interfaces-notes-item">Avance-Retard (en cours et de la journée)</li>
-			</ul>
-			<div class="interfaces-live-computer">
-				<div class="computer">
-					<img class="computer-img" src="../assets/img/mynetwork/live.jpg">
-					<div class="base"></div>
+				<span class="products-item-title">zenbus<strong>app</strong></span>
+				<div class="products-item-logo"></div>
+				<a class="button-more" href="">Voir plus</a>
+			</li>
+			<li class="modules-products-item zenbuslive">
+				<div class="products-item-dots-container">
+					<span class="products-item-dots"></span>
 				</div>
-			</div>
-			<ul class="interfaces-notes right">
-				<li class="interfaces-notes-item">Offre théorique et réalisée</li>
-				<li class="interfaces-notes-item">Vision cartographique (plan, satellite, traffic)</li>
-				<li class="interfaces-notes-item">Thermomètre de ligne</li>
-			</ul>
-			<a class="button-more" href="">En savoir plus</a>
-		</div>
-
-		<!-- Stats -->
-		<div class="header-tile">
-			<h2 class="header-tile-title">Mesurer les performances globales et analyser en détail</h2>
-			<p class="header-tile-text">Avance et retard, km parcourus, courses non effectuées, temps de parcours, vitesses</p>
-		</div>
-		<div class="interfaces-stats">
-			<div class="interfaces-stats-computer">
-				<div class="computer">
-					<img class="computer-img" src="../assets/img/mynetwork/stats_calendar.png">
-					<div class="base"></div>
+				<span class="products-item-title">zenbus<strong>live</strong></span>
+				<div class="products-item-logo"></div>
+				<a class="button-more" href="">Voir plus</a>
+			</li>
+			<li class="modules-products-item zenbusstats">
+				<div class="products-item-dots-container">
+					<span class="products-item-dots"></span>
 				</div>
-			</div>
-			<a class="button-more" href="">En savoir plus</a>
-		</div>
+				<span class="products-item-title">zenbus<strong>stats</strong></span>
+				<div class="products-item-logo"></div>
+				<a class="button-more" href="">Voir plus</a>
+			</li>
+			<li class="modules-products-item zenbusapis">
+				<div class="products-item-dots-container">
+					<span class="products-item-dots"></span>
+				</div>
+				<span class="products-item-title">zenbus<strong>apis</strong></span>
+				<div class="products-item-logo"></div>
+				<a class="button-more" href="">Voir plus</a>
+			</li>
+		</ul>
 	</section>
 
-	<section class="opendata">
-		
-	</section>
-
-	<section class="business">
-		
+	<section id="deploy" class="deploy">
+		<div class="header-tile">
+			<h2 class="header-tile-title">Et un déploiement, ça se passe comment ?</h2>
+			<p class="header-tile-text">Tout dépendra de QUOIDONC. Mais rassurez-vous, vous serez pris en main par une équipe de chefs de projet compétente et à l'écoute</p>
+		</div>
+		<ul class="deploy-timeline">
+			<li class="deploy-timeline-item study">
+				<span class="timeline-item-icon"></span>
+				<span class="timeline-item-text">Préparation et étude</span>
+			</li>
+			<li class="deploy-timeline-item deployment">
+				<span class="timeline-item-icon"></span>
+				<span class="timeline-item-text">Déploiement</span>
+			</li>
+			<li class="deploy-timeline-item whitewalk">
+				<span class="timeline-item-icon"></span>
+				<span class="timeline-item-text">Marche à blanc</span>				
+			</li>
+			<li class="deploy-timeline-item go">
+				<span class="go-text">Vous êtes prêts ?</span>
+				<span class="go-dot"></span>
+				<span class="go-text">GO !</span>
+			</li>
+			<li class="deploy-timeline-item opening">
+				<span class="timeline-item-icon"></span>
+				<span class="timeline-item-text">Ouverture grand public</span>
+			</li>
+			<li class="deploy-timeline-subtitles">
+				<span class="timeline-subtitles-text">Audit des données disponibles</span>
+				<span class="timeline-subtitles-text">Définition du mode de connexion</span>
+				<span class="timeline-subtitles-text">Définition des fonctionnalités</span>
+				<span class="timeline-subtitles-text">Devis et planning prévisionnel</span>
+				<span class="timeline-subtitles-text">Contractualisation</span>
+			</li>
+			<li class="deploy-timeline-subtitles">
+				<span class="timeline-subtitles-text">Modélisation</span>
+				<span class="timeline-subtitles-text">Configuration des modes de connexion</span>
+				<span class="timeline-subtitles-text">Paramétrage</span>
+				<span class="timeline-subtitles-text">Formation et support</span>
+				<span class="timeline-subtitles-text">Facturation de la mise en place</span>
+			</li>
+			<li class="deploy-timeline-subtitles">
+				<span class="timeline-subtitles-text">Facturation de l’abonnement</span>
+			</li>
+			<li class="deploy-timeline-dots">
+				<span class="deploy-timeline-dots-animation"></span>
+			</li>
+		</ul>
 	</section>
 
 </div>
