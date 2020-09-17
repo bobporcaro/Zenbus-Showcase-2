@@ -63,6 +63,8 @@ categories:
     display_name: "Evénements"
   news:
     display_name: "Notre Actu"
+  interview:
+    display_name: "Interviews"
 
 # ---------- FOOTER -----------
 footer:
