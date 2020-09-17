@@ -3,7 +3,7 @@ layout: blog-article
 title: La parole à.... Damien Wattez de Transurbain
 date: 2020-09-15
 image: DW_photo.jpg
-categories: [business]
+categories: [business, interview]
 tags: interview damien wattez transurbain
 author: oceane
 lang: fr
