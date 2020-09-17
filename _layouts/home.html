@@ -48,7 +48,7 @@
    
 	<body class="homepage">
    	<div id="app" v-bind:class="{'show-loader':showLoader, 'map-noscroll': isActiveMap}" class="homepage-wrapper" v-cloak>
-		<button class="panel-hamburger" v-on:click="showPanel= !showPanel" v-bind:class="{'show-panel':showPanel}"></button>
+		<button class="panel-hamburger" v-on:click="showPanel= !showPanel" v-bind:class="{'show-panel':showPanel}" id="burgerButton"></button>
 
     	{% include nav.html %}
     
