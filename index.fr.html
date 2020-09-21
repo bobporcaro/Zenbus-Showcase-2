@@ -9,7 +9,11 @@ lang: fr
    <!-- Landing -->
    <section class="home-landing">
       <div class="home-landing-catchphrase">
-         <h1 class="catchphrase-content">Zenbus, au <span>cœur</span> de la donnée transport</h1>
+         <h1 class="catchphrase-content">
+            <span class="catchphrase-content-name">Zenbus</span><br/>
+            Au <span class="catchphrase-content-animation">cœur</span> de la donnée transport
+         </h1>
+         <h2 class="catchphrase-content-sub">Nous aidons au quotidien les acteurs du transports collectifs grâce à des données et des interfaces de qualité</h2>
          <div class="catchphrase-links">
             <a class="catchphrase-links-item" href="#collectivity">AOM</a>
             <a class="catchphrase-links-item" href="#operator">Exploitant</a>
@@ -41,36 +45,37 @@ lang: fr
          <li class="home-why-numbers-item team">
             <div class="numbers-item-img"></div>
             <div class="numbers-item-text">
-               <span class="numbers-item-text-title">20</span>
+              	{% assign employees = site.data["authors"] | where: 'currently', 'true' %}
+               <span class="numbers-item-text-title">{{ employees.size }}</span>
                <span class="numbers-item-text-sub">collaborateurs (Paris-Nantes-Montréal)</span>
             </div>
          </li>
          <li class="home-why-numbers-item networks">
             <div class="numbers-item-img"></div>
             <div class="numbers-item-text">
-               <span class="numbers-item-text-title">186+</span>
+               <span class="numbers-item-text-title">[%filteredAccounts.length%]</span>
                <span class="numbers-item-text-sub">réseaux actifs à travers le monde</span>
             </div>
          </li>
-         <li class="home-why-numbers-item rd">
+         <li class="home-why-numbers-item stops">
             <div class="numbers-item-img"></div>
             <div class="numbers-item-text">
-               <span class="numbers-item-text-title">28+</span>
-               <span class="numbers-item-text-sub">années.homme en R&D (machine-learning, temps-réel, données géolocalisées, scalabilité)</span>
+               <span class="numbers-item-text-title">40 000+</span>
+               <span class="numbers-item-text-sub">arrêts disposant de statistiques de ponctualité</span>
             </div>
          </li>
          <li class="home-why-numbers-item kms">
             <div class="numbers-item-img"></div>
             <div class="numbers-item-text">
-               <span class="numbers-item-text-title">400k+</span>
-               <span class="numbers-item-text-sub">kilomètres parcourus</span>
+               <span class="numbers-item-text-title">[% numberWithSpaces(currentKms) %]</span>
+               <span class="numbers-item-text-sub">kilomètres commerciaux parcourus</span>
             </div>
          </li>
          <li class="home-why-numbers-item data">
             <div class="numbers-item-img"></div>
             <div class="numbers-item-text">
-               <span class="numbers-item-text-title">50To+</span>
-               <span class="numbers-item-text-sub">données transport structurées</span>
+               <span class="numbers-item-text-title">5M+</span>
+               <span class="numbers-item-text-sub">de connexions au service sur les douze derniers mois</span>
             </div>
          </li>
       </ul>
@@ -81,7 +86,7 @@ lang: fr
    <section id="map" class="home-map" :class="{'show-map':isActiveMap}">
       <div class="map-tile">
          <h2 class="map-tile-title">Zenbus près de chez vous</h2>
-         <p class="map-tile-text">Zenbus couvre déjà plus de 186 réseaux en France et ce sont chaque mois de nouvelles lignes de bus qui bénéficient du service. L'application se déploie aussi progressivement à l'étranger.</p>
+         <p class="map-tile-text">Zenbus couvre déjà plus de [%filteredAccounts.length%] réseaux en France et ce sont chaque mois de nouvelles lignes de bus qui bénéficient du service. L'application se déploie aussi progressivement à l'étranger.</p>
          <footer class="map-tile-footer">
             <a href="" class="map-tile-footer-link"></a>
          </footer>
@@ -204,13 +209,12 @@ lang: fr
 
    <!-- Collectivity -->
    <section class="home-collectivity tile" id="collectivity">
-      <h2 class="tile-title">Des bénéfices attendus par les AOM</h2>
+      <h2 class="tile-title">Faire aimer le transport collectif, maîtriser son offre et la réglementation</h2>
       <ul class="tile-text">
          <li class="tile-text-item">Donner envie de prendre les transports collectifs et faciliter le report modal</li> 
          <li class="tile-text-item">Maîtriser la qualité de service de mon réseau</li> 
          <li class="tile-text-item">Optimiser mon offre dans la durée</li> 
          <li class="tile-text-item">Répondre aux exigences de la LOM</li>
-         <li class="tile-text-item">Zenbus travaille avec tous types d’AOM : communautés d’agglomération, villes du Programme Coeur de ville, métropoles, régions, stations de skis, entreprises privées...</li>
       </ul>
       <div class="tile-content">
          <div class="tile-content-img">
@@ -243,13 +247,11 @@ lang: fr
 
    <!-- Operator -->
    <section class="home-operator tile" id="operator">
-      <h2 class="tile-title">Des outils structurants pour les exploitants</h2>
+      <h2 class="tile-title">Réaliser son contrat et optimiser ses coûts</h2>
       <ul class="tile-text">
          <li class="tile-text-item">Maximiser fréquentation et recette</li> 
-         <li class="tile-text-item">Réguler efficacement</li> 
-         <li class="tile-text-item">Optimiser l’exploitation</li> 
+         <li class="tile-text-item">Réguler efficacement et optimiser l’exploitation</li> 
          <li class="tile-text-item">Faciliter le reporting auprès de l’autorité organisatrice</li>
-         <li class="tile-text-item"> Zenbus travaille avec tous types d’exploitants : grands groupes (Keolis, RATP, Transdev), indépendants, régies, SEM,.....</li>
       </ul>
       <div class="tile-content">
          <div class="tile-content-img">
@@ -282,7 +284,7 @@ lang: fr
 
    <!-- Passenger -->
    <section class="home-passenger tile" id="passenger">
-      <h2 class="tile-title">Un “must have” pour les voyageurs</h2>
+      <h2 class="tile-title">Retrouver confiance dans le transport collectif</h2>
       <ul class="tile-text">
          <li class="tile-text-item">Avoir de l’information précise, à tout moment </li> 
          <li class="tile-text-item">Comprendre la réalité et faire des choix pertinents</li>
@@ -293,8 +295,8 @@ lang: fr
             <img src="/assets/img/home/passenger_small.jpg" />
          </div>
          <div class="tile-content-verbatim">
-            <p class="tile-content-verbatim-text">UNE TUERIE ! Mais ce serait encore mieux avec la traverse Bichat</p>
-            <span class="tile-content-verbatim-author">Zino - 20 messages FB, 37 tweets et 43 mails</span>
+            <p class="tile-content-verbatim-text">Application indispensable pour tous les usagers de transports en commun : on peut anticiper son départ de chez soi pour ne pas attendre trop longtemps à l'arrêt et ça rassure de savoir que le bus va bien arriver.</p>
+            <span class="tile-content-verbatim-author">Mathiieuc - utilisateur Zenbus</span>
          </div>
          <aside class="tile-content-roi">
             <div class="roi-item">
