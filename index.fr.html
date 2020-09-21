@@ -41,7 +41,8 @@ lang: fr
          <li class="home-why-numbers-item team">
             <div class="numbers-item-img"></div>
             <div class="numbers-item-text">
-               <span class="numbers-item-text-title">22</span>
+              	{% assign employees = site.data["authors"] | where: 'currently', 'true' %}
+               <span class="numbers-item-text-title">{{ employees.size }}</span>
                <span class="numbers-item-text-sub">collaborateurs (Paris-Nantes-Montréal)</span>
             </div>
          </li>
@@ -81,7 +82,7 @@ lang: fr
    <section id="map" class="home-map" :class="{'show-map':isActiveMap}">
       <div class="map-tile">
          <h2 class="map-tile-title">Zenbus près de chez vous</h2>
-         <p class="map-tile-text">Zenbus couvre déjà plus de 186 réseaux en France et ce sont chaque mois de nouvelles lignes de bus qui bénéficient du service. L'application se déploie aussi progressivement à l'étranger.</p>
+         <p class="map-tile-text">Zenbus couvre déjà plus de [%filteredAccounts.length%] réseaux en France et ce sont chaque mois de nouvelles lignes de bus qui bénéficient du service. L'application se déploie aussi progressivement à l'étranger.</p>
          <footer class="map-tile-footer">
             <a href="" class="map-tile-footer-link"></a>
          </footer>
