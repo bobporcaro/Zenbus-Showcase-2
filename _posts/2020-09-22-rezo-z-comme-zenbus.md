@@ -21,7 +21,7 @@ Côté fonctionnalité&nbsp;: toujours une information voyageurs plébiscitée p
 Ce partenariat s’inscrit dans une logique de synergies, mise en avant par M. Samuel Hazard, maire de Verdun, conscient de la “capacité de nombreux partenaires comme Transdev, Lumiplan ou Zenbus, à travailler ensemble pour porter un projet commun”, celui du réseau de transport de Verdun. Ces synergies ne sont pas nouvelles et sont nécessaires, pour répondre à de nouveaux défis comme ceux que le Grand Verdun aime se fixer. Un territoire porté par son riche passé, mais “rezolument” tourné vers l’avenir, puisqu’en 2018 déjà, Verdun se faisait remarquer par une 1ere expérimentation historique d’un véhicule autonome en site mixte (déjà avec Zenbus, et déjà avec Transdev NDLR).
 
 {:style="text-align:center;"}
-«&nbsp;*Sans l’implication de ses partenaires, REZO ne serait pas ce qu’’il est aujourd’hui&nbsp;!*&nbsp;» Jean-Baptiste Dupont, Directeur Transdev du réseau de Verdun.
+«&nbsp;*Sans l’implication de ses partenaires, REZO ne serait pas ce qu’il est aujourd’hui&nbsp;!*&nbsp;» Jean-Baptiste Dupont, Directeur Transdev du réseau de Verdun.
 
 Nous sommes très fiers d’accompagner le Grand Verdun et son exploitant Transdev, dans leurs volontés communes de dynamiser, d’innover, mais également d’apporter une image rajeunie et nouvelle, avec des solutions comme la nôtre. La confiance qui nous est accordée est la meilleure récompense pour l’accompagnement que nous nous efforçons d’effectuer au quotidien auprès de nos différents interlocuteurs.
 
