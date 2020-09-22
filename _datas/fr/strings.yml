@@ -77,7 +77,7 @@ footer:
   cgu: "CGU"
   faq: "FAQ"
   datas: "Données Zenbus"
-  copyrights: "© Zenbus 2018, tous droits réservés"
+  copyrights: "© Zenbus 2020, tous droits réservés"
   lom: "Loi LOM"
 
 # ---------- DATE -----------
@@ -249,7 +249,7 @@ passengers:
   tile2_title: "Pas de smartphone&nbsp;? On a pensé à vous"
   tile2_text: "Si vous préférez consulter Zenbus au chaud et bien calé(e) dans un fauteuil, utilisez sa <a target='_blank' href='/#map'>version web</a>. Accédez facilement à une multitude de réseaux équipés."
   tile3_title: "Pas encore convaincu&nbsp;? Lisez les autres utilisateurs"
-  tile3_text: "Nous avons reçu des centaines de retours, pour certains déjà en attente d'évolutions et de nouveaux déploiements, et le plus souvent très enthousiastes !"
+  tile3_text: "Nous avons reçu des miliers de retours, pour certains déjà en attente d'évolutions et de nouveaux déploiements, et le plus souvent très enthousiastes !"
   tile4_title: "Ne dites rien... Il vous manque quelque chose&nbsp;?"
   tile4_text: "Il est possible que Zenbus n'équipe pas votre ville (voir <a target='_blank' href='/#map'>la carte des réseaux</a>), votre réseau ou même simplement votre ligne. N'hésitez pas à nous le faire savoir avec ce petit questionnaire rapide."
   form_label1: "Votre adresse mail"
