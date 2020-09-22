@@ -42,12 +42,13 @@
 		<a href="https://itunes.apple.com/fr/app/zenbus/id808231328" target="_blank" class="download-link appstore"></a>
 		<a href="https://play.google.com/store/apps/details?id=com.byjoul.code.zenbus.android" target="_blank" class="download-link playstore"></a>
 	</div>
-	<div class="footer-sub">
+	<div class="footer-sub"><!--
 		<div class="footer-sub-language">
 			{% for tongue in site.languages %}
 				<a class="language-item{% if tongue == site.active_lang %} active{% endif %}" href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ site.languages_display[tongue] }}</a>
 			{% endfor %}
 		</div>
+		-->
 		<span class="footer-sub-copyright">{{ site.data["strings"].footer.copyrights }}</span>
 	</div>
 </footer>
