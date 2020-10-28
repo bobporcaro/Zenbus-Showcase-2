@@ -261,7 +261,7 @@ passengers:
   form_placeholder4: "ex: TAN, Ales'y, RATP, TBM, etc..."
   form_label5: "Je ne connais pas précisément le nom de mon réseau"
   form_label6: "Ça se situe dans quelle ville&nbsp;?"
-  form_placeholder6: "ex: Paris, New York, Moutiers les Maufaits, etc..."
+  form_placeholder6: "ex: Paris, New York, Moutiers les Mauxfaits, etc..."
   form_submit: "Envoyer"
   form_success: "Merci pour votre retour&nbsp;! Votre demande sera prise en compte le plus rapidement possible"
   tile5_title: "Sachez que vous n'êtes pas seuls"
