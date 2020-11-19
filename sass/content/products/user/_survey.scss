@@ -1,0 +1,115 @@
+.survey {
+    background-color: $main-color;
+}
+
+.form {
+    position: relative;
+    width: 800px;
+    margin: auto;
+    padding: 60px 80px;
+    background-color: #fff;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+
+	>*:not(span) {
+	    margin-bottom: 20px;
+	}
+}
+
+.form-label {
+    display: block;
+    padding-top: 20px;
+    font-size: 21px;
+}
+
+.form-input,
+.form-select {
+    display: block;
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.form-checkbox-label {
+    display: block;
+    position: relative;
+    padding: 20px 0 0 30px;
+    line-height: 18px;
+    cursor: pointer;
+
+    &::before{
+	    content: '';
+	    position: absolute;
+	    width: 16px;
+	    height: 16px;
+	    top: 20px;
+	    left: 0;
+	    border: 1px solid #8f94a0
+    }
+}
+
+.form-checkbox:not(:checked),
+.form-checkbox:checked {
+    position: absolute;
+    left: -9999px;
+}
+
+.form-checkbox:not(:checked)+.form-checkbox-label::after,
+.form-checkbox:checked+.form-checkbox-label::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 26px;
+    left: 6px;
+    background-color: #142840;
+    transition: all .2s;
+}
+
+.form-checkbox:not(:checked)+.form-checkbox-label::after {
+    transform: scale(0);
+    opacity: 0;
+}
+.form-checkbox:checked+.form-checkbox-label::after {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.form-submit {
+    display: block;
+    position: relative;
+    width: 240px;
+    height: 80px;
+    margin: 60px auto 0;
+    border: 1px solid $zenbus-color;
+    color: $zenbus-color;
+    font-size: 24px;
+    text-transform: uppercase;
+    transition: background-color .5s;
+
+    &:hover {
+	    background-color: $zenbus-color;
+	    color: white;
+	}
+}
+
+.form-validation {
+    position: absolute;
+    width: 100%;
+    min-height: 60px;
+    left: 0;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #3bb2b8;
+    opacity: 0;
+    transition: opacity .3s;
+
+    .survey-sent &{opacity: 1;}
+}
+
+.form-validation-text {
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}

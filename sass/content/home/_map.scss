@@ -1,0 +1,589 @@
+.home-map{
+	position: relative;
+	height: 720px;
+	background-image: linear-gradient(180deg, rgba(20,40,64,0.6) 20%, $highlight-color 100%),url(../img/test_map.jpg);
+	background-position: center;
+    background-size: cover;
+    background-attachment: scroll, fixed;
+}
+
+.map-tile{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	z-index: 2;
+	width: 50%;
+	top: -20px;
+	right: 20px;
+	bottom: 0;
+	padding: 40px;
+	text-align: left;
+	background-image: linear-gradient(180deg, #fff 70%, rgba(245,245,247,0) 100%);
+}
+
+.map-tile-title{
+	padding: 40px 0;
+    font-family: $main-ff;
+    font-size: 48px;
+    font-weight: 100;
+}
+.map-tile-text{
+	font-size: 21px;
+    line-height: 1.5;
+}
+
+.map-preview{
+	position: relative;
+	width: 50%;
+	height: 100%;
+}
+
+.map-preview-button {
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    border: 1px solid white;
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+    line-height: 80px;
+    text-transform: uppercase;
+    text-shadow: 0 0 2px rgba(0,0,0,0.2);
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 0 0 0 rgba(20,40,64,0);
+    transition: background-color .3s, color .3s, box-shadow .3s;
+
+	&:hover{
+		border: 1px solid $zenbus-color;
+		background-color: $zenbus-color;
+		box-shadow: 0 0 150px rgba(20,40,64,0.8);
+	}
+}
+
+.map-expand{
+	position: fixed;
+	z-index: -1;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
+	border: 10px solid $background-content-color;
+	background-color: $background-content-color;
+	transform: scale(.7);
+	opacity: 0;
+	box-shadow: 0 0 0 10000px rgba(20,40,64,.7), 0 0 5px rgba(0,0,0,1);
+	transition: z-index .3s, transform .5s, opacity .5s;
+
+	.show-map &{
+		z-index: 4000;
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+// INSIDE THE MAP
+
+// FILTERS
+.filters{
+	position: relative;
+	width: 320px;
+	height: 100%;
+
+	&::after{
+		content: '';
+		position: absolute;
+		z-index: 1000;
+		width: 10px;
+		height: 100%;
+		top: 0;
+		right: -10px;
+		background-image: linear-gradient(90deg, rgba(0,0,0,.1), transparent 25%);
+	}
+}
+
+// Header
+.filters-header{padding: 0 20px;}
+
+.filters-header-title{
+	line-height: 60px;
+	font-size: 18px;
+	font-family: $secondary-ff;
+	text-transform: uppercase;
+}
+
+.filters-header-text{height: 40px;}
+
+// Search
+.filters-search{
+	position: relative;
+	padding: 20px;
+}
+
+.filters-search-label{
+	position: absolute;
+	max-width: 270px;
+	bottom: 24px;
+	padding-left: 11px;
+	font-size: 9px;
+	font-weight: 700;
+	color: $secondary-color;
+	@include text-overflow();
+}
+
+.filters-search-input{
+	width: 100%;
+    height: 50px;
+
+    &::-webkit-search-cancel-button{display: none;}
+}
+
+.filters-search-close{
+	display: none;
+	position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    right: 20px;
+
+    .show-results &{display: block;}
+
+    transform: rotateZ(45deg) scale(.7);
+	transition: transform .3s;
+
+	&:hover{
+		cursor: pointer;
+		transform: rotateZ(135deg) scale(1);
+	}
+
+	&::before,
+	&::after{
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate3d(-50%, -50%, 0);
+		background-color: $main-color;
+	}
+
+	&::before{
+		width: 2px;
+		height: 16px;
+	}
+
+	&::after{
+		width: 16px;
+		height: 2px;
+	}
+}
+
+.filters-search-results{
+	position: absolute;
+	z-index: -1;
+	height: calc(100vh - 210px);
+	overflow: auto;
+	right: -20px;
+	left: -10px;
+	padding: 10px 40px 0 30px;
+	background-color: $background-content-color;
+	opacity: 0;
+	transition: opacity .5s;
+
+	.show-results &{
+    	z-index: 1;
+    	opacity: 1;
+    }
+}
+
+.filters-search-results-item{
+	display: flex;
+	height: 60px;
+	padding: 10px 0;
+	color: $main-color;
+	transition: color .5s;
+
+	&:hover{
+		color: $zenbus-color;
+		cursor: pointer;
+	}
+}
+
+.account-img{
+	width: 40px;
+	height: 40px;
+}
+.account-name{
+	flex: 1;
+	padding-left: 20px;
+	line-height: 40px;
+	font-size: 14px;
+	@include text-overflow();
+}
+
+// Label
+.filters-checkboxes-label{
+	display: block;
+    height: 30px;
+    padding: 0 20px;
+    line-height: 30px;
+    text-align: right;
+    background-color: $highlight-color;
+    font-size: 12px;
+    font-weight: 700;
+    color: $secondary-color;
+}
+
+// Checkboxes
+.filters-checkboxes{
+	height: 100%;
+	overflow: hidden;
+
+	> ul{
+		height: calc(100% - 220px);
+		overflow: auto;
+	}
+}
+
+.filters-checkboxes-item{
+	position: relative;
+	height: 60px;
+	line-height: 60px;
+
+	&::before{
+		content: '';
+		box-sizing: border-box;
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		padding: 15px;
+		@include background-image-retina(map_badges_sprite, png, 30px, 330px);
+		background-clip: content-box;
+		background-origin: content-box;
+	}
+
+	&.private::before	 {background-position: 0 0;}
+	&.urban::before		 {background-position: 0 -30px;}
+	&.interurban::before {background-position: 0 -60px;}
+	&.corporate::before  {background-position: 0 -90px;}
+	&.scolar::before 	 {background-position: 0 -120px;}
+	&.event::before 	 {background-position: 0 -150px;}
+	&.audit::before 	 {background-position: 0 -180px;}
+	&.skistation::before {background-position: 0 -210px;}
+	&.work::before 	  	 {background-position: 0 -240px;}
+	&.mab::before 	  	 {background-position: 0 -270px;}
+	&.all::before 	  	 {background-position: 0 -300px;}
+}
+
+.map-checkbox:not(:checked),
+.map-checkbox:checked {
+  position: absolute;
+  left: -9999px;
+}
+
+.checkbox-label{
+	display: block;
+	position: relative;
+	padding-left: 60px;
+	cursor: pointer;
+
+	&::before{
+		content: '';
+		position: absolute;
+		width: 18px;
+		height: 18px;
+		top: 21px;
+		right: 20px;
+		border: 1px solid $secondary-color;
+		border-radius: 100%;
+	}
+}
+
+.map-checkbox:not(:checked) + .checkbox-label::after,
+.map-checkbox:checked + .checkbox-label::after{
+	content: '';
+	position: absolute;
+	width: 6px;
+    height: 6px;
+    top: 28px;
+    right: 27px;
+    border-radius: 100%;
+	background-color: $main-color;
+	transition: all .2s;
+}
+
+.map-checkbox:not(:checked) + .checkbox-label::after{
+	transform: scale(0);
+	opacity: 0;
+}
+.map-checkbox:checked + .checkbox-label::after{
+	transform: scale(1);
+	opacity: 1;
+}
+
+
+.map-container{
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 320px;
+}
+
+// Leaflet Map exception
+#mapContainer{
+	width: 100%;
+	height: 100%;
+	background-color: $highlight-color;
+}
+
+.map-actions{
+	position: absolute;
+	z-index: 1000;
+    right: 10px;
+    top: 10px;
+}
+.map-actions-locateme,
+.map-actions-close{
+	width: 60px;
+	height: 60px;
+	margin-left: 10px;
+	border-radius: 100%;
+	background-color: white;
+	@include background-image-retina(map_actions_sprite, png, 120px, 120px);
+	box-shadow: 0 0 20px rgba(0,0,0,.1);
+
+	&:hover{
+		background-position-y: -60px;
+		box-shadow: 0 0 10px rgba(0,0,0,.2);
+	}
+}
+
+.map-actions-locateme{background-position-x: 0;}
+.map-actions-close{background-position-x: -60px;}
+
+
+// MAP ELEMENTS //
+
+// CLUSTER
+.cluster{
+    width: 50px;
+    height: 50px;
+    padding-top: 12px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    @include background-image-retina(cluster_POI, png, 50px, 50px);
+}
+
+// POPUP
+.popup{
+	display: none;
+	position: absolute;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    border: 4px solid $background-content-color;
+    border-radius: 4px;
+    background: $background-content-color;
+    transform: translateX(-50%)  translateY(-100%);
+    box-shadow: 0 4px 10px rgba(0,0,0,.2);
+
+    &::after{
+    	content: '';
+	    position: absolute;
+	    border-top: 10px solid white;
+	    border-left: 10px solid transparent;
+	    border-right: 10px solid transparent;
+	    left: 50%;
+	    margin-left: -10px;
+    }
+
+  	&.show-popup{display: block;}
+}
+// Header
+.popup-header{
+	padding: 0 20px;
+	line-height: 40px;
+	background-color: $highlight-color;
+	text-align: center;
+}
+
+.popup-header-city{
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+// Items
+.popup-networks{
+	max-height: 260px;
+    overflow: auto;
+}
+
+.popup-networks-item{
+	height: 80px;
+	padding: 0 20px;
+	background-color: $background-content-color;
+	@include inline-children();
+	
+	// Simulate a perfect pixel border with a white 20px size
+	&:not(:last-child){box-shadow: inset 0 20px 0 20px white, inset 0 -1px 0 #ddd;}
+}
+
+// Name
+.network-name{
+	width: 100%;
+	line-height: 40px;
+}
+
+// Badges
+.network-types{
+    width: calc(100% - 40px);
+    height: 40px;
+    font-size: 0;
+    @include inline-children();
+}
+
+.network-types-badge{
+	width: 30px;
+	height: 30px;
+	@include background-image-retina(map_badges_sprite, png, 30px, 330px);
+
+	&.private	 {background-position: 0 0;}
+	&.urban	     {background-position: 0 -30px;}
+	&.interurban {background-position: 0 -60px;}
+	&.corporate  {background-position: 0 -90px;}
+	&.scolar 	 {background-position: 0 -120px;}
+	&.event 	 {background-position: 0 -150px;}
+	&.audit 	 {background-position: 0 -180px;}
+	&.skistation {background-position: 0 -210px;}
+	&.work 	     {background-position: 0 -240px;}
+	&.mab 	     {background-position: 0 -270px;}
+	&.all 	     {background-position: 0 -300px;}
+}
+
+
+// Link to networks
+.network-redir{
+	width: 40px;
+	height: 40px;
+	padding: 3px 8px;
+}
+
+.network-redir-link{
+	display: block;
+	position: relative;
+	width: 24px;
+	height: 24px;
+	border: 2px solid $zenbus-color;
+	border-radius: 100%;
+	background-color: $background-content-color;
+	transition: background-color .5s;
+
+	&::after{
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -4px 0 0 -2px;
+		border-top: 4px solid transparent;
+		border-bottom: 4px solid transparent;
+		border-left: 6px solid $zenbus-color;
+	}
+
+	&:hover{
+		background-color: $zenbus-color;
+
+		&::after{border-left: 6px solid $background-content-color;}
+	}
+}
+
+// POPIN PRIVATE
+.privatecode{
+	display: none;
+	position: fixed;
+	z-index: 2000;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(20, 40, 64, .9);
+
+	&.show-privatecode{display: block;}
+}
+
+.privatecode-form{
+	position: absolute;
+	width: 20%;
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%, -50%, 0);
+	padding: 0 20px 20px 20px;
+	background-color: $background-content-color;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+
+.privatecode-form-text,
+.privatecode-form-input,
+.privatecode-form-button{
+	display: block;
+	width: 100%;
+}
+
+.privatecode-form-text{
+	line-height: 60px;
+}
+
+.privatecode-form-button{
+	width: 50%;
+	height: 40px;
+	margin: 20px auto 0;
+	border: 2px solid $zenbus-color;
+	background-color: $background-content-color;
+	color: $zenbus-color;
+	transition: background-color .5s;
+
+
+	&:hover{
+		background-color: $zenbus-color;
+		color: white;
+	}
+}
+
+.privatecode-close{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	top: 0;
+	right: 0;
+	transform: rotateZ(45deg) scale(.7);
+	transition: transform .3s;
+
+	&:hover{
+		transform: rotateZ(135deg) scale(1);
+	}
+
+	&::before,
+	&::after{
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate3d(-50%, -50%, 0);
+		background-color: $main-color;
+	}
+
+	&::before{
+		width: 2px;
+		height: 16px;
+	}
+
+	&::after{
+		width: 16px;
+		height: 2px;
+	}
+}

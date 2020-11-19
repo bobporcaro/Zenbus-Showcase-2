@@ -1,0 +1,68 @@
+.presshistory-articles {
+    display: grid;
+    grid-template-columns: repeat(5, 19%);
+    grid-column-gap: 1%;
+    grid-row-gap: 10px;
+    padding: 40px 0 1% 1%;
+}
+
+.presshistory-articles-card {
+    height: 300px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: box-shadow .3s;
+
+    &:hover{
+    	box-shadow: 0 20px 80px rgba(0,0,0,0.3);
+    }
+}
+
+.presshistory-articles-card-header {
+    width: 100%;
+    height: 200px;
+    padding: 15%;
+    background-color: #fff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+}
+
+.presshistory-articles-card-content {
+    height: 300px;
+    border-top: 1px solid $secondary-color;
+    padding: 0 20px;
+    background-color: #fff;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+
+    .presshistory-articles-card:hover &{
+    	border-top: 1px solid transparent;
+    	transform: translate3d(0, -160px, 0);
+    }
+}
+
+.presshistory-title {
+    display: table-cell;
+    vertical-align: middle;
+    color: $main-color;
+    font-weight: 700;
+
+    .presshistory-articles-card-content:hover &{
+    	color: $zenbus-color;
+    	text-decoration: underline;
+    }
+}
+
+.presshistory-published,
+.presshistory-title,
+.presshistory-paper {
+    height: 100px;
+    text-align: center;
+}
+
+.presshistory-published {
+    line-height: 100px;
+}

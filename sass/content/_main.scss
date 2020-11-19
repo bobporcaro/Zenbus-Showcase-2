@@ -1,0 +1,136 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	font-family: $main-ff;
+	color: $main-color;
+    @include light-scrollbar;
+}
+
+input,
+textarea,
+select{
+	padding: 10px;
+    border: 1px solid $secondary-color;
+    border-radius: none;
+    font-family: $main-ff;
+    resize: none;
+    -webkit-appearance: none;
+
+    &:focus{border: 1px solid $main-color;}
+
+    &[type="search"] {
+      -webkit-appearance: textfield;
+    }
+}
+
+button{
+	font-family: $main-ff;
+}
+
+[v-cloak] {display:none;}
+.hidden{display: none;}
+
+.homepage-wrapper{
+    background-color: $highlight-color;
+}
+.content-container{
+    &.blog,
+    &.team,
+    &.contact,
+    &.job,
+    &.presshistory,
+    &.ao,
+    &.mynetwork,
+    &.partners {
+        padding-bottom: 100px;
+        background-color: $highlight-color;
+    }
+}
+
+
+// TILES
+.header-tile {
+    position: relative;
+    display: block;
+    width: 60%;
+    max-width: 800px;
+    margin: auto;
+    padding: 100px 0 60px;
+    text-align: center;
+}
+
+.header-tile-title{
+    font-family: $main-ff;
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.header-tile-text {
+    margin-top: 40px;
+    line-height: 1.5;
+    font-size: 21px;
+
+    >a {
+        text-decoration: underline;
+        color: currentColor;
+        transition: opacity .3s;
+
+        &:hover{opacity: .7;}
+    }
+}
+
+
+// STORES LINKS
+.stores {
+    position: absolute;
+    right: 0;
+    padding: 60px;
+    text-align: center;
+    @include inline-children;
+}
+
+.stores-link {
+    width: 240px;
+    height: 80px;
+    margin: 5px;
+    border: 1px solid white;
+    background-color: rgba(255,255,255,0.2);
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+    transition: background-color .5s;
+
+    &::hover {
+        background-color: rgba(255,255,255,0.4);
+    }
+
+    &::before{
+        content: '';
+        display: block;
+        width: 80px;
+        height: 80px;
+        margin: -1px 0 0 -1px;
+        @include background-image-retina(store_sprite, png, 160px, 80px);
+    }
+
+    &.appstore::before {background-position: 0 0;}
+    &.playstore::before {background-position: -80px 0;}
+}
+
+.stores-link-text,
+.stores-link-brand {
+    display: block;
+    padding-left: 80px;
+    text-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+
+.stores-link-text {
+    margin-top: -56px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.stores-link-brand {
+    font-size: 16px;
+    font-weight: 900;
+}

@@ -1,0 +1,83 @@
+.job-section {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+// HEADER
+.job-section-header {
+    width: 100%;
+    line-height: 120px;
+
+    >h1 {
+	    font-family: "Gentium Book Basic",serif;
+	    font-size: 32px;
+	    text-align: center;
+	}
+}
+
+// CONTENT
+.job-section-content {
+    width: 70%;
+    margin: auto;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+}
+
+.job-section-content-text {
+    position: relative;
+    padding: 30px 40px;
+    font-size: 21px;
+    line-height: 1.7;
+    background-color: #fff;
+
+    &::after {
+	    content: '';
+	    position: absolute;
+	    bottom: -20px;
+	    left: 50%;
+	    margin-left: -20px;
+	    border-top: 20px solid white;
+	    border-left: 20px solid transparent;
+	    border-right: 20px solid transparent;
+	}
+
+	a {
+	    text-decoration: underline;
+	    color: $zenbus-color;
+	    transition: color .3s;
+
+	    &:hover{color: #2f8d91;}
+	}
+}
+
+// AUTHOR
+.job-section-author {
+    width: 300px;
+    margin: 30px auto 0;
+    padding: 30px;
+}
+
+.job-section-author-img {
+    width: 100%;
+    box-sizing: inherit;
+    border-radius: 100%;
+    border: 1px solid rgba(255,255,255,.2);
+    box-shadow: 16px 16px 32px rgba(217,210,200,0.5), -16px -16px 32px rgba(255,255,255,0.8);
+}
+
+.job-section-signature {
+    text-align: center;
+}
+
+.job-section-signature-name {
+    display: block;
+    font-family: "Gentium Book Basic",serif;
+    font-size: 32px;
+    font-style: italic;
+}
+
+.job-section-signature-role {
+    font-family: "Nunito",sans-serif;
+    font-size: 18px;
+    color: $secondary-color;
+}

@@ -1,0 +1,199 @@
+// BACK
+.headerback {
+    z-index: 1000;
+    height: 160px;
+    padding: 40px;
+}
+
+.headerback-link {
+    display: block;
+    width: 80px;
+    height: 100%;
+    margin: auto;
+    border-radius: 40px;
+    background-color: $background-content-color;
+    @include background-image-retina(back, png, 160px, 80px);
+    background-position: 0 0;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+    transition: box-shadow .3s, color .3s;
+
+    &:hover{
+        background-position: -80px 0;
+        color: $zenbus-color;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    }
+}
+
+.article {
+    padding: 0 40px;
+    @include inline-children;
+}
+
+// INFOS
+.article-infos {
+    position: relative;
+    display: block;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.article-infos-title {
+    display: block;
+    height: auto;
+    padding: 40px;
+    font-family: $secondary-ff;
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+}
+
+// Author
+.article-infos-author {
+    padding: 0 40px;
+}
+
+.author-picture {
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 20px;
+    border-radius: 100%;
+    border: 10px solid white;
+}
+
+.author-status {
+    display: block;
+    height: auto;
+    text-align: center;
+}
+
+.author-status-prefix {
+    font-size: 24px;
+    color: #8f94a0;
+}
+
+.author-status-name {
+    font-size: 24px;
+}
+
+.author-status-date {
+    display: block;
+    font-size: 21px;
+    color: #8f94a0;
+}
+
+// Categories
+.article-categories {
+    padding: 40px 0 0;
+    text-align: center;
+    @include inline-children;
+}
+
+.article-categories-item {
+    height: 40px;
+    margin: 4px 4px 0 0;
+    transition: background-color .3s;
+
+    &.news				{background-color: #6094EA;}
+    &.business			{background-color: #5E2563;}
+    &.events 			{background-color: #3BB2B8;}
+    &.team 				{background-color: #FF7676;}
+    &.technical 		{background-color: #1BCEDF;}
+    &.interview         {background-color: #ffb401;}
+
+    &.news:hover 		{background-color: #4985e7;}
+    &.business:hover 	{background-color: #4c1e50;}
+    &.events:hover 		{background-color: #359fa5;}
+    &.team:hover 		{background-color: #ff5d5d;}
+    &.technical:hover 	{background-color: #18b9c8;}
+    &.interview:hover   {background-color: #d38d00;}
+
+    > a{
+        display: block;
+        padding: 0 10px;
+        line-height: 40px;
+        font-size: 14px;
+        font-weight: 700;
+        color: white;
+    }
+}
+
+// Social networks
+.article-share {
+    position: relative;
+    display: block;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.article-share-title {
+    display: block;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.social-img {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin: 30px 10px 0 0;
+    @include background-image-retina(social_sprite, png, 180px, 120px);
+    box-shadow: inset 0 0 0 6px #F5F6F6;
+    transition: box-shadow .5s;
+
+    &.fb{background-position-x: 0;}
+    &.yw{background-position-x: -60px;}
+    &.in{background-position-x: -120px;}
+
+    &:hover{background-position-y: -60px;}
+}
+
+// CONTENT
+.article-content {
+    display: block;
+    width: 80%;
+    max-width: 1000px;
+    margin: 40px auto 0;
+    background-color: $background-content-color;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+.article-content-banner {
+    height: 480px;
+    background-size: cover;
+    background-position: center;
+}
+
+.article-content-text {
+    padding: 60px;
+    font-size: 21px;
+    line-height: 2;
+
+    // Jekyll style override
+    > p {
+    	margin-bottom: 40px;
+
+    	> img{width: 100%;}
+    }
+
+    > ul{
+	    margin-bottom: 40px;
+	    padding-left: 40px;
+
+	    > li{list-style-type: square;}
+	}
+
+	a{
+	    text-decoration: underline;
+	    color: $zenbus-color;
+	    transition: color .3s;
+
+	    &:hover{color: #2f8d91;}
+	}
+}
