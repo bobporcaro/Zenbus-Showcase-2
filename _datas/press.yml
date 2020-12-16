@@ -433,3 +433,28 @@
   press: "Ouest France"
   link: https://www.ouest-france.fr/economie/covid-19-et-si-apres-la-solidarite-restait-au-coeur-les-entreprises-6995497
   image: ouestfrance.png
+- title: "La SOTRA annonce une application indiquant le moment de passage des bus"
+  published: 2020-12-09
+  press: "ACTUROUTES"
+  link: https://www.acturoutes.info/page.php?p=1&id=9235
+  image: acturoutes.jpg
+- title: "La Sotra innove avec une application qui indique le passage des bus"
+  published: 2020-12-10
+  press: "linfodrome"
+  link: https://www.linfodrome.com/societe-culture/63552-la-sotra-innove-avec-une-application-qui-indique-le-passage-des-bus
+  image: linfodrome.png
+- title: "Photo du mois : Décembre 2020"
+  published: 2020-12-12
+  press: "TRANSBUS"
+  link: https://www.transbus.org/actualite/pic_2020_12.html
+  image: transbus.png
+- title: "Nouveau service de transport collectif dans la MRC du Haut-Saint-Laurent"
+  published: 2020-12-11
+  press: "INFOSuroit"
+  link: https://www.infosuroit.com/nouveau-service-de-transport-collectif-dans-la-mrc-du-haut-saint-laurent/
+  image: infosuroit.png
+- title: "Transport. Lancement de la navette gratuite reliant les deux rives Bayonnaises"
+  published: 2020-12-15
+  press: "Actu.fr"
+  link: https://actu.fr/nouvelle-aquitaine/bayonne_64102/transport-lancement-de-la-navette-gratuite-reliant-les-deux-rives-bayonnaises_38129873.html
+  image: actufr.png
