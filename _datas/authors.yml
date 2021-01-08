@@ -261,7 +261,7 @@
   linkedin: https://www.linkedin.com/in/j%C3%A9r%C3%B4me-journeau-19560327/
   photo: jerome.jpg
   photo_fun: jerome_fun.jpg
-  currently: true
+  currently: false
 - id: thomas
   name: Thomas Cauneau
   firstname: Thomas
@@ -273,4 +273,16 @@
   linkedin: https://www.linkedin.com/in/thomas-cauneau-a368a4136/
   photo: thomas.jpg
   photo_fun: thomas_fun.jpg
+  currently: true
+- id: anais
+  name: Anaïs Guilloton
+  firstname: Anaïs
+  lastname: Guilloton
+  arrival_date: 2020-09-22
+  role: Chargée Marketing & Communication
+  localization: Paris
+  presentation: ""
+  linkedin: https://www.linkedin.com/in/ana%C3%AFs-guilloton-74b969165/
+  photo: anais.jpg
+  photo_fun: 
   currently: true
