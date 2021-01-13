@@ -458,3 +458,53 @@
   press: "Actu.fr"
   link: https://actu.fr/nouvelle-aquitaine/bayonne_64102/transport-lancement-de-la-navette-gratuite-reliant-les-deux-rives-bayonnaises_38129873.html
   image: actufr.png
+- title: "Suivre son autobus en temps réel"
+  published: 2020-12-16
+  press: "LeNord"
+  link: https://www.journallenord.com/suivre-son-autobus-en-temps-reel/
+  image: lenord.jpg
+- title: "Suivre son autobus en temps réel"
+  published: 2020-12-16
+  press: "Accès"
+  link: https://www.journalacces.ca/suivre-son-autobus-en-temps-reel/
+  image: acces.png
+- title: "New free bus service in the Haut-Saint-Laurent"
+  published: 2020-12-22
+  press: "ormstown"
+  link: https://www.ormstown.ca/en/new-free-bus-service-in-the-haut-saint-laurent-2/
+  image: ormstown.svg
+- title: "Bayonne : Une navette gratuite pour Saint-Esprit"
+  published: 2020-12-24
+  press: "Sud-Ouest"
+  link: https://www.sudouest.fr/2020/12/24/bayonne-une-navette-gratuite-pour-saint-esprit-8225839-4018.php
+  image: sudouest.jpg
+- title: "De nouvelles technologies pour les usagers de l’Inter des Laurentides "
+  published: 2020-12-24
+  press: "L'info du Nord Mont-Tremblant"
+  link: https://infodunordtremblant.ca/actualites/2020/12/30/de-nouvelles-technologies-pour-les-usagers-de-linter-des-laurentides/
+  image: Logos-7i-MontTremblant.jpg
+- title: "Une navette 100% électrique bientôt testée à Triel-sur-Seine"
+  published: 2021-01-08
+  press: "Evasion FM"
+  link: https://www.evasionfm.com/actualite-61104-une-navette-100-electrique-bientot-testee-a-triel-sur-seine.html
+  image: logo_evasion.png
+- title: "La navette inter-quartiers commence ses voyages dès aujourd'hui à Triel-sur-Seine"
+  published: 2021-01-13
+  press: "Evasion FM"
+  link: https://www.evasionfm.com/actualite-61250-la-navette-inter-quartiers-commence-ses-voyages-des-aujourd-hui-a-triel-sur-seine.html
+  image: logo_evasion.png
+- title: "La navette bluebus 100% électrique arrive !"
+  published: 2021-01-08
+  press: "Info-flash"
+  link: https://www.info-flash.com/info-flash/actualites/france/ile-de-france/yvelines/31775-triel-sur-seine/7478718-information
+  image: logo_infoflash.png
+- title: "Votre application « Zenbus » évolue"
+  published: 2021-01-12
+  press: "Info-flash"
+  link: https://www.info-flash.com/info-flash/actualites/france/ile-de-france/hauts-de-seine/35904-puteaux/7502835-information
+  image: logo_infoflash.png
+- title: "Yvelines. La Ville de Triel-sur-Seine teste une navette électrique gratuite"
+  published: 2021-01-12
+  press: "Actu.fr"
+  link: https://actu.fr/ile-de-france/triel-sur-seine_78624/yvelines-la-ville-de-triel-sur-seine-teste-une-navette-electrique-gratuite_38556807.html
+  image: actufr.png

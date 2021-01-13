@@ -261,7 +261,7 @@
   linkedin: https://www.linkedin.com/in/j%C3%A9r%C3%B4me-journeau-19560327/
   photo: jerome.jpg
   photo_fun: jerome_fun.jpg
-  currently: true
+  currently: false
 - id: thomas
   name: Thomas Cauneau
   firstname: Thomas
@@ -273,4 +273,16 @@
   linkedin: https://www.linkedin.com/in/thomas-cauneau-a368a4136/
   photo: thomas.jpg
   photo_fun: thomas_fun.jpg
+  currently: true
+- id: anais
+  name: Anaïs Guilloton
+  firstname: Anaïs
+  lastname: Guilloton
+  arrival_date: 2020-09-22
+  role: Chargée Marketing & Communication
+  localization: Paris
+  presentation: "Après avoir passé quelques années à aider les gens en tant que psychomotricienne, Anaïs a quitté le Sud pour désormais les aider à se déplacer... en transport en commun. <strike>Maniaque</strike> Méticuleuse à l'extrême, notre chargée du marketing et de la communication dépoussière les codes du monde du transport autant que ses étagères dont elle range les livres par ordre de couleur."
+  linkedin: https://www.linkedin.com/in/ana%C3%AFs-guilloton-74b969165/
+  photo: anais.jpg
+  photo_fun: anais_fun.jpg
   currently: true
