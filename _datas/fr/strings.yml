@@ -5,18 +5,21 @@ homepage:
 # ----------- NAV ------------
 nav:
   home: "Home"
-  connectandplay:
-    tab: "Connect-and-Play"
+  collectandplay:
+    tab: "Collect-and-Play"
     innovation: "Innovation"
     mynetwork: "Sur mon réseau"
     partners: "Partenaires"
 
   products:
     tab:  "Produits"
-    operation: "Operation"
+    operation: "Operations"
     analytics: "Analytics"
-    iv: "IV"
-    api: "APIs"
+    statistics: "Operations"
+    iv: "Voyageurs"
+    api: "ZenbusData"
+    zenbuslive: "ZenbusLive"
+    zenbusanalytics: "ZenbusAnalytics"
 
   company:
     tab: "Entreprise"
@@ -41,6 +44,35 @@ nav:
   press: "Presse"
   recruit: "Recrutement"
   feedback: "Merci!"
+
+# ----------- BALISES TITLE OF PAGES ---------- 
+titles_pages:
+  home: "Home"
+  innovation: "Innovation"
+  mynetwork: "Sur mon réseau"
+  partners: "Partenaires"
+  operation: "ZenbusLive Operations"
+  analytics: "ZenbusAnalytics Voyageurs"
+  statistics: "ZenbusAnalytics Operations"
+  iv: "ZenbusLive Voyageurs"
+  api: "ZenbusData"
+  contact: "Contact"
+  team: "Equipe"
+  recruit: "Recrutement"
+  blog: "Blog"
+  press: "Presse"
+  feedback: "Merci!"
+  home: "Home"
+  home: "Home"
+  home: "Home"
+  home: "Home"
+  home: "Home"
+  home: "Home"
+  home: "Home"
+  home: "Home"
+  home: "Home"
+  home: "Home"
+  home: "Home"
 
 # ----------- BLOG ------------
 # ----- Template Article
@@ -262,7 +294,7 @@ passengers:
   form_placeholder4: "ex: TAN, Ales'y, RATP, TBM, etc..."
   form_label5: "Je ne connais pas précisément le nom de mon réseau"
   form_label6: "Ça se situe dans quelle ville&nbsp;?"
-  form_placeholder6: "ex: Paris, New York, Moutiers les Maufaits, etc..."
+  form_placeholder6: "ex: Paris, New York, Moutiers les Mauxfaits, etc..."
   form_submit: "Envoyer"
   form_success: "Merci pour votre retour&nbsp;! Votre demande sera prise en compte le plus rapidement possible"
   tile5_title: "Sachez que vous n'êtes pas seuls"
