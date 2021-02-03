@@ -1,8 +1,10 @@
+{% if page.title != "home" %}
 <button id="burgerButton" class="panel-hamburger"></button>
+{% endif %}
 <nav id="panel" class="panel">
 	<header class="panel-logo">
 		<a href="{{ site.baseurl }}/" class="">
-			<img src="{{ site.baseurl }}/assets/img/zenbus_logo@2x.png" alt="logo zenbus" class="panel-logo-img">
+			<img src="{{ site.baseurl }}/assets/img/zenbus_logotext@2x.png" alt="logo zenbus" class="panel-logo-img">
 		</a>
 	</header>
 	<menu class="panel-menu">
@@ -10,16 +12,16 @@
 
 		<!-- CONNECT & PLAY -->
 		<li class="panel-menu-item connectandplay sub-active">
-			<button class="panel-menu-item-button">{{ site.data["strings"].nav.connectandplay.tab }}</button>
+			<button class="panel-menu-item-button">{{ site.data["strings"].nav.collectandplay.tab }}</button>
 			<ul class="panel-menu-item-submenu">
 				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/innovation/" class="submenu-item-link">{{ site.data["strings"].nav.connectandplay.innovation }}</a>
+					<a href="{{ site.baseurl }}/innovation/" class="submenu-item-link">{{ site.data["strings"].nav.collectandplay.innovation }}</a>
 				</li>
 				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/mynetwork/" class="submenu-item-link">{{ site.data["strings"].nav.connectandplay.mynetwork }}</a>
+					<a href="{{ site.baseurl }}/mynetwork/" class="submenu-item-link">{{ site.data["strings"].nav.collectandplay.mynetwork }}</a>
 				</li>
 				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/partners/" class="submenu-item-link">{{ site.data["strings"].nav.connectandplay.partners }}</a>
+					<a href="{{ site.baseurl }}/partners/" class="submenu-item-link">{{ site.data["strings"].nav.collectandplay.partners }}</a>
 				</li>
 			</ul>
 		</li>
@@ -35,7 +37,7 @@
 					<a href="{{ site.baseurl }}/operators/" class="submenu-item-link">{{ site.data["strings"].nav.products.operation }}</a>
 				</li>
 				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/passengers/" class="submenu-item-link">{{ site.data["strings"].nav.products.iv }}</a>
+					<a href="{{ site.baseurl }}/ZenbusLive-Travellers/" class="submenu-item-link">{{ site.data["strings"].nav.products.iv }}</a>
 				</li>
 				<li class="submenu-item">
 					<a href="{{ site.baseurl }}/apis/" class="submenu-item-link">{{ site.data["strings"].nav.products.api }}</a>
@@ -69,6 +71,9 @@
 				</li>
 				<li class="submenu-item">
 					<a href="{{ site.baseurl }}/press/" class="submenu-item-link">{{ site.data["strings"].nav.resources.press }}</a>
+				</li>
+				<li class="submenu-item">
+					<a href="{{ site.baseurl }}/downloads/" class="submenu-item-link">{{ site.data["strings"].nav.resources.downloads }}</a>
 				</li>
 			</ul>
 		</li>

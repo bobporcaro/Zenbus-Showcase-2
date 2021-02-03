@@ -1,22 +1,25 @@
 # --------- HOMEPAGE ----------
 homepage: 
-  title: "Transformer la mobilité"
+  title: "Au cœur de la donnée transport"
   back_to_home: "Retour à l'accueil"
 # ----------- NAV ------------
 nav:
   home: "Home"
-  connectandplay:
-    tab: "Connect-and-Play"
+  collectandplay:
+    tab: "Collect-and-Play"
     innovation: "Innovation"
     mynetwork: "Sur mon réseau"
     partners: "Partenaires"
 
   products:
     tab:  "Produits"
-    operation: "Operation"
+    operation: "Operations"
     analytics: "Analytics"
-    iv: "IV"
-    api: "APIs"
+    statistics: "Operations"
+    iv: "Voyageurs"
+    api: "ZenbusData"
+    zenbuslive: "ZenbusLive"
+    zenbusanalytics: "ZenbusAnalytics"
 
   company:
     tab: "Entreprise"
@@ -28,6 +31,7 @@ nav:
     tab: "Ressources"
     blog: "Blog"
     press: "Presse"
+    downloads: "Téléchargements"
 
 
   ao: "Autorités Organisatrices"
@@ -40,6 +44,35 @@ nav:
   press: "Presse"
   recruit: "Recrutement"
   feedback: "Merci!"
+
+# ----------- BALISES TITLE OF PAGES ---------- 
+titles_pages:
+  home: "Home"
+  innovation: "Innovation"
+  mynetwork: "Sur mon réseau"
+  partners: "Partenaires"
+  operation: "ZenbusLive Operations"
+  analytics: "ZenbusAnalytics Voyageurs"
+  statistics: "ZenbusAnalytics Operations"
+  iv: "ZenbusLive Voyageurs"
+  api: "ZenbusData"
+  contact: "Contact"
+  team: "Equipe"
+  recruit: "Recrutement"
+  blog: "Blog"
+  press: "Presse"
+  feedback: "Merci!"
+  home: "Home"
+  home: "Home"
+  home: "Home"
+  home: "Home"
+  home: "Home"
+  home: "Home"
+  home: "Home"
+  home: "Home"
+  home: "Home"
+  home: "Home"
+  home: "Home"
 
 # ----------- BLOG ------------
 # ----- Template Article
@@ -63,6 +96,8 @@ categories:
     display_name: "Evénements"
   news:
     display_name: "Notre Actu"
+  interview:
+    display_name: "Interviews"
 
 # ---------- FOOTER -----------
 footer:
@@ -75,7 +110,7 @@ footer:
   cgu: "CGU"
   faq: "FAQ"
   datas: "Données Zenbus"
-  copyrights: "© Zenbus 2018, tous droits réservés"
+  copyrights: "© Zenbus 2020, tous droits réservés"
   lom: "Loi LOM"
 
 # ---------- DATE -----------
@@ -247,7 +282,7 @@ passengers:
   tile2_title: "Pas de smartphone&nbsp;? On a pensé à vous"
   tile2_text: "Si vous préférez consulter Zenbus au chaud et bien calé(e) dans un fauteuil, utilisez sa <a target='_blank' href='/#map'>version web</a>. Accédez facilement à une multitude de réseaux équipés."
   tile3_title: "Pas encore convaincu&nbsp;? Lisez les autres utilisateurs"
-  tile3_text: "Nous avons reçu des centaines de retours, pour certains déjà en attente d'évolutions et de nouveaux déploiements, et le plus souvent très enthousiastes !"
+  tile3_text: "Nous avons reçu des milliers de retours, pour certains déjà en attente d'évolutions et de nouveaux déploiements, et le plus souvent très enthousiastes !"
   tile4_title: "Ne dites rien... Il vous manque quelque chose&nbsp;?"
   tile4_text: "Il est possible que Zenbus n'équipe pas votre ville (voir <a target='_blank' href='/#map'>la carte des réseaux</a>), votre réseau ou même simplement votre ligne. N'hésitez pas à nous le faire savoir avec ce petit questionnaire rapide."
   form_label1: "Votre adresse mail"
@@ -259,7 +294,7 @@ passengers:
   form_placeholder4: "ex: TAN, Ales'y, RATP, TBM, etc..."
   form_label5: "Je ne connais pas précisément le nom de mon réseau"
   form_label6: "Ça se situe dans quelle ville&nbsp;?"
-  form_placeholder6: "ex: Paris, New York, Moutiers les Maufaits, etc..."
+  form_placeholder6: "ex: Paris, New York, Moutiers les Mauxfaits, etc..."
   form_submit: "Envoyer"
   form_success: "Merci pour votre retour&nbsp;! Votre demande sera prise en compte le plus rapidement possible"
   tile5_title: "Sachez que vous n'êtes pas seuls"

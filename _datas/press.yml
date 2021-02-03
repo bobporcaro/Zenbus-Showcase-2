@@ -338,3 +338,173 @@
   press: "VRT"
   link: https://www.ville-rail-transports.com/mobilite/rntp-nantes-partenariat-technologique-entre-ubitransport-et-zenbus/
   image: vrt.png
+- title: "Aller à la plage gratuitement en bus"
+  published: 2020-07-11
+  press: "Le Télégramme"
+  link: https://www.letelegramme.fr/ille-et-vilaine/saint-briac-sur-mer/aller-a-la-plage-gratuitement-en-bus-11-07-2020-12581138.php
+  image: telegramme.jpg
+- title: "PLOËRMEL COMMUNAUTÉ. De nouvelles règles pour la reprise de RIV Bus"
+  published: 2020-05-13
+  press: "Les Infos du Pays Gallo"
+  link: https://www.lesinfosdupaysgallo.com/2020/05/13/ploermel-communaute-de-nouvelles-regles-pour-la-reprise-de-rib-bus/
+  image: lesinfosdupaysgallo.jpg
+- title: "Bassin albenassien : « Simplicité, visibilité et régularité » pour Tout’enbus"
+  published: 2020-08-22
+  press: "Le dauphiné"
+  link: https://www.ledauphine.com/economie/2020/08/22/bassin-albenassien-simplicite-visibilite-et-regularite-pour-tout-enbus
+  image: ledauphine.jpg
+- title: "A Saint-Briac, le bus est gratuit pour aller à la plage"
+  published: 2020-08-31
+  press: "Actu.fr"
+  link: https://actu.fr/bretagne/saint-briac-sur-mer_35256/a-saint-briac-le-bus-est-gratuit-pour-aller-a-la-plage_35220322.html
+  image: actufr.png
+- title: "Astrobus à Lisieux : Zenbus, l’appli pratique pour savoir si le bus aura du retard"
+  published: 2020-07-01
+  press: "Actu.fr"
+  link: https://actu.fr/normandie/lisieux_14366/astrobus-a-lisieux-zenbus-l-appli-pratique-pour-savoir-si-le-bus-aura-du-retard_34671708.html
+  image: actufr.png
+- title: "Une navette des plages gratuite à Saint-Briac-sur-Mer"
+  published: 2020-07-24
+  press: "Le Télégramme"
+  link: https://www.letelegramme.fr/ille-et-vilaine/saint-briac-sur-mer/une-navette-des-plages-gratuite-a-saint-briac-sur-mer-24-07-2020-12588107.php
+  image: telegramme.jpg
+- title: "Noirmoutier-en-l'Île. Mutualisation des services de bus"
+  published: 2020-07-04
+  press: "Ouest France"
+  link: https://larochesuryon.maville.com/actu/actudet_-noirmoutier-en-l-ile.-mutualisation-des-services-de-bus_dep-4163706_actu.Htm
+  image: ouestfrance.png
+- title: "La Citadina est en service et les stationnements gratuits"
+  published: 2020-06-07
+  press: "Corse Matin"
+  link: https://www.corsematin.com/articles/la-citadina-est-en-service-et-les-stationnements-gratuits-110111
+  image: corsematin.png
+- title: "Service des Transports de la MRC de Montcalm et Zenbus : des données en temps réel !"
+  published: 2020-05-25
+  press: "LanauWEB"
+  link: https://lanauweb.info/service-des-transports-de-la-mrc-de-montcalm-et-zenbus-des-donnees-en-temps-reel/
+  image: lanauweb.png
+- title: "Avec l'agglomération, une application pour savoir où se trouve son bus"
+  published: 2020-05-25
+  press: "Agde-Infos"
+  link: http://agde-infos.fr/index.php/commune/bessan/26397-avec-l-agglomeration-une-application-pour-savoir-ou-se-trouve-son-bus
+  image: agde-infos.png
+- title: "Coronavirus. Fontenay-le-Comte : le réseau de bus adapté"
+  published: 2020-03-23
+  press: "Ouest France"
+  link: https://www.ouest-france.fr/sante/virus/coronavirus/coronavirus-fontenay-le-comte-le-reseau-de-bus-adapte-6789453
+  image: ouestfrance.png
+- title: "Roskobus en service à partir du 4 juillet"
+  published: 2020-07-03
+  press: "Le Télégramme"
+  link: https://www.letelegramme.fr/finistere/roscoff/roskobus-en-service-a-partir-du-4-juillet-03-07-2020-12576601.php
+  image: telegramme.jpg
+- title: "Coronavirus. A Bernay, le service de transport urbain est suspendu"
+  published: 2020-03-19
+  press: "Actu.fr"
+  link: https://actu.fr/normandie/bernay_27056/coronavirus-bernay-service-transport-urbain-est-suspendu_32405819.html
+  image: actufr.png
+- title: "Yvelines. Une navette lancée entre la gare et la zone d’activité de Rambouillet"
+  published: 2020-09-04
+  press: "Actu.fr"
+  link: https://actu.fr/ile-de-france/rambouillet_78517/yvelines-une-navette-lance-entre-la-gare-et-la-zone-d-activite-de-rambouillet_35887641.html
+  image: actufr.png
+- title: "Fontenay-le-Comte. Aller à Niort, La Rochelle ou La Roche en car"
+  published: 2020-09-19
+  press: "Ouest France"
+  link: https://www.ouest-france.fr/pays-de-la-loire/fontenay-le-comte-85200/fontenay-le-comte-aller-a-niort-la-rochelle-ou-la-roche-en-car-6980577
+  image: ouestfrance.png
+- title: "Le nouveau \"REZO\" de bus passe à l’hybride"
+  published: 2020-09-18
+  press: "L'est Républicain"
+  link: https://www.estrepublicain.fr/economie/2020/09/18/le-nouveau-rezo-de-bus-passe-a-l-hybride
+  image: lestrepublicain.jpg
+- title: "Keolis teste deux méthodes de comptage d'affluence à Quimper"
+  published: 2020-10-02
+  press: "Bus & Car Connexion"
+  link: http://www.busetcar.com/keolis-teste-deux-methodes-de-comptage-daffluence-sur-quimper-et-caen/
+  image: busetcar.png
+- title: "Relance des transports : le Saint Graal de l'affluence en temps réel"
+  published: 2020-09-25
+  press: "Banque des Territoires"
+  link: https://www.banquedesterritoires.fr/relance-des-transports-le-saint-graal-de-laffluence-en-temps-reel
+  image: banquedesterritoires.png
+- title: "Covid-19. Et si après, la solidarité restait au cœur des entreprise"
+  published: 2020-10-08
+  press: "Ouest France"
+  link: https://www.ouest-france.fr/economie/covid-19-et-si-apres-la-solidarite-restait-au-coeur-les-entreprises-6995497
+  image: ouestfrance.png
+- title: "La SOTRA annonce une application indiquant le moment de passage des bus"
+  published: 2020-12-09
+  press: "ACTUROUTES"
+  link: https://www.acturoutes.info/page.php?p=1&id=9235
+  image: acturoutes.jpg
+- title: "La Sotra innove avec une application qui indique le passage des bus"
+  published: 2020-12-10
+  press: "linfodrome"
+  link: https://www.linfodrome.com/societe-culture/63552-la-sotra-innove-avec-une-application-qui-indique-le-passage-des-bus
+  image: linfodrome.png
+- title: "Photo du mois : Décembre 2020"
+  published: 2020-12-12
+  press: "TRANSBUS"
+  link: https://www.transbus.org/actualite/pic_2020_12.html
+  image: transbus.png
+- title: "Nouveau service de transport collectif dans la MRC du Haut-Saint-Laurent"
+  published: 2020-12-11
+  press: "INFOSuroit"
+  link: https://www.infosuroit.com/nouveau-service-de-transport-collectif-dans-la-mrc-du-haut-saint-laurent/
+  image: infosuroit.png
+- title: "Transport. Lancement de la navette gratuite reliant les deux rives Bayonnaises"
+  published: 2020-12-15
+  press: "Actu.fr"
+  link: https://actu.fr/nouvelle-aquitaine/bayonne_64102/transport-lancement-de-la-navette-gratuite-reliant-les-deux-rives-bayonnaises_38129873.html
+  image: actufr.png
+- title: "Suivre son autobus en temps réel"
+  published: 2020-12-16
+  press: "LeNord"
+  link: https://www.journallenord.com/suivre-son-autobus-en-temps-reel/
+  image: lenord.jpg
+- title: "Suivre son autobus en temps réel"
+  published: 2020-12-16
+  press: "Accès"
+  link: https://www.journalacces.ca/suivre-son-autobus-en-temps-reel/
+  image: acces.png
+- title: "New free bus service in the Haut-Saint-Laurent"
+  published: 2020-12-22
+  press: "ormstown"
+  link: https://www.ormstown.ca/en/new-free-bus-service-in-the-haut-saint-laurent-2/
+  image: ormstown.svg
+- title: "Bayonne : Une navette gratuite pour Saint-Esprit"
+  published: 2020-12-24
+  press: "Sud-Ouest"
+  link: https://www.sudouest.fr/2020/12/24/bayonne-une-navette-gratuite-pour-saint-esprit-8225839-4018.php
+  image: sudouest.jpg
+- title: "De nouvelles technologies pour les usagers de l’Inter des Laurentides "
+  published: 2020-12-24
+  press: "L'info du Nord Mont-Tremblant"
+  link: https://infodunordtremblant.ca/actualites/2020/12/30/de-nouvelles-technologies-pour-les-usagers-de-linter-des-laurentides/
+  image: Logos-7i-MontTremblant.jpg
+- title: "Une navette 100% électrique bientôt testée à Triel-sur-Seine"
+  published: 2021-01-08
+  press: "Evasion FM"
+  link: https://www.evasionfm.com/actualite-61104-une-navette-100-electrique-bientot-testee-a-triel-sur-seine.html
+  image: logo_evasion.png
+- title: "La navette inter-quartiers commence ses voyages dès aujourd'hui à Triel-sur-Seine"
+  published: 2021-01-13
+  press: "Evasion FM"
+  link: https://www.evasionfm.com/actualite-61250-la-navette-inter-quartiers-commence-ses-voyages-des-aujourd-hui-a-triel-sur-seine.html
+  image: logo_evasion.png
+- title: "La navette bluebus 100% électrique arrive !"
+  published: 2021-01-08
+  press: "Info-flash"
+  link: https://www.info-flash.com/info-flash/actualites/france/ile-de-france/yvelines/31775-triel-sur-seine/7478718-information
+  image: logo_infoflash.png
+- title: "Votre application « Zenbus » évolue"
+  published: 2021-01-12
+  press: "Info-flash"
+  link: https://www.info-flash.com/info-flash/actualites/france/ile-de-france/hauts-de-seine/35904-puteaux/7502835-information
+  image: logo_infoflash.png
+- title: "Yvelines. La Ville de Triel-sur-Seine teste une navette électrique gratuite"
+  published: 2021-01-12
+  press: "Actu.fr"
+  link: https://actu.fr/ile-de-france/triel-sur-seine_78624/yvelines-la-ville-de-triel-sur-seine-teste-une-navette-electrique-gratuite_38556807.html
+  image: actufr.png

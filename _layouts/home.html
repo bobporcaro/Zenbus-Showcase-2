@@ -25,7 +25,7 @@
 		<script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.0"></script>
 
 		<!-- i18n -->
-		<script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
+		<script src="https://unpkg.com/vue-i18n@8.21.1/dist/vue-i18n.js"></script>
 
 		<!-- Analytics -->
 		<script type="text/javascript">
@@ -48,12 +48,12 @@
    
 	<body class="homepage">
    	<div id="app" v-bind:class="{'show-loader':showLoader, 'map-noscroll': isActiveMap}" class="homepage-wrapper" v-cloak>
-		<button class="panel-hamburger" v-on:click="showPanel= !showPanel" v-bind:class="{'show-panel':showPanel}"></button>
+		<button class="panel-hamburger" v-on:click="showPanel= !showPanel" v-bind:class="{'show-panel':showPanel}" id="burgerButton"></button>
 
     	{% include nav.html %}
     
     	{{ content }}
-      {% include footer.html %}
+      {% include vue_footer.html %}
     </div>
     {% include loader.html %}
     

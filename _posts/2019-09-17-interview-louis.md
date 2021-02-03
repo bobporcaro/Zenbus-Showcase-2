@@ -3,7 +3,7 @@ layout: blog-article
 title: Retour d'expérience utilisateur Zenbus côté voyageur&nbsp;!
 date: 2019-09-17
 image: article19_interview.png
-categories: [news]
+categories: [news, interview]
 tags: information voyageurs interview bus lycée application app
 author: marie
 lang: fr

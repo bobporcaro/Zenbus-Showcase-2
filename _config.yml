@@ -44,7 +44,7 @@ pagination:
   per_page: 4
 
 #destination: /home/boris/eclipse-workspace/ZenbusShowCase/src/main/webapp 
-#destination: /home/simon/Documents/ZENBUS_DEV/ZB-SC-DEPLOYED/src/main/webapp
+#destination: /home/simon/Documents/ZENBUS_DEV/ZB-SC-DEPLOYED-V3/src/main/webapp
 keep_files: ['META-INF/MANIFEST.MF']
 
 exclude: ['assets/js/_source', 'YYYY-MM-DD-file-name.md', 'vendor' ]
