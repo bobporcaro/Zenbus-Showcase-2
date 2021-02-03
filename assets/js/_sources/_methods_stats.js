@@ -20,10 +20,9 @@ function animateValue(start, end, duration, callback) {
     }.bind(this), stepTime);
 }
 function runStat(){
-	
 	var 
 	diff = (Date.now()/1000) - this.dateBase,
-	end = round(this.counterBase + diff*1.15);
+	end = round(this.counterBase + diff*2.5);
 	
 	this.currentKms = end;
 	
