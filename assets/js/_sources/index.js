@@ -29,7 +29,7 @@ new Vue({
 		//polylines: new Polylines(),
 		
 		//Statistics
-		counterBase: 37000000,
+		counterBase: 40000000,
 		dateBase: 1525125601,
 		currentKms:0,
 		numberWithSpaces: numberWithSpaces,
@@ -143,6 +143,10 @@ new Vue({
 	},
 	computed: {
 		currentFilter: currentFilter,
+		displayKms: function(){
+			return (new Intl.NumberFormat().format(parseInt(this.currentKms))); 
+			
+		},
 		filteredAccounts: filteredAccounts, //map
 		searchedAccounts: searchedAccounts,
 		filteredCities: filteredCities, //map
