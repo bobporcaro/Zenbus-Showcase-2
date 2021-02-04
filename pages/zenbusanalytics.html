@@ -16,8 +16,8 @@ permalink: /zenbusanalytics/
 		<nav class="header-tile-nav">
 			<!-- Operator -->
 			<a class="header-tile-nav-icon icon-reporting" href="#reporting">Reporting</a>
-			<a class="header-tile-nav-icon icon-ponctuality" href="#ponctuality">Ponctualité</a>
-			<a class="header-tile-nav-icon icon-dailystoptimes" href="#dailystoptimes">Temps de parcours</a>
+			<a class="header-tile-nav-icon icon-punctuality" href="#punctuality">Ponctualité</a>
+			<a class="header-tile-nav-icon icon-traveltime" href="#traveltime">Temps de parcours</a>
 			<a class="header-tile-nav-icon icon-kilometers" href="#kilometers">Kilomètres parcourus</a>
 			<a class="header-tile-nav-icon icon-dailystoptimes" href="#dailystoptimes">Offre réalisée</a>
 			<!-- Passenger -->
@@ -29,9 +29,9 @@ permalink: /zenbusanalytics/
 
 
 
-	<!-- PASSENGERS -->
+	<!-- OPERATION -->
 		
-	<!-- App -->
+	<!-- Reporting -->
 	<div id="reporting" class="products-content-product reporting">
 		<div class="products-content-product-description">
 			<div class="product-description-header">
@@ -42,7 +42,147 @@ permalink: /zenbusanalytics/
 				Cette interface permet, en sélectionnant une période et tout ou partie de son réseau, d’avoir une synthèse instantanée des courses réalisées vs courses théoriques, de la ponctualité aux arrêts et des kilomètres parcourus. Ces informations exportables au format .csv et accessibles sans limite de durée, permettent notamment d’établir facilement un reporting mensuel.
 			</p>
 			<div class="product-description-links">
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+			</div>
+		</div>
+		<div class="products-content-product-screenshots">
+			<img src="../assets/img/products/reporting_01.png" class="product-screenshots-img">
+		</div>
+	</div>
 
+
+	<!-- Punctuality -->
+	<div id="punctuality" class="products-content-product punctuality">
+		<div class="products-content-product-description">
+			<div class="product-description-header">
+				<h4 class="product-description-header-title">Ponctualité</h4>
+				<span class="product-description-header-icon"></span>
+			</div>
+			<p class="product-description-text">
+				Cette interface permet d’étudier finement la ponctualité par arrêt ou par ligne sur une période sélectionnée. 
+			</p>
+			<div class="product-description-links">
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+			</div>
+		</div>
+		<div class="products-content-product-screenshots">
+			<img src="../assets/img/products/punctuality_01.png" class="product-screenshots-img">
+		</div>
+	</div>
+
+
+	<!-- Travel Time -->
+	<div id="traveltime" class="products-content-product traveltime">
+		<div class="products-content-product-description">
+			<div class="product-description-header">
+				<h4 class="product-description-header-title">Temps de parcours</h4>
+				<span class="product-description-header-icon"></span>
+			</div>
+			<p class="product-description-text">
+				Cette interface permet l’affichage des temps de parcours pour un même itinéraire sur une période sélectionnée, incluant l’affichage de la médiane, du delta théorique/constaté, ainsi qu’un lien direct de chaque point du graphe vers le rejeu de la course en question. 
+			</p>
+			<div class="product-description-links">
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+			</div>
+		</div>
+		<div class="products-content-product-screenshots">
+			<img src="../assets/img/products/traveltime_01.png" class="product-screenshots-img">
+		</div>
+	</div>
+
+
+	<!-- Kilometers -->
+	<div id="kilometers" class="products-content-product kilometers">
+		<div class="products-content-product-description">
+			<div class="product-description-header">
+				<h4 class="product-description-header-title">Kilomètres parcourus</h4>
+				<span class="product-description-header-icon"></span>
+			</div>
+			<p class="product-description-text">
+				Cette interface permet l’affichage par ligne, par véhicule, pour une période sélectionnée des kilomètres réalisés (commerciaux et HLP) ainsi que des vitesses moyennes et inter-arrêts.
+			</p>
+			<div class="product-description-links">
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+			</div>
+		</div>
+		<div class="products-content-product-screenshots">
+			<img src="../assets/img/products/kilometers_01.png" class="product-screenshots-img">
+		</div>
+	</div>
+
+
+	<!-- Dailystoptimes -->
+	<div id="dailystoptimes" class="products-content-product dailystoptimes">
+		<div class="products-content-product-description">
+			<div class="product-description-header">
+				<h4 class="product-description-header-title">Offre réalisée</h4>
+				<span class="product-description-header-icon"></span>
+			</div>
+			<p class="product-description-text">
+				Cette interface permet de connaître par ligne, par course et par véhicule, les heures de passages à la seconde, le delta avec le théorique, et de disposer d’une capacité de rejeu précis.
+			</p>
+			<div class="product-description-links">
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+			</div>
+		</div>
+		<div class="products-content-product-screenshots">
+			<img src="../assets/img/products/dailystoptimes_01.png" class="product-screenshots-img">
+		</div>
+	</div>
+
+
+	<!-- Uses -->
+	<div id="uses" class="products-content-product uses">
+		<div class="products-content-product-description">
+			<div class="product-description-header">
+				<h4 class="product-description-header-title">Usages</h4>
+				<span class="product-description-header-icon"></span>
+			</div>
+			<p class="product-description-text">
+				Zenbus met à disposition des rapports d’usage mensuel de l’application et de l’iframe Zenbus, avec une version synthétique (nombre d’utilisateurs, nombre de sessions) et  une version détaillée (lignes et arrêts utilisées, lignes et arrêts mis en favoris, origine géographique de l'utilisateur).
+			</p>
+			<div class="product-description-links">
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+			</div>
+		</div>
+		<div class="products-content-product-screenshots">
+
+		</div>
+	</div>
+
+
+	<!-- Survey -->
+	<div id="survey" class="products-content-product survey">
+		<div class="products-content-product-description">
+			<div class="product-description-header">
+				<h4 class="product-description-header-title">Enquête</h4>
+				<span class="product-description-header-icon"></span>
+			</div>
+			<p class="product-description-text">
+				Zenbus propose de passer des sondages auprès des usagers afin de recueillir leur avis sur leur réseau de transport ou sur la mobilité en général, par l'intermédiaire de la messagerie Zenbus (application et web).
+			</p>
+			<div class="product-description-links">
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+			</div>
+		</div>
+		<div class="products-content-product-screenshots">
+
+		</div>
+	</div>
+
+
+	<!-- Counting -->
+	<div id="counting" class="products-content-product counting">
+		<div class="products-content-product-description">
+			<div class="product-description-header">
+				<h4 class="product-description-header-title">Comptage</h4>
+				<span class="product-description-header-icon"></span>
+			</div>
+			<p class="product-description-text">
+				Une fonction comptage accessible directement sur le terminal du conducteur dans Zenbus Driver permet de recueillir les données de montées-descentes de voyageurs par lignes, arrêts et date.
+			</p>
+			<div class="product-description-links">
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
 			</div>
 		</div>
 		<div class="products-content-product-screenshots">
