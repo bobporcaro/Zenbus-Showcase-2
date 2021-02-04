@@ -1,6 +1,6 @@
 # --------- HOMEPAGE ----------
 homepage: 
-  title: "Au cœur de la donnée transport"
+  title: "Mettre la donnée au service des transports collectifs"
   back_to_home: "Retour à l'accueil"
 # ----------- NAV ------------
 nav:
@@ -13,16 +13,14 @@ nav:
 
   products:
     tab:  "Produits"
-    operation: "Operations"
-    analytics: "Analytics"
-    statistics: "Operations"
-    iv: "Voyageurs"
-    api: "ZenbusData"
+    zenbuscollect: "ZenbusCollect"
     zenbuslive: "ZenbusLive"
     zenbusanalytics: "ZenbusAnalytics"
+    zenbusapi: "ZenbusAPI"
 
   company:
     tab: "Entreprise"
+    about: "À propos"
     team: "Equipe"
     contact: "Contact"
     recruitment: "Recrutement"
@@ -57,6 +55,7 @@ titles_pages:
   iv: "ZenbusLive Voyageurs"
   api: "ZenbusData"
   contact: "Contact"
+  about: "À propos"
   team: "Equipe"
   recruit: "Recrutement"
   blog: "Blog"

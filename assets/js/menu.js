@@ -17,3 +17,6 @@ function managePanel(evt){
 	burgerButton = document.getElementById("burgerButton");
 	burgerButton.addEventListener("click", managePanel.bind(burgerButton));
 })();
+
+/** Scroll & menu behaviour */
+document.body.onscroll = function(){ if (document.scrollingElement.scrollTop === 0) { document.body.classList.remove("menu-color"); } else { document.body.classList.add("menu-color"); } };
