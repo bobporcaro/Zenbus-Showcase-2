@@ -1,82 +1,108 @@
 {% if page.title != "home" %}
 <button id="burgerButton" class="panel-hamburger"></button>
 {% endif %}
-<nav id="panel" class="panel">
-	<header class="panel-logo">
+<header id="panel" class="panel">
+	<div class="panel-logo">
 		<a href="{{ site.baseurl }}/" class="">
 			<img src="{{ site.baseurl }}/assets/img/zenbus_logotext@2x.png" alt="logo zenbus" class="panel-logo-img">
 		</a>
-	</header>
-	<menu class="panel-menu">
+	</div>
+	<nav class="panel-menu">
+		<ul>
+
+			<!-- NEEDS -->
+			<li class="panel-menu-item needs">
+				<button class="panel-menu-item-button">Vos besoins</button>
+				<ul class="panel-menu-item-submenu">
+					<li class="submenu-item">
+						<a href="" class="submenu-item-link">Performance : SAE</a>
+					</li>
+					<li class="submenu-item">
+						<a href="" class="submenu-item-link">Attractivité : IV</a>
+					</li>
+					<li class="submenu-item">
+						<a href="" class="submenu-item-link">Réglementation : LOM</a>
+					</li>
+				</ul>
+			</li>
+
+			<!-- PRODUCTS -->
+			<li class="panel-menu-item products">
+				<button class="panel-menu-item-button">{{ site.data["strings"].nav.products.tab }}</button>
+				<ul class="panel-menu-item-submenu">
+					<li class="submenu-item">
+						<a href="{{ site.baseurl }}/zenbuscollect/" class="submenu-item-link">{{ site.data["strings"].nav.products.zenbuscollect }}</a>
+					</li>
+					<li class="submenu-item">
+						<a href="{{ site.baseurl }}/zenbuslive/" class="submenu-item-link">{{ site.data["strings"].nav.products.zenbuslive }}</a>
+					</li>
+					<li class="submenu-item">
+						<a href="{{ site.baseurl }}/zenbusanalytics/" class="submenu-item-link">{{ site.data["strings"].nav.products.zenbusanalytics }}</a>
+					</li>
+					<li class="submenu-item">
+						<a href="{{ site.baseurl }}/zenbusapi/" class="submenu-item-link">{{ site.data["strings"].nav.products.zenbusapi }}</a>
+					</li>
+				</ul>
+			</li>
+
+			<!-- USE CASES -->
+			<li class="panel-menu-item usecases">
+				<button class="panel-menu-item-button">Cas d'usages</button>
+				<ul class="panel-menu-item-submenu">
+					<li class="submenu-item">
+						<a href="" class="submenu-item-link">SAEIV clé en main</a>
+					</li>
+					<li class="submenu-item">
+						<a href="" class="submenu-item-link">Interconnexion</a>
+					</li>
+					<li class="submenu-item">
+						<a href="" class="submenu-item-link">Fonctionnalité à la carte</a>
+					</li>
+					<li class="submenu-item">
+						<a href="" class="submenu-item-link">Type de réseaux</a>
+					</li>
+				</ul>
+			</li>
+
+			<!-- COMPANY -->
+			<li class="panel-menu-item company">
+				<button class="panel-menu-item-button">{{ site.data["strings"].nav.company.tab }}</button>
+				<ul class="panel-menu-item-submenu">
+					<li class="submenu-item">
+						<a href="{{ site.baseurl }}/about/" class="submenu-item-link">{{ site.data["strings"].nav.company.about }}</a>
+					</li>
+					<li class="submenu-item">
+						<a href="{{ site.baseurl }}/team/" class="submenu-item-link">{{ site.data["strings"].nav.company.team }}</a>
+					</li>
+					<li class="submenu-item">
+						<a href="{{ site.baseurl }}/job/" class="submenu-item-link">{{ site.data["strings"].nav.company.recruitment }}</a>
+					</li>
+				</ul>
+			</li>
 
 
-		<!-- CONNECT & PLAY -->
-		<li class="panel-menu-item connectandplay sub-active">
-			<button class="panel-menu-item-button">{{ site.data["strings"].nav.collectandplay.tab }}</button>
-			<ul class="panel-menu-item-submenu">
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/innovation/" class="submenu-item-link">{{ site.data["strings"].nav.collectandplay.innovation }}</a>
-				</li>
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/mynetwork/" class="submenu-item-link">{{ site.data["strings"].nav.collectandplay.mynetwork }}</a>
-				</li>
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/partners/" class="submenu-item-link">{{ site.data["strings"].nav.collectandplay.partners }}</a>
-				</li>
-			</ul>
-		</li>
-
-		<!-- PRODUCTS -->
-		<li class="panel-menu-item products">
-			<button class="panel-menu-item-button">{{ site.data["strings"].nav.products.tab }}</button>
-			<ul class="panel-menu-item-submenu">
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/transport-authorities/" class="submenu-item-link">{{ site.data["strings"].nav.products.analytics }}</a>
-				</li>
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/operators/" class="submenu-item-link">{{ site.data["strings"].nav.products.operation }}</a>
-				</li>
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/ZenbusLive-Travellers/" class="submenu-item-link">{{ site.data["strings"].nav.products.iv }}</a>
-				</li>
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/apis/" class="submenu-item-link">{{ site.data["strings"].nav.products.api }}</a>
-				</li>
-			</ul>
-		</li>
+			<!-- RESOURCES -->
+			<li class="panel-menu-item resources">
+				<button class="panel-menu-item-button">{{ site.data["strings"].nav.resources.tab }}</button>
+				<ul class="panel-menu-item-submenu">
+					<li class="submenu-item">
+						<a href="{{ site.baseurl }}/blog/" class="submenu-item-link">{{ site.data["strings"].nav.resources.blog }}</a>
+					</li>
+					<li class="submenu-item">
+						<a href="{{ site.baseurl }}/press/" class="submenu-item-link">{{ site.data["strings"].nav.resources.press }}</a>
+					</li>
+					<li class="submenu-item">
+						<a href="{{ site.baseurl }}/downloads/" class="submenu-item-link">{{ site.data["strings"].nav.resources.downloads }}</a>
+					</li>
+				</ul>
+			</li>
 
 
-		<!-- COMPANY -->
-		<li class="panel-menu-item company">
-			<button class="panel-menu-item-button">{{ site.data["strings"].nav.company.tab }}</button>
-			<ul class="panel-menu-item-submenu">
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/team/" class="submenu-item-link">{{ site.data["strings"].nav.company.team }}</a>
-				</li>
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/contact/" class="submenu-item-link">{{ site.data["strings"].nav.company.contact }}</a>
-				</li>
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/job/" class="submenu-item-link">{{ site.data["strings"].nav.company.recruitment }}</a>
-				</li>
-			</ul>
-		</li>
+			<!-- CONTACT -->
+			<li class="panel-menu-item contact">
+				<a href="{{ site.baseurl }}/contact/" class="contact-button">{{ site.data["strings"].nav.company.contact }}</a>
+			</li>
 
-		<!-- RESOURCES -->
-		<li class="panel-menu-item resources">
-			<button class="panel-menu-item-button">{{ site.data["strings"].nav.resources.tab }}</button>
-			<ul class="panel-menu-item-submenu">
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/blog/" class="submenu-item-link">{{ site.data["strings"].nav.resources.blog }}</a>
-				</li>
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/press/" class="submenu-item-link">{{ site.data["strings"].nav.resources.press }}</a>
-				</li>
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/downloads/" class="submenu-item-link">{{ site.data["strings"].nav.resources.downloads }}</a>
-				</li>
-			</ul>
-		</li>
-		
-	</menu>
-</nav>
+		</ul>
+	</nav>
+</header>
