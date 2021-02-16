@@ -69,7 +69,41 @@ lang: fr
    <section class="howitworks">
       <h2 class="howitworks-title">Comment ça marche ?</h2>
       <div class="howitworks-data">
-         <img src="../assets/img/home/schema.png" alt="le parcours de la donnée">
+         <header class="howitworks-data-title">Le parcours de <span>la donnée</span></header>
+         <ul class="howitworks-data-content">
+            <li class="howitworks-data-content-item production">
+               <span class="data-img"></span>
+               <a class="data-link" href="{{ site.baseurl }}/zenbuscollect/">Production</a>
+            </li>
+            <li class="howitworks-data-content-item processing">
+               <span class="data-img">zenbus
+                  <div class="data-dots-container">
+                     <span class="data-dots"></span>
+                  </div>
+               </span>
+               <a class="data-link" href="#">Traitement</a>
+            </li>
+            <li class="howitworks-data-content-item">
+               <div class="restitution">
+                  <span class="data-img">
+                     <div class="data-dots-container">
+                        <span class="data-dots"></span>
+                     </div>
+                  </span>
+                  <a class="data-link" href="{{ site.baseurl }}/zenbuslive/">Restitution</a>
+               </div>
+               <div class="opening">
+                  <span class="data-img">GTFS, GTFS-RT, SIRI...
+                     <div class="data-dots-container">
+                        <span class="data-dots"></span>
+                     </div>
+                  </span>
+                  <a class="data-link" href="{{ site.baseurl }}/zenbusapi/">Ouverture</a>
+               </div>
+            </li>
+         </ul>
+
+         <img class="howitworks-data-bigimg" src="../assets/img/home/schema.png" alt="le parcours de la donnée">
       </div>
       <div class="howitworks-driver">
          <div class="howitworks-content">
