@@ -5,10 +5,9 @@ permalink: /
 lang: fr
 ---
 <div class="content-container home">
-
    <!-- Landing -->
    <section class="home-landing">
-      <h1 class="home-landing-catchphrase">Mettre la donnée au service des transports collectifs</h1>
+      <h1 class="home-landing-catchphrase">Nous mettons la donnée au service des transports collectifs</h1>
       <div class="home-landing-categories">
 
          <!-- AOM -->
@@ -19,7 +18,7 @@ lang: fr
                <span class="box-title">AOM</span>
             </div>
             <p class="box-text">
-               <span class="box-text-subtitle">Zenbus répond à vos enjeux d’exploitation et de fréquentation</span>
+               <span class="box-text-subtitle">Zenbus répond à vos enjeux sociétaux, réglementaires et budgétaires liés à la mobilité sur votre territoire</span>
                <span class="box-text-content"><a class="box-text-link" href="">Donner envie</a> de prendre les transports collectifs et faciliter le report modal</span>
                <span class="box-text-content"><a class="box-text-link" href="">Maîtriser</a> la qualité de service de mon réseau</span>
                <span class="box-text-content"><a class="box-text-link" href="">Optimiser</a> mon offre dans la durée</span>
@@ -59,7 +58,7 @@ lang: fr
             </p>
          </div>
       </div>
-      <div class="scroll-indicator" v-bind:class="{ hide: hasScrolled }" >
+      <div class="scroll-indicator">
          <span class="scroll-indicator-animate"></span>
       </div>
    </section>
@@ -69,7 +68,41 @@ lang: fr
    <section class="howitworks">
       <h2 class="howitworks-title">Comment ça marche ?</h2>
       <div class="howitworks-data">
-         <img src="../assets/img/home/schema.jpg" alt="le parcours de la donnée">
+         <header class="howitworks-data-title">Le parcours de <span>la donnée</span></header>
+         <ul class="howitworks-data-content">
+            <li class="howitworks-data-content-item production">
+               <span class="data-img"></span>
+               <a class="data-link" href="{{ site.baseurl }}/zenbuscollect/">Production</a>
+            </li>
+            <li class="howitworks-data-content-item processing">
+               <span class="data-img">zenbus
+                  <div class="data-dots-container">
+                     <span class="data-dots"></span>
+                  </div>
+               </span>
+               <a class="data-link" href="#">Traitement</a>
+            </li>
+            <li class="howitworks-data-content-item">
+               <div class="restitution">
+                  <span class="data-img">
+                     <div class="data-dots-container">
+                        <span class="data-dots"></span>
+                     </div>
+                  </span>
+                  <a class="data-link" href="{{ site.baseurl }}/zenbuslive/">Restitution</a>
+               </div>
+               <div class="opening">
+                  <span class="data-img">GTFS, GTFS-RT, SIRI...
+                     <div class="data-dots-container">
+                        <span class="data-dots"></span>
+                     </div>
+                  </span>
+                  <a class="data-link" href="{{ site.baseurl }}/zenbusapi/">Ouverture</a>
+               </div>
+            </li>
+         </ul>
+
+         <img class="howitworks-data-bigimg" src="../assets/img/home/schema.png" alt="le parcours de la donnée">
       </div>
       <div class="howitworks-driver">
          <div class="howitworks-content">
@@ -90,7 +123,7 @@ lang: fr
             <a class="howitworks-content-link" href="{{ site.baseurl }}/zenbuslive/">En savoir plus</a>
          </div>
          <div class="howitworks-screenshots">
-            <img class="howitworks-screenshots-img" src="../assets/img/home/supervision_01.png">
+            <img class="howitworks-screenshots-img" src="../assets/img/home/supervision_02.png">
          </div>
       </div>
       <div class="howitworks-statistics">
@@ -100,7 +133,7 @@ lang: fr
             <a class="howitworks-content-link" href="{{ site.baseurl }}/zenbusanalytics/">En savoir plus</a>
          </div>
          <div class="howitworks-screenshots">
-             <img class="howitworks-screenshots-img" src="../assets/img/home/screenshot_statistics_calendar.png">
+             <img class="howitworks-screenshots-img" src="../assets/img/home/reporting_01.png">
          </div>
       </div>
       <div class="howitworks-passenger">
@@ -120,133 +153,5 @@ lang: fr
          <a class="howitworks-content-link" href="{{ site.baseurl }}/contact/">Contactez-nous</a>
       </div>
    </section>
-
-
-   <!-- Map : TODO : replace
-
-   <section id="map" class="home-map" :class="{'show-map':isActiveMap}">
-      <div class="map-tile">
-         <h2 class="map-tile-title">Zenbus près de chez vous</h2>
-         <p class="map-tile-text">Zenbus couvre déjà plus de [%filteredAccounts.length%] réseaux en France et ce sont chaque mois de nouvelles lignes de bus qui bénéficient du service. L'application se déploie aussi progressivement à l'étranger.</p>
-         <footer class="map-tile-footer">
-            <a href="" class="map-tile-footer-link"></a>
-         </footer>
-      </div>
-      <div class="map-preview">
-       <button type="button" class="map-preview-button " v-on:click="toggleMap">Voir la carte des réseaux</button>
-         <div class="map-expand">
-           <aside class="filters">
-                <header class="filters-header" v-on:click="showSearchResults = false">
-                  <h4 class="filters-header-title">Carte</h4> 
-                  <p class="filters-header-text">Vous pouvez filtrer la carte par typologie de réseau</p>
-               </header>
-               <form v-on:submit.prevent="removeBehaviour" class="filters-search" v-bind:class="{'show-results':showSearchResults}">
-                 <label class="filters-search-label"><span v-if="activeFiltersLabel != ''">Sauf [%activeFiltersLabel%]</span></label>
-                 <input type="search" class="filters-search-input" placeholder="Rechercher un réseau, une ville" v-on:focus="showSearchResults = true" v-model="search">
-                  <span class="filters-search-close" v-on:click="showSearchResults = false"></span>
-                  <ul id="searchResult" class="filters-search-results">
-                     <li v-for="item in searchedCities" >
-                        <span>[%item.name%]</span>
-                        <ul>
-                           <li v-on:click="searchItemBehaviour(item)" v-if= "acc && acc.city && acc.pageTitle && (acc.city.withoutAccent().toLowerCase().includes(search.withoutAccent().toLowerCase()) || acc.pageTitle.withoutAccent().toLowerCase().includes(search.withoutAccent().toLowerCase()) || (item.name.withoutAccent().toLowerCase().includes(search.withoutAccent().toLowerCase()))) " v-for="acc in item.namespaces" class="filters-search-results-item">
-                              <img v-bind:src="acc.icon" alt="logo du réseau" class="account-img" />
-                              <span class="account-name">[%acc.pageTitle%]</span>
-                           </li>
-                        </ul>
-                     </li>
-                  </ul>
-               </form>
-               <form class="filters-checkboxes"> 
-                  <label class="filters-checkboxes-label">[%filteredAccounts.length%] réseau(x) disponible(s) dans [%filteredCities.length%] ville(s)</label>
-            <ul>
-               <li class="filters-checkboxes-item all" >
-                  <input type="radio" name="filter" class="map-checkbox"  id="-1" v-bind:value="-1" v-model="checkedFilter">
-                  <label class="checkbox-label" for="-1">Tous les réseaux</label>
-               </li>
-               <li class="filters-checkboxes-item private" >
-                  <input type="radio" name="filter" class="map-checkbox" id="0" v-bind:value="0" v-model="checkedFilter">
-                  <label class="checkbox-label" for="0">Privé</label>
-               </li>
-               <li :class="type.cssClass" class="filters-checkboxes-item" v-for="type in networkTypes" :key="type.value">
-                  <input type="radio" name="filter" class="map-checkbox" v-bind:id="type.value" v-bind:value="type.value" v-model="checkedFilter">
-                     <label v-bind:for="type.value" class="checkbox-label">[% filterLabel(type.value) %]</label>
-                  </li>
-            </ul>
-              </form>
-            </aside>
-            <div class="map-container">
-               <div id="mapContainer"></div>
-               <aside class="map-actions">
-                  <button class="map-actions-locateme" v-on:click="locateUser"></button>
-                  <button class="map-actions-close" v-on:click="toggleMap"></button>
-               </aside>
-              <div v-if="focusedCity" class="popup show-popup">
-               <header class="popup-header">
-                     <span class="popup-header-city">[%focusedCity.name%]</span>
-                  </header>
-                  <ul class="popup-networks">
-                     <li v-for="acc in focusedCity.namespaces" v-if="filteredAccounts.indexOf(acc) > -1" class="popup-networks-item">
-                        <span class="network-name">[%acc.pageTitle%]</span>
-                        <ul class="network-types">
-                           <li v-if="acc.pRivate"class="network-types-badge private" title="Privé"></li>
-                           <li v-for="type in networkTypes" v-if="(type.value & acc.types) > 0" class="network-types-badge" v-bind:class="type.cssClass" v-bind:title="filterLabel(type.value)"></li>
-                        </ul>
-                        <aside class="network-redir">
-                           <a v-if="!acc.pRivate" v-bind:href="'https://zenbus.net/'+acc.namespace" class="network-redir-link" target="_blank"></a>
-                           <a v-else class="network-redir-link" v-on:click="showPrivateForm = true"></a>
-                        </aside>
-                     </li>
-                  </ul>
-              </div>
-               <div class="popup" >
-                  <header class="popup-header">
-                     <span class="popup-header-city">Nantes</span>
-                  </header>
-                  <ul class="popup-networks">
-                     <li class="popup-networks-item">
-                        <span class="network-name">LR 26</span>
-                        <ul class="network-types">
-                        <li class="network-types-badge private" title="Privé"></li>
-                           <li class="network-types-badge urban" title="Urbain"></li>
-                           <li class="network-types-badge interurban" title="Interurbain"></li>
-                           <li class="network-types-badge corporate" title="Entreprise"></li>
-                           <li class="network-types-badge scolar" title="Scolaire"></li>
-                           <li class="network-types-badge event" title="Evenementiel"></li>
-                           <li class="network-types-badge audit" title="Audit"></li>
-                           <li class="network-types-badge skistation" title="Station de ski"></li>
-                           <li class="network-types-badge work" title="Travaux"></li>
-                        </ul>
-                        <aside class="network-redir">
-                           <a class="network-redir-link"></a>
-                        </aside>
-                     </li>
-                     <li class="popup-networks-item">
-                        <span class="network-name">Nantes Métropole TAN</span>
-                        <ul class="network-types">
-                           <li class="network-types-badge private"></li>
-                           <li class="network-types-badge urban"></li>
-                           <li class="network-types-badge skistation"></li>
-                        </ul>
-                        <aside class="network-redir">
-                           <a class="network-redir-link"></a>
-                        </aside>
-                     </li>
-                  </ul>
-               </div>
-                 <div class="privatecode" v-bind:class="{'show-privatecode': showPrivateForm}">
-                  <form v-on:submit.prevent="privateFormBehaviour" class="privatecode-form">
-                     <span v-if="errors.map.length" class="privatecode-form-error">Code incorrect!</span>
-                     <label class="privatecode-form-text" for="password">Code réseau privé</label>
-                     <input class="privatecode-form-input" placeholder="Code du réseau" type="password" v-model="currentPassword">
-                     <button class="privatecode-form-button">Valider</button>
-                     <button v-on:click.prevent="showPrivateForm = false" class="privatecode-close"></button>
-                   </form>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-
-   -->
     
 </div>

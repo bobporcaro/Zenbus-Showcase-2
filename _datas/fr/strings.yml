@@ -1,6 +1,6 @@
 # --------- HOMEPAGE ----------
 homepage: 
-  title: "Mettre la donnée au service des transports collectifs"
+  title: "Nous mettons la donnée au service des transports collectifs"
   back_to_home: "Retour à l'accueil"
 # ----------- NAV ------------
 nav:
@@ -109,7 +109,7 @@ footer:
   cgu: "CGU"
   faq: "FAQ"
   datas: "Données Zenbus"
-  copyrights: "© Zenbus 2020, tous droits réservés"
+  copyrights: "© Zenbus 2021, tous droits réservés"
   lom: "Loi LOM"
 
 # ---------- DATE -----------
