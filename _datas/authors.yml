@@ -286,3 +286,15 @@
   photo: anais.jpg
   photo_fun: anais_fun.jpg
   currently: true
+- id: valentin
+  name: Valentin Gonzales
+  firstname: Valentin
+  lastname: Gonzales
+  arrival_date: 2020-09-28
+  role: Ingénieur Projets & Clients
+  localization: Nantes
+  presentation: "Cuistot expérimental et esthète analphabète, si vous survivez à la cuisine plus que douteuse de cet enthousiaste chef de projet, il n'aura aucun remords à vous achever avec son instrument aussi mignon qu'insupportable. A côtoyer avec (beaucoup) de modération !"
+  linkedin: https://www.linkedin.com/in/valentin-gonzales-316b01180/
+  photo: valentin.jpg
+  photo_fun: valentin_fun.jpg
+  currently: true
