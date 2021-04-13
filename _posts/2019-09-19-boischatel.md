@@ -4,7 +4,7 @@ title: Avec Zenbus, communiquez et innovez&nbsp;!
 date: 2019-09-19
 image: article20_boischatel.png
 categories: [business, news]
-tags: information voyageurs canada boischatel niagara montmorency
+tags:
 author: florian
 lang: fr
 ---

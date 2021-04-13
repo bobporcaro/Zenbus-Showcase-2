@@ -4,7 +4,7 @@ title: De nouveaux réseaux chaque mois !
 date: 2018-09-21
 image: visuel_blog_article6.jpg
 categories: [news, business]
-tags: réseaux ploermel bayonne corse colorbus maybus scolaire montreal
+tags:
 author: marie
 lang: fr
 ---

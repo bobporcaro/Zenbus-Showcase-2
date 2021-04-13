@@ -4,7 +4,7 @@ title: Qui sommes-nous ?
 date: 2018-07-23
 image: escape_hunt_joul.jpg
 categories: [team]
-tags: qui sommes nous
+tags:
 author: marie
 lang: fr
 ---

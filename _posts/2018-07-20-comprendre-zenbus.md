@@ -4,7 +4,7 @@ title: Comprendre Zenbus en 5 points
 date: 2018-07-20
 image: schema_general_zenbus.jpg
 categories: [news]
-tags: zenbus comment fonctionne
+tags:
 author: marie
 lang: fr
 ---

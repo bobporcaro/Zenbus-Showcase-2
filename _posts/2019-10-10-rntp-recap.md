@@ -4,7 +4,7 @@ title: RNTP 2019, une édition remarquable&nbsp;!
 date: 2019-10-10
 image: rntp_recap.jpg
 categories: [events, news]
-tags: evenement rencontres nationales transport public 2019 
+tags:
 author: olivier
 lang: fr
 ---

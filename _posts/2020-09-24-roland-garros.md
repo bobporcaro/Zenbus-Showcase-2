@@ -4,7 +4,7 @@ title: Zenbus qualifié pour Roland Garros&nbsp;!
 date: 2020-09-22
 image: image_RG.png
 categories: [business]
-tags: roland garros evenementiel
+tags:
 author: jerome
 lang: fr
 ---

@@ -4,7 +4,7 @@ title: REZO, avec un Z, comme Zenbus
 date: 2020-09-22
 image: rezo_z_zenbus.jpg
 categories: [business]
-tags: rezo avold verdun mobilité
+tags:
 author: florian
 lang: fr
 ---

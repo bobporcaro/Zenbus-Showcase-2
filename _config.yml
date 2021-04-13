@@ -44,6 +44,7 @@ pagination:
   permalink: '/page/:num/'
   per_page: 4
 
+destination: /mnt/c/Users/User/eclipse-workspace/Zenbus Showcase/src/main/webapp 
 #destination: /home/boris/eclipse-workspace/ZenbusShowCase/src/main/webapp 
 #destination: /home/simon/Documents/ZENBUS_DEV/ZB-SC-DEPLOYED-V3/src/main/webapp
 keep_files: ['META-INF/MANIFEST.MF']

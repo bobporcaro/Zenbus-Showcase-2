@@ -4,7 +4,7 @@ title: Retrouvez-nous aux journées AGIR
 date: 2018-08-28
 image: agir_2018.jpg
 categories: [events]
-tags: journées agir 2018
+tags:
 author: marie
 lang: fr
 ---

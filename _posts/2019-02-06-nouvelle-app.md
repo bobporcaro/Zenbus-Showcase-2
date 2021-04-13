@@ -4,7 +4,7 @@ title:  Retour sur la nouvelle App&nbsp;!
 date: 2019-02-05
 image: couv.jpg
 categories: [technical, news]
-tags: nouvelle app design workflow optimisation
+tags:
 author: romain
 lang: fr
 ---

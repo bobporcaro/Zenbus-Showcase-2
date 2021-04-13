@@ -4,7 +4,7 @@ title: Venez nous rencontrer en juin&nbsp;!
 date: 2019-05-22
 image: article_14_couv.jpg
 categories: [events, news, team]
-tags: événements juin france scandinavy normandy smart city uitp stockholm forum
+tags:
 author: marie
 lang: fr
 ---

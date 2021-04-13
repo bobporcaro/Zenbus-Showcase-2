@@ -4,7 +4,7 @@ title: Zenbus arrive à Tignes cet hiver&nbsp;!
 date: 2018-10-10
 image: visuel_article9.jpeg
 categories: [business, news]
-tags: tignes navette gratuite stgm
+tags:
 author: vincent
 lang: fr
 ---

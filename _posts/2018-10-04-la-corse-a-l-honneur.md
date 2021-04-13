@@ -4,7 +4,7 @@ title: La Corse à l'honneur&nbsp;!
 date: 2018-10-04
 image: visuel_article8.jpeg
 categories: [business, news]
-tags: corse portovecchio acitadina citadina electrique
+tags:
 author: simon
 lang: fr
 ---

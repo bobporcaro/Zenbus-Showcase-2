@@ -4,7 +4,7 @@ title: Confinement - Premier focus
 date: 2020-04-22
 image: confinement.jpeg
 categories: [news]
-tags: confinement covid teletravail zenbus
+tags:
 author: olivier
 lang: fr
 ---

@@ -4,7 +4,7 @@ title: Zenbus fête ses deux ans de service auprès des niçois
 date: 2020-07-20
 image: deux_ans_nice.png
 categories: [business, news]
-tags: nice innovation plus-value SAE bus tramway
+tags:
 author: jerome
 lang: fr
 ---
