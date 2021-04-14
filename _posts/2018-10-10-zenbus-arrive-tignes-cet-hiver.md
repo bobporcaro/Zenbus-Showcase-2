@@ -4,7 +4,7 @@ title: Zenbus arrive à Tignes cet hiver&nbsp;!
 date: 2018-10-10
 image: visuel_article9.jpeg
 categories: [business, news]
-tags:
+tags: [Temporaire - Saisonnier, 1 à 15 véhicules, Tignes - France, Depuis 2018]
 author: vincent
 lang: fr
 ---

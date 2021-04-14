@@ -4,7 +4,7 @@ title: Zenbus fête ses deux ans de service auprès des niçois
 date: 2020-07-20
 image: deux_ans_nice.png
 categories: [business, news]
-tags:
+tags: [Urbain - Interurbain, 40 à 100 véhicules, Nice - France, Depuis 2018]
 author: jerome
 lang: fr
 ---

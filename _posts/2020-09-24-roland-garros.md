@@ -4,7 +4,7 @@ title: Zenbus qualifié pour Roland Garros&nbsp;!
 date: 2020-09-22
 image: image_RG.png
 categories: [business]
-tags:
+tags: [Temporaire - Navette, 1 à 15 véhicules, Paris - France, Depuis 2020]
 author: jerome
 lang: fr
 ---

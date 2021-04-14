@@ -4,7 +4,7 @@ title: La Corse à l'honneur&nbsp;!
 date: 2018-10-04
 image: visuel_article8.jpeg
 categories: [business, news]
-tags:
+tags: [Urbain - Interurbain, 1 à 15 véhicules, Porto-Vecchio - France, Depuis 2018]
 author: simon
 lang: fr
 ---

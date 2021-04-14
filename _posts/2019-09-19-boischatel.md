@@ -4,7 +4,7 @@ title: Avec Zenbus, communiquez et innovez&nbsp;!
 date: 2019-09-19
 image: article20_boischatel.png
 categories: [business, news]
-tags:
+tags: [Urbain, 1 à 15 véhicules, Boischatel - Canada, Depuis 2019]
 author: florian
 lang: fr
 ---
