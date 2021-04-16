@@ -5,24 +5,31 @@ homepage:
 # ----------- NAV ------------
 nav:
   home: "Home"
-  collectandplay:
-    tab: "Collect-and-Play"
-    innovation: "Innovation"
-    mynetwork: "Sur mon réseau"
-    partners: "Partenaires"
+
+  needs:
+    tab: "Besoins"
+    performance: "Performance : SAE & Data"
+    attractiveness: "Attractivité : information voyageurs"
+    regulation: "Réglementation : conformité loi LOM"
 
   products:
-    tab:  "Produits"
+    tab: "Produits"
     zenbuscollect: "ZenbusCollect"
     zenbuslive: "ZenbusLive"
     zenbusanalytics: "ZenbusAnalytics"
     zenbusapi: "ZenbusAPI"
 
+  usecases:
+    tab: "Cas d'usages"
+    SAEIV-turnkey: "SAEIV clé en main"
+    SAEIV-custom: "SAEIV à la carte"
+    interconnection: "Partenariats & Interconnexion"
+    networks: "Type de réseaux"
+
   company:
     tab: "Entreprise"
     about: "À propos"
     team: "Equipe"
-    contact: "Contact"
     recruitment: "Recrutement"
 
   resources:
@@ -31,47 +38,43 @@ nav:
     press: "Presse"
     downloads: "Téléchargements"
 
+  contact:
+    tab: "Contact"
+
 
   ao: "Autorités Organisatrices"
   operators: "Exploitants"
   passengers: "Voyageurs"
 
-  blog: "Blog"
-  team: "Équipe"
-  contact: "Contact"
-  press: "Presse"
-  recruit: "Recrutement"
   feedback: "Merci!"
 
 # ----------- BALISES TITLE OF PAGES ---------- 
 titles_pages:
-  home: "Home"
-  innovation: "Innovation"
-  mynetwork: "Sur mon réseau"
-  partners: "Partenaires"
-  operation: "ZenbusLive Operations"
-  analytics: "ZenbusAnalytics Voyageurs"
-  statistics: "ZenbusAnalytics Operations"
-  iv: "ZenbusLive Voyageurs"
-  api: "ZenbusData"
-  contact: "Contact"
+
+  performance: "Performance : SAE & Data"
+  attractiveness: "Attractivité : information voyageurs"
+  regulation: "Réglementation : conformité loi LOM"
+
+  zenbuscollect: "ZenbusCollect"
+  zenbuslive: "ZenbusLive"
+  zenbusanalytics: "ZenbusAnalytics"
+  zenbusapi: "ZenbusAPI"
+
+  SAEIV-turnkey: "SAEIV clé en main"
+  SAEIV-custom: "SAEIV à la carte"
+  interconnection: "Partenariats & Interconnexion"
+  networks: "Type de réseaux"
+
   about: "À propos"
   team: "Equipe"
-  recruit: "Recrutement"
+  recruitment: "Recrutement"
+
   blog: "Blog"
   press: "Presse"
-  feedback: "Merci!"
-  home: "Home"
-  home: "Home"
-  home: "Home"
-  home: "Home"
-  home: "Home"
-  home: "Home"
-  home: "Home"
-  home: "Home"
-  home: "Home"
-  home: "Home"
-  home: "Home"
+  downloads: "Téléchargements"
+
+  contact: "Contact"
+
 
 # ----------- BLOG ------------
 # ----- Template Article
@@ -321,7 +324,7 @@ passengers:
 
 # ---------- CONTACT -----------
 contact:
-  tile_title: "Ecrivez-nous !"
+  tile_title: "Écrivez-nous !"
   tile_text: "Nous sommes là pour répondre à tous vos messages, qu'ils soient techniques, fonctionnels ou informatifs. On accepte même les déclarations enflammées !"
   email_error: "Un email valide est requis."
   form_error: "Pour soumettre le formulaire, vous devez cocher la case ci-dessus."
