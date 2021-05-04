@@ -4,7 +4,7 @@ title: Zenbus, référence de l'information voyageurs en stations de ski
 date: 2019-09-12
 image: article17_ski.png
 categories: [business, news]
-tags: information voyageurs stations ski skibus tignes saisies valmorel
+tags:
 author: vincent
 lang: fr
 ---

@@ -4,7 +4,7 @@ title: Zenbus de l'autre côté de l'Atlantique
 date: 2018-09-27
 image: canada_flag.jpg
 categories: [news, team]
-tags: canada objectifs atlantique usa interview florian
+tags:
 author: florian
 lang: fr
 ---

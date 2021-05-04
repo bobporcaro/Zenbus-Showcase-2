@@ -4,7 +4,7 @@ title: Recrutement - c’est la rentrée Zenbus !
 date: 2018-09-05
 image: zenbus_recrute.jpg
 categories: [news]
-tags: recrutement rentrée developpeur commercial
+tags:
 author: marie
 lang: fr
 ---

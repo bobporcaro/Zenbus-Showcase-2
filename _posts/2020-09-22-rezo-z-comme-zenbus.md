@@ -4,7 +4,7 @@ title: REZO, avec un Z, comme Zenbus
 date: 2020-09-22
 image: rezo_z_zenbus.jpg
 categories: [business]
-tags: rezo avold verdun mobilité
+tags: [Urbain, 15 à 40 véhicules, Verdun - France, Depuis 2018]
 author: florian
 lang: fr
 ---

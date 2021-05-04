@@ -4,7 +4,7 @@ title: Partenariat Zenbus / Ecole de Design de Nantes&nbsp;!
 date: 2018-10-18
 image: ecolededesign.jpg
 categories: [technical, news]
-tags: tignes navette gratuite stgm
+tags:
 author: romain
 lang: fr
 ---

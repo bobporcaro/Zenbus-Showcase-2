@@ -12,16 +12,16 @@
 
 			<!-- NEEDS -->
 			<li class="panel-menu-item needs">
-				<button class="panel-menu-item-button">Besoins</button>
+				<button class="panel-menu-item-button">{{ site.data["strings"].nav.needs.tab }}</button>
 				<ul class="panel-menu-item-submenu">
 					<li class="submenu-item">
-						<a href="" class="submenu-item-link">Performance : SAE & Data</a>
+						<a href="{{ site.baseurl }}/performance/" class="submenu-item-link">{{ site.data["strings"].nav.needs.performance }}</a>
 					</li>
 					<li class="submenu-item">
-						<a href="{{ site.baseurl }}/attractiveness/" class="submenu-item-link">Attractivité : information voyageurs</a>
+						<a href="{{ site.baseurl }}/attractiveness/" class="submenu-item-link">{{ site.data["strings"].nav.needs.attractiveness }}</a>
 					</li>
 					<li class="submenu-item">
-						<a href="" class="submenu-item-link">Réglementation : conformité loi LOM</a>
+						<a href="{{ site.baseurl }}/regulation/" class="submenu-item-link">{{ site.data["strings"].nav.needs.regulation }}</a>
 					</li>
 				</ul>
 			</li>
@@ -47,19 +47,19 @@
 
 			<!-- USE CASES -->
 			<li class="panel-menu-item usecases">
-				<button class="panel-menu-item-button">Cas d'usages</button>
+				<button class="panel-menu-item-button">{{ site.data["strings"].nav.usecases.tab }}</button>
 				<ul class="panel-menu-item-submenu">
 					<li class="submenu-item">
-						<a href="" class="submenu-item-link">SAEIV clé en main</a>
+						<a href="{{ site.baseurl }}/SAEIV-custom/" class="submenu-item-link">{{ site.data["strings"].nav.usecases.SAEIV-custom }}</a>
 					</li>
 					<li class="submenu-item">
-						<a href="" class="submenu-item-link">SAEIV à la carte</a>
+						<a href="{{ site.baseurl }}/SAEIV-turnkey/" class="submenu-item-link">{{ site.data["strings"].nav.usecases.SAEIV-turnkey }}</a>
 					</li>
 					<li class="submenu-item">
-						<a href="" class="submenu-item-link">Interconnexions & Partenaires</a>
+						<a href="{{ site.baseurl }}/interconnection/" class="submenu-item-link">{{ site.data["strings"].nav.usecases.interconnection }}</a>
 					</li>
 					<li class="submenu-item">
-						<a href="{{ site.baseurl }}/networks/" class="submenu-item-link">Type de réseaux</a>
+						<a href="{{ site.baseurl }}/networks/" class="submenu-item-link">{{ site.data["strings"].nav.usecases.networks }}</a>
 					</li>
 				</ul>
 			</li>
@@ -100,7 +100,7 @@
 
 			<!-- CONTACT -->
 			<li class="panel-menu-item contact">
-				<a href="{{ site.baseurl }}/contact/" class="contact-button">{{ site.data["strings"].nav.company.contact }}</a>
+				<a href="{{ site.baseurl }}/contact/" class="contact-button">{{ site.data["strings"].nav.contact.tab }}</a>
 			</li>
 
 		</ul>

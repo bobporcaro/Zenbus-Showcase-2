@@ -4,7 +4,7 @@ title: Simplifier les correspondances
 date: 2019-09-18
 image: visuel_article19.jpeg
 categories: [business, news]
-tags: information voyageurs correspondances quiberon auray trinité
+tags:
 author: oceane
 lang: fr
 ---
