@@ -45,7 +45,7 @@ D’un point de vue humain, lorsque nous avons annoncé l’interruption de cert
 <br>
 **F&nbsp;:** Vous avez été précurseur au Québec de l’utilisation des smartphones des conducteurs* pour produire la donnée temps-réel dans les véhicules. Côté voyageurs, vous croyez également que l’utilisation des smartphones pour recevoir l’information se développe&nbsp;?
 
-**: Pour produire la donnée temps-réel dans les véhicules, Zenbus propose différents Zenbuscollect. Notamment, une app android, activée par le conducteur, qui transforme le smartphone en balise intelligente.*
+**: Pour produire la donnée temps-réel dans les véhicules, Zenbus propose différents Zenbuscollect. Notamment, une app android, activée par le conducteur, qui transforme le smartphone en balise intelligente.**
 
 **A.D&nbsp;:** A l'heure actuelle, bon nombre de citoyens ont un téléphone intelligent et sont à l’aise pour consulter une foule de renseignements en tout temps. L’information voyageur est donc devenue **une option incontournable pour créer un lien avec nos usagers en leur donnant accès à des informations en temps-réel sur les horaires de nos autobus**. Car nous avons avant tout le désir d’améliorer l’expérience client en leur offrant des données fiables auxquelles ils ont accès en tout temps. 
 

@@ -9,7 +9,7 @@ lang: fr
    <section class="home-landing">
 
       <!-- Catchphrase -->
-      <h1 class="home-landing-catchphrase">Nous mettons la donnée au service des transports collectifs</h1>
+      <h1 class="home-landing-catchphrase">{{ site.data["strings"].homepage.baseline }}</h1>
 
       <!-- Categories -->
       <div class="home-landing-categories">
@@ -18,15 +18,15 @@ lang: fr
          <div class="home-landing-categories-box aom">
             <div class="box-container">
                <span class="box-img"></span>
-               <span class="box-label">Vous êtes</span>
-               <span class="box-title">Autorité organisatrice</span>
+               <span class="box-label">{{ site.data["strings"].homepage.boxes.label }}</span>
+               <span class="box-title">{{ site.data["strings"].homepage.boxes.ao.title }}</span>
             </div>
             <p class="box-text">
-               <span class="box-text-subtitle">Zenbus répond à vos enjeux sociétaux, réglementaires et budgétaires liés à la mobilité sur votre territoire</span>
-               <span class="box-text-content"><a class="box-text-link" href="">Donner envie</a> de prendre les transports collectifs et faciliter le report modal</span>
-               <span class="box-text-content"><a class="box-text-link" href="">Maîtriser</a> la qualité de service de mon réseau</span>
-               <span class="box-text-content"><a class="box-text-link" href="">Optimiser</a> mon offre dans la durée</span>
-               <span class="box-text-content"><a class="box-text-link" href="">Répondre</a> aux exigences de la LOM</span>
+               <span class="box-text-subtitle">{{ site.data["strings"].homepage.boxes.ao.description }}</span>
+               <span class="box-text-content"><a class="box-text-link" href="">{{ site.data["strings"].homepage.boxes.ao.bullet1.word }}</a> {{ site.data["strings"].homepage.boxes.ao.bullet1.text }}</span>
+               <span class="box-text-content"><a class="box-text-link" href="">{{ site.data["strings"].homepage.boxes.ao.bullet2.word }}</a> {{ site.data["strings"].homepage.boxes.ao.bullet2.text }}</span>
+               <span class="box-text-content"><a class="box-text-link" href="">{{ site.data["strings"].homepage.boxes.ao.bullet3.word }}</a> {{ site.data["strings"].homepage.boxes.ao.bullet3.text }}</span>
+               <span class="box-text-content"><a class="box-text-link" href="">{{ site.data["strings"].homepage.boxes.ao.bullet4.word }}</a> {{ site.data["strings"].homepage.boxes.ao.bullet4.text }}</span>
             </p>
          </div>
 
@@ -34,15 +34,15 @@ lang: fr
          <div class="home-landing-categories-box operator">
             <div class="box-container">
                <span class="box-img"></span>
-               <span class="box-label">Vous êtes</span>
-               <span class="box-title">Exploitant</span>
+               <span class="box-label">{{ site.data["strings"].homepage.boxes.label }}</span>
+               <span class="box-title">{{ site.data["strings"].homepage.boxes.operator.title }}</span>
             </div>
             <p class="box-text">
-               <span class="box-text-subtitle">Zenbus répond à vos enjeux d’exploitation et de fréquentation</span>
+               <span class="box-text-subtitle">{{ site.data["strings"].homepage.boxes.operator.description }}</span>
 
-               <span class="box-text-content"><a class="box-text-link" href="">Maximiser</a> fréquentation et recette</span>
-               <span class="box-text-content"><a class="box-text-link" href="">Réguler</a> efficacement et optimiser l’exploitation</span>
-               <span class="box-text-content"><a class="box-text-link" href="">Faciliter</a> le reporting auprès de l’autorité organisatrice</span>
+               <span class="box-text-content"><a class="box-text-link" href="">{{ site.data["strings"].homepage.boxes.operator.bullet1.word }}</a> {{ site.data["strings"].homepage.boxes.operator.bullet1.text }}</span>
+               <span class="box-text-content"><a class="box-text-link" href="">{{ site.data["strings"].homepage.boxes.operator.bullet2.word }}</a> {{ site.data["strings"].homepage.boxes.operator.bullet2.text }}</span>
+               <span class="box-text-content"><a class="box-text-link" href="">{{ site.data["strings"].homepage.boxes.operator.bullet3.word }}</a> {{ site.data["strings"].homepage.boxes.operator.bullet3.text }}</span>
             </p>
          </div>
 
@@ -50,21 +50,21 @@ lang: fr
          <div class="home-landing-categories-box passenger">
             <div class="box-container">
                <span class="box-img"></span>
-               <span class="box-label">Vous êtes</span>
-               <span class="box-title">Voyageur</span>
+               <span class="box-label">{{ site.data["strings"].homepage.boxes.label }}</span>
+               <span class="box-title">{{ site.data["strings"].homepage.boxes.passenger.title }}</span>
             </div>
             <p class="box-text">
-               <span class="box-text-subtitle">Notre objectif est simple : vous faire aimer le bus !</span>
+               <span class="box-text-subtitle">{{ site.data["strings"].homepage.boxes.passenger.description }}</span>
 
-               <span class="box-text-content"><a class="box-text-link" href="">Vous voulez savoir</a> si Zenbus est sur votre réseau ?</span>
-               <span class="box-text-content"><a class="box-text-link" href="">Zenbus n’est pas sur votre réseau</a> et ça vous manque ?</span>
-               <span class="box-text-content"><a class="box-text-link" href="">Vous voulez nous encourager ?</a></span>
+               <span class="box-text-content"><a class="box-text-link" href="">{{ site.data["strings"].homepage.boxes.passenger.bullet1.word }}</a> si Zenbus est sur votre réseau ?</span>
+               <span class="box-text-content"><a class="box-text-link" href="">{{ site.data["strings"].homepage.boxes.passenger.bullet2.word }}</a> et ça vous manque ?</span>
+               <span class="box-text-content"><a class="box-text-link" href="">{{ site.data["strings"].homepage.boxes.passenger.bullet3.word }}</a></span>
             </p>
          </div>
          
          <!-- MAP LINK -->
          <h2 class="home-landing-categories-link">
-            <a href="{{ site.baseurl }}/networks/">Une carte vaut mille mots : retrouvez tous nos réseaux !</a>
+            <a href="{{ site.baseurl }}/networks/">{{ site.data["strings"].homepage.map }}</a>
          </h2>
       
       </div>
@@ -79,21 +79,21 @@ lang: fr
 
    <!-- HOW IT WORKS -->
    <section class="howitworks">
-      <h2 class="howitworks-title">Comment ça marche ?</h2>
+      <h2 class="howitworks-title">{{ site.data["strings"].homepage.schema.title }}</h2>
       <div class="howitworks-data">
-         <header class="howitworks-data-title">Le parcours de <span>la donnée Zenbus</span></header>
+         <header class="howitworks-data-title">{{ site.data["strings"].homepage.schema.image.label }} <span>{{ site.data["strings"].homepage.schema.image.title }}</span></header>
          <ul class="howitworks-data-content">
             <li class="howitworks-data-content-item production">
                <span class="data-img"></span>
-               <a class="data-link" href="{{ site.baseurl }}/zenbuscollect/">Production</a>
+               <a class="data-link" href="{{ site.baseurl }}/zenbuscollect/">{{ site.data["strings"].homepage.schema.image.buttons.production }}</a>
             </li>
             <li class="howitworks-data-content-item processing">
-               <span class="data-img">serveur zenbus
+               <span class="data-img">{{ site.data["strings"].homepage.schema.image.caption1 }}
                   <div class="data-dots-container">
                      <span class="data-dots"></span>
                   </div>
                </span>
-               <a class="data-link" href="#">Traitement</a>
+               <a class="data-link" href="#">{{ site.data["strings"].homepage.schema.image.buttons.processing }}</a>
             </li>
             <li class="howitworks-data-content-item">
                <div class="restitution">
@@ -102,15 +102,15 @@ lang: fr
                         <span class="data-dots"></span>
                      </div>
                   </span>
-                  <a class="data-link" href="{{ site.baseurl }}/zenbuslive/">Restitution</a>
+                  <a class="data-link" href="{{ site.baseurl }}/zenbuslive/">{{ site.data["strings"].homepage.schema.image.buttons.display }}</a>
                </div>
                <div class="opening">
-                  <span class="data-img">GTFS, GTFS-RT, SIRI...
+                  <span class="data-img">{{ site.data["strings"].homepage.schema.image.caption2 }}
                      <div class="data-dots-container">
                         <span class="data-dots"></span>
                      </div>
                   </span>
-                  <a class="data-link" href="{{ site.baseurl }}/zenbusapi/">Ouverture</a>
+                  <a class="data-link" href="{{ site.baseurl }}/zenbusapi/">{{ site.data["strings"].homepage.schema.image.buttons.opendata }}</a>
                </div>
             </li>
          </ul>
@@ -121,9 +121,9 @@ lang: fr
       <!-- SUPERVISION -->
       <div class="howitworks-supervision">
          <div class="howitworks-content">
-            <h3 class="howitworks-content-title">Supervision</h3>
-            <p class="howitworks-content-text">Voir vos véhicules et aider à la régulation</p>
-            <a class="howitworks-content-link" href="{{ site.baseurl }}/zenbuslive/">En savoir plus</a>
+            <h3 class="howitworks-content-title">{{ site.data["strings"].homepage.section.supervision.title }}</h3>
+            <p class="howitworks-content-text">{{ site.data["strings"].homepage.section.supervision.description }}</p>
+            <a class="howitworks-content-link" href="{{ site.baseurl }}/zenbuslive/">{{ site.data["strings"].homepage.section.button }}</a>
          </div>
          <div class="howitworks-screenshots">
             <img class="howitworks-screenshots-img" src="../assets/img/home/supervision_02.png" alt="Interface Supervision Zenbus">
@@ -133,9 +133,9 @@ lang: fr
       <!-- APP -->
       <div class="howitworks-passenger">
          <div class="howitworks-content">
-            <h3 class="howitworks-content-title">Information Voyageur</h3>
-            <p class="howitworks-content-text">Aider vos voyageurs à faire davantage confiance aux transports en commun</p>
-            <a class="howitworks-content-link" href="{{ site.baseurl }}/zenbuslive/">En savoir plus</a>
+            <h3 class="howitworks-content-title">{{ site.data["strings"].homepage.section.passenger.title }}</h3>
+            <p class="howitworks-content-text">{{ site.data["strings"].homepage.section.passenger.description }}</p>
+            <a class="howitworks-content-link" href="{{ site.baseurl }}/zenbuslive/">{{ site.data["strings"].homepage.section.button }}</a>
          </div>
          <div class="howitworks-screenshots">
             <img class="howitworks-screenshots-img" src="../assets/img/home/app_03.png" alt="Interface Application Voyageurs Zenbus">
@@ -147,9 +147,9 @@ lang: fr
       <!-- STATS -->
       <div class="howitworks-statistics">
          <div class="howitworks-content">
-            <h3 class="howitworks-content-title">Statistiques</h3>
-            <p class="howitworks-content-text">Analyser le respect de l’offre et aider à l’analyse des problèmes terrains</p>
-            <a class="howitworks-content-link" href="{{ site.baseurl }}/zenbusanalytics/">En savoir plus</a>
+            <h3 class="howitworks-content-title">{{ site.data["strings"].homepage.section.statistics.title }}</h3>
+            <p class="howitworks-content-text">{{ site.data["strings"].homepage.section.statistics.description }}</p>
+            <a class="howitworks-content-link" href="{{ site.baseurl }}/zenbusanalytics/">{{ site.data["strings"].homepage.section.button }}</a>
          </div>
          <div class="howitworks-screenshots">
              <img class="howitworks-screenshots-img" src="../assets/img/home/reporting_01.png" alt="Interface Statistiques Zenbus">
@@ -159,9 +159,9 @@ lang: fr
       <!-- DRIVER -->
       <div class="howitworks-driver">
          <div class="howitworks-content">
-            <h3 class="howitworks-content-title">App Conducteur</h3>
-            <p class="howitworks-content-text">Faciliter la vie de vos conducteurs avec les options avance / retard et comptage</p>
-            <a class="howitworks-content-link" href="{{ site.baseurl }}/zenbuscollect/">En savoir plus</a>
+            <h3 class="howitworks-content-title">{{ site.data["strings"].homepage.section.driver.title }}</h3>
+            <p class="howitworks-content-text">{{ site.data["strings"].homepage.section.driver.description }}</p>
+            <a class="howitworks-content-link" href="{{ site.baseurl }}/zenbuscollect/">{{ site.data["strings"].homepage.section.button }}</a>
          </div>
          <div class="howitworks-screenshots">
             <img class="howitworks-screenshots-img" src="../assets/img/home/provider_01.png" alt="Interface Application Conducteur Zenbus">
@@ -172,8 +172,8 @@ lang: fr
 
       <!-- MORE -->
       <div class="howitworks-more">
-         <h2 class="howitworks-title"> Intéressé ? Et si on travaillait ensemble ?</h2>
-         <a class="howitworks-content-link" href="{{ site.baseurl }}/contact/">Contactez-nous</a>
+         <h2 class="howitworks-title">{{ site.data["strings"].homepage.interested.label }}</h2>
+         <a class="howitworks-content-link" href="{{ site.baseurl }}/contact/">{{ site.data["strings"].homepage.interested.button }}</a>
       </div>
    </section>
     
