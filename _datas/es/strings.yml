@@ -410,7 +410,8 @@ company:
 
   recruit:
     title: "On recrute !"
-    description: "Zenbus s'est donné pour mission de transformer votre mobilité de demain, en vous proposant une solution simple afin de localiser les transports collectifs. <br>Constituée d'ingénieurs pointus, de développeurs experts & originaux, de commerciaux aguerris, de créatifs, de curieux, de musiciens, d'écrivains, de sportifs, de Suisses, de Belges, de Nantais, de Parisiens... Zenbus c'est avant tout une équipe dynamique et ambitieuse qui n'attend que vous : alors venez dès à présent consulter nos offres et rejoindre notre équipe !"
+    description1: "Zenbus s'est donné pour mission de transformer votre mobilité de demain, en vous proposant une solution simple afin de localiser les transports collectifs."
+    description2: "Constituée d'ingénieurs pointus, de développeurs experts & originaux, de commerciaux aguerris, de créatifs, de curieux, de musiciens, d'écrivains, de sportifs, de Suisses, de Belges, de Nantais, de Parisiens... Zenbus c'est avant tout une équipe dynamique et ambitieuse qui n'attend que vous : alors venez dès à présent consulter nos offres et rejoindre notre équipe !"
     technic:
       team_title: "Du côté des devs..."
       team_text: "Petite équipe, peer programming, décisions d'archi & produit prises par les devs à l'unanimité, zéro framework (sans réinventer la roue), pas de dette technique, pas de bullshit, pas de méthode magique, pas de presta, avant de faire du java (c'est pas d'la menthe à l'eau) on fait de l'algorithmie, pas de sysadmin (merci GAE). On touche un tantinet nos billes niveau scalabilité, concurrence, parallélisme & latences magiques sur des grille-pains virtualisés avec masse données. "

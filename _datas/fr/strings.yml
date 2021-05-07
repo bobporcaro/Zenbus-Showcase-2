@@ -289,7 +289,7 @@ products:
       iframe: "Iframe"
       biv: "BIV"
       supervision: "Supervision"
-      fleetmanagement: "Gestion de flotte"
+      fleetmanagement: "Diagnostic"
       driverhelp: "Aide au conducteur"
     app: 
       desc1: "Voir son bus en temps-réel !"
@@ -346,7 +346,7 @@ products:
     title: "Zenbus API"
     description1: "Pour l’ensemble de nos réseaux, des plus petits ou plus grands, nous produisons à date les formats d’APIs suivants :"
     description2: "GTFS,"
-    description3: "<a href='../files/Documentation - Zenbus - GTFS-RT.pdf' target='_blank'>GTFS-RT</a> dont nous implémentons les specs complètes  lorsque l’information existe de notre côté. Aujourd’hui ces APIs intègrent TripUpdate et VehiclePosition, et prochainement Alert,"
+    description3: "<a href='../files/Documentation - Zenbus - GTFS-RT.pdf' target='_blank'>GTFS-RT</a>, dont nous implémentons les specs complètes lorsque l’information existe de notre côté. Aujourd’hui ces APIs intègrent TripUpdate et VehiclePosition, et prochainement Alert,"
     description4: "SIRI Lite (et, via convertisseur, un SIRI mode Abo, profil IDF & France) avec l’ensemble des services essentiels : StopMonitoring, VehiculeMonitoring et LinesDiscovery. Nous avons enfin un format propriétaire, plus proche de notre format pivot interne."
     titles:
       alimbiv: "Alimentation BIV"
@@ -405,12 +405,11 @@ company:
     what_if: "Et si c'était toi ?"
     we_recruit: "On recrute !"
     description_job: "Envie de participer à l’aventure ? Découvrez les missions que nous proposons !"
-    job1: "1 chef de projet"
-    job2: "2 développeur"
 
   recruit:
     title: "On recrute !"
-    description: "Zenbus s'est donné pour mission de transformer votre mobilité de demain, en vous proposant une solution simple afin de localiser les transports collectifs. <br>Constituée d'ingénieurs pointus, de développeurs experts & originaux, de commerciaux aguerris, de créatifs, de curieux, de musiciens, d'écrivains, de sportifs, de Suisses, de Belges, de Nantais, de Parisiens... Zenbus c'est avant tout une équipe dynamique et ambitieuse qui n'attend que vous : alors venez dès à présent consulter nos offres et rejoindre notre équipe !"
+    description1: "Zenbus s'est donné pour mission de transformer votre mobilité de demain, en vous proposant une solution simple afin de localiser les transports collectifs."
+    description2: "Constituée d'ingénieurs pointus, de développeurs experts & originaux, de commerciaux aguerris, de créatifs, de curieux, de musiciens, d'écrivains, de sportifs, de Suisses, de Belges, de Nantais, de Parisiens... Zenbus c'est avant tout une équipe dynamique et ambitieuse qui n'attend que vous : alors venez dès à présent consulter nos offres et rejoindre notre équipe !"
     technic:
       team_title: "Du côté des devs..."
       team_text: "Petite équipe, peer programming, décisions d'archi & produit prises par les devs à l'unanimité, zéro framework (sans réinventer la roue), pas de dette technique, pas de bullshit, pas de méthode magique, pas de presta, avant de faire du java (c'est pas d'la menthe à l'eau) on fait de l'algorithmie, pas de sysadmin (merci GAE). On touche un tantinet nos billes niveau scalabilité, concurrence, parallélisme & latences magiques sur des grille-pains virtualisés avec masse données. "
