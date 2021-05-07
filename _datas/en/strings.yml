@@ -185,7 +185,7 @@ needs:
 
   attractiveness:
     title: "Passenger Information: Attract more passengers"
-    description1: Public transit is experiencing an unprecedented drop in ridership. When asked <a href='https://www.lefigaro.fr/actualite-france/comment-la-crise-du-covid-a-bouleverse-l-usage-des-transports-en-commun-20210128' target='_blank'> "What would encourage you to use public transit more?"</a>, , Ile-de-France residents answered as follows:"
+    description1: Public transit is experiencing an unprecedented drop in ridership. When asked <a href='https://www.lefigaro.fr/actualite-france/comment-la-crise-du-covid-a-bouleverse-l-usage-des-transports-en-commun-20210128' target='_blank'> 'What would encourage you to use public transit more?'</a>, Ile-de-France residents answered as follows:"
     description2: "You can improve ridership and modal shift!"
     description3: "This has been our mission for 10 years: here are our solutions for your network!"
     graphs:
@@ -367,7 +367,7 @@ usecases:
     title: "Interconnections"
     description1: "Zenbus is designed to be interconnected."
     description2: "When it comes to <a href='#production'>“data production”</a>, Zenbus can accept data feeds from third party systems, via ZenbusConnect."
-    description3: "SWhen it comes to <a href='#diffusion'>“data diffusion”</a>, Zenbus data can be re-used via standard APIs."
+    description3: "When it comes to <a href='#diffusion'>“data diffusion”</a>, Zenbus data can be re-used via standard APIs."
     titles:
       production: "Data production - Zenbusconnect"
       diffusion: "Data diffusion - ZenbusAPI"
@@ -400,7 +400,7 @@ company:
       text: "Lionel graduated from École Polytechnique in 2000. He is a high-level physicist, mathematician, and computer scientist who has worked as an IS architect at Altran. He has also patented an invention in the field of data processing."
 
   team:
-    title: "L'équipe"
+    title: "Team"
     description: "The Zenbus Team is made up of advanced engineers, extreme developers, seasoned salespeople, creative people, curious people, psycho-enthusiasts, disordered people, musicians, writers, sportsmen, Swiss, Belgians, Nantais, Parisians, ... but it is above all a dynamic and ambitious team that seeks to revolutionize mobility."
     what_if: "Why not you?"
     we_recruit: "We are hiring!"
@@ -412,7 +412,7 @@ company:
     description2: "Our people are a diverse group of specialized engineers, expert & innovative developers, experienced sales reps, creatives, makers, musicians, writers, athletes, hailing from Switzerland, Belgium, Nantes and Paris. Check out our job offers and join our dynamic and ambitious team!"
     technic:
       team_title: "Developer jobs"
-      team_text: "Small team, peer programming, architecture & product decisions taken by the developers unanimously, zero framework (but we don’t reinvent the wheel), no technical debt, no bullshit, no magic method, before writing java we write algorithms, no sysadmin (thanks GAE). We play around with scalability, concurrency, parallelism & magic latencies on virtualized machines with mass data. Here are our job offers: Java developer (Paris). Send us your application!"
+      team_text: "Small team, peer programming, architecture & product decisions taken by the developers unanimously, zero framework (but we don’t reinvent the wheel), no technical debt, no bullshit, no magic method, before writing java we write algorithms, no sysadmin (thanks GAE). We play around with scalability, concurrency, parallelism & magic latencies on virtualized machines with mass data."
     sales:
       team_title: "Du côté des bizdev..."
       team_text: "Tu es déterminé(e), sensible à la qualité de la relation client, autonome et tourné(e) vers l'action ? Nous t'attendons ! "

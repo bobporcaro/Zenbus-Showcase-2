@@ -185,7 +185,7 @@ needs:
 
   attractiveness:
     title: "Attractivité : information voyageurs"
-    description1: Les transports collectifs font face à une désaffection sans précédent….À la question<a href='https://www.lefigaro.fr/actualite-france/comment-la-crise-du-covid-a-bouleverse-l-usage-des-transports-en-commun-20210128' target='_blank'> "Qu’est-ce qui vous inciterait à utiliser davantage les transports en commun ?"</a>, les réponses des Franciliens sont les suivantes :"
+    description1: Les transports collectifs font face à une désaffection sans précédent….À la question<a href='https://www.lefigaro.fr/actualite-france/comment-la-crise-du-covid-a-bouleverse-l-usage-des-transports-en-commun-20210128' target='_blank'> 'Qu’est-ce qui vous inciterait à utiliser davantage les transports en commun ?'</a>, les réponses des Franciliens sont les suivantes :"
     description2: "Vous pouvez améliorer la fréquentation et le report modal !"
     description3: "C’est notre mission depuis 10 ans : voici nos recettes pour votre réseau !"
     graphs:
