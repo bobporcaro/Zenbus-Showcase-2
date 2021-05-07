@@ -104,12 +104,17 @@
 			</li>
 
 			<!-- LANG -->
-			<li class="panel-menu-item lang">
-				<a href="" class="lang-button">FR</a>
-				<a href="" class="lang-button">EN</a>
-				<a href="" class="lang-button">ES</a>
-			</li>
-
+			{% for lang in site.languages %}
+				{% if lang == site.active_lang %}
+					<a class="lang-button active">{{ lang }}</a>
+				{% else %}
+					{% if lang == site.default_lang %}
+						<a href=" {{ page.url }}" class="lang-button">{{ lang }}</a>
+					{% else %}
+						<a href="/{{ lang }}{{ page.url }}" class="lang-button">{{ lang }}</a>
+					{% endif %}
+				{% endif %}
+			{% endfor %}
 		</ul>
 	</nav>
 </header>
