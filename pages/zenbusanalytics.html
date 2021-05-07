@@ -7,23 +7,21 @@ permalink: /zenbusanalytics/
 <section class="content-container zenbusanalytics">
 
 	<div class="header-tile">
-		<h2 class="header-tile-title">Zenbus Analytics</h1>
+		<h2 class="header-tile-title">{{ site.data["strings"].products.analytics.title }}</h1>
 		<p class="header-tile-text">
-			Zenbus produit, retraite, structure et stocke un nombre très important de données “transport”. 
-			En lien avec les voyageurs, Zenbus dispose également de données intéressantes liées à la fréquentation et à l’utilisation de ses interfaces.
-			Plusieurs modules permettent d’accéder à ces données et à ces statistiques et de réaliser des analyses variées.
+			{{ site.data["strings"].products.analytics.description }}
 		</p>
 		<nav class="header-tile-nav">
 			<!-- Operator -->
-			<a class="header-tile-nav-icon icon-reporting" href="#reporting">Reporting</a>
-			<a class="header-tile-nav-icon icon-punctuality" href="#punctuality">Ponctualité</a>
-			<a class="header-tile-nav-icon icon-traveltime" href="#traveltime">Temps de parcours</a>
-			<a class="header-tile-nav-icon icon-kilometers" href="#kilometers">Kilomètres parcourus</a>
-			<a class="header-tile-nav-icon icon-dailystoptimes" href="#dailystoptimes">Offre réalisée</a>
+			<a class="header-tile-nav-icon icon-reporting" href="#reporting">{{ site.data["strings"].products.analytics.titles.reporting }}</a>
+			<a class="header-tile-nav-icon icon-punctuality" href="#punctuality">{{ site.data["strings"].products.analytics.titles.punctuality }}</a>
+			<a class="header-tile-nav-icon icon-traveltime" href="#traveltime">{{ site.data["strings"].products.analytics.titles.traveltime }}</a>
+			<a class="header-tile-nav-icon icon-kilometers" href="#kilometers">{{ site.data["strings"].products.analytics.titles.kilometers }}</a>
+			<a class="header-tile-nav-icon icon-dailystoptimes" href="#dailystoptimes">{{ site.data["strings"].products.analytics.titles.dailystoptimes }}</a>
 			<!-- Passenger -->
-			<a class="header-tile-nav-icon icon-uses" href="#uses">Usages</a>
-			<a class="header-tile-nav-icon icon-survey" href="#survey">Enquête</a>
-			<a class="header-tile-nav-icon icon-counting" href="#counting">Comptage</a>
+			<a class="header-tile-nav-icon icon-uses" href="#uses">{{ site.data["strings"].products.analytics.titles.uses }}</a>
+			<a class="header-tile-nav-icon icon-survey" href="#survey">{{ site.data["strings"].products.analytics.titles.survey }}</a>
+			<a class="header-tile-nav-icon icon-counting" href="#counting">{{ site.data["strings"].products.analytics.titles.counting }}</a>
 		</nav>
 	</div>
 
@@ -35,14 +33,14 @@ permalink: /zenbusanalytics/
 	<div id="reporting" class="products-content-product reporting">
 		<div class="products-content-product-description">
 			<div class="product-description-header">
-				<h4 class="product-description-header-title">Reporting</h4>
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.analytics.titles.reporting }}</h4>
 				<span class="product-description-header-icon"></span>
 			</div>
 			<p class="product-description-text">
-				Cette interface permet, en sélectionnant une période et tout ou partie de son réseau, d’avoir une synthèse instantanée des courses réalisées vs courses théoriques, de la ponctualité aux arrêts et des kilomètres parcourus. Ces informations exportables au format .csv et accessibles sans limite de durée, permettent notamment d’établir facilement un reporting mensuel.
+				{{ site.data["strings"].products.analytics.reporting.desc1 }}
 			</p>
 			<div class="product-description-links">
-				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">{{ site.data["strings"].products.contact }}</a>
 			</div>
 		</div>
 		<div class="products-content-product-screenshots">
@@ -55,14 +53,14 @@ permalink: /zenbusanalytics/
 	<div id="punctuality" class="products-content-product punctuality">
 		<div class="products-content-product-description">
 			<div class="product-description-header">
-				<h4 class="product-description-header-title">Ponctualité</h4>
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.analytics.titles.punctuality }}</h4>
 				<span class="product-description-header-icon"></span>
 			</div>
 			<p class="product-description-text">
-				Cette interface permet d’étudier finement la ponctualité par arrêt ou par ligne sur une période sélectionnée. 
+				{{ site.data["strings"].products.analytics.punctuality.desc1 }}
 			</p>
 			<div class="product-description-links">
-				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">{{ site.data["strings"].products.contact }}</a>
 			</div>
 		</div>
 		<div class="products-content-product-screenshots">
@@ -75,14 +73,14 @@ permalink: /zenbusanalytics/
 	<div id="traveltime" class="products-content-product traveltime">
 		<div class="products-content-product-description">
 			<div class="product-description-header">
-				<h4 class="product-description-header-title">Temps de parcours</h4>
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.analytics.titles.traveltime }}</h4>
 				<span class="product-description-header-icon"></span>
 			</div>
 			<p class="product-description-text">
-				Cette interface permet l’affichage des temps de parcours pour un même itinéraire sur une période sélectionnée, incluant l’affichage de la médiane, du delta théorique/constaté, ainsi qu’un lien direct de chaque point du graphe vers le rejeu de la course en question. 
+				{{ site.data["strings"].products.analytics.traveltime.desc1 }}
 			</p>
 			<div class="product-description-links">
-				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">{{ site.data["strings"].products.contact }}</a>
 			</div>
 		</div>
 		<div class="products-content-product-screenshots">
@@ -95,14 +93,14 @@ permalink: /zenbusanalytics/
 	<div id="kilometers" class="products-content-product kilometers">
 		<div class="products-content-product-description">
 			<div class="product-description-header">
-				<h4 class="product-description-header-title">Kilomètres parcourus</h4>
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.analytics.titles.kilometers }}</h4>
 				<span class="product-description-header-icon"></span>
 			</div>
 			<p class="product-description-text">
-				Cette interface permet l’affichage par ligne, par véhicule, pour une période sélectionnée des kilomètres réalisés (commerciaux et HLP) ainsi que des vitesses moyennes et inter-arrêts.
+				{{ site.data["strings"].products.analytics.kilometers.desc1 }}
 			</p>
 			<div class="product-description-links">
-				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">{{ site.data["strings"].products.contact }}</a>
 			</div>
 		</div>
 		<div class="products-content-product-screenshots">
@@ -115,14 +113,14 @@ permalink: /zenbusanalytics/
 	<div id="dailystoptimes" class="products-content-product dailystoptimes">
 		<div class="products-content-product-description">
 			<div class="product-description-header">
-				<h4 class="product-description-header-title">Offre réalisée</h4>
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.analytics.titles.dailystoptimes }}</h4>
 				<span class="product-description-header-icon"></span>
 			</div>
 			<p class="product-description-text">
-				Cette interface permet de connaître par ligne, par course et par véhicule, les heures de passages à la seconde, le delta avec le théorique, et de disposer d’une capacité de rejeu précis.
+				{{ site.data["strings"].products.analytics.dailystoptimes.desc1 }}
 			</p>
 			<div class="product-description-links">
-				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">{{ site.data["strings"].products.contact }}</a>
 			</div>
 		</div>
 		<div class="products-content-product-screenshots">
@@ -135,14 +133,14 @@ permalink: /zenbusanalytics/
 	<div id="uses" class="products-content-product uses">
 		<div class="products-content-product-description">
 			<div class="product-description-header">
-				<h4 class="product-description-header-title">Usages</h4>
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.analytics.titles.uses }}</h4>
 				<span class="product-description-header-icon"></span>
 			</div>
 			<p class="product-description-text">
-				Zenbus met à disposition des rapports d’usage mensuel de l’application et de l’iframe Zenbus, avec une version synthétique (nombre d’utilisateurs, nombre de sessions) et  une version détaillée (lignes et arrêts utilisées, lignes et arrêts mis en favoris, origine géographique de l'utilisateur).
+				{{ site.data["strings"].products.analytics.uses.desc1 }}
 			</p>
 			<div class="product-description-links">
-				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">{{ site.data["strings"].products.contact }}</a>
 			</div>
 		</div>
 		<div class="products-content-product-screenshots">
@@ -155,14 +153,14 @@ permalink: /zenbusanalytics/
 	<div id="survey" class="products-content-product survey">
 		<div class="products-content-product-description">
 			<div class="product-description-header">
-				<h4 class="product-description-header-title">Enquête</h4>
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.analytics.titles.survey }}</h4>
 				<span class="product-description-header-icon"></span>
 			</div>
 			<p class="product-description-text">
-				Zenbus propose de passer des sondages auprès des usagers afin de recueillir leur avis sur leur réseau de transport ou sur la mobilité en général, par l'intermédiaire de la messagerie Zenbus (application et web).
+				{{ site.data["strings"].products.analytics.survey.desc1 }}
 			</p>
 			<div class="product-description-links">
-				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">{{ site.data["strings"].products.contact }}</a>
 			</div>
 		</div>
 		<div class="products-content-product-screenshots slider">
@@ -184,14 +182,14 @@ permalink: /zenbusanalytics/
 	<div id="counting" class="products-content-product counting">
 		<div class="products-content-product-description">
 			<div class="product-description-header">
-				<h4 class="product-description-header-title">Comptage</h4>
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.analytics.titles.counting }}</h4>
 				<span class="product-description-header-icon"></span>
 			</div>
 			<p class="product-description-text">
-				Une fonction comptage accessible directement sur le terminal du conducteur dans Zenbus Driver permet de recueillir les données de montées-descentes de voyageurs par lignes, arrêts et date.
+				{{ site.data["strings"].products.analytics.counting.desc1 }}
 			</p>
 			<div class="product-description-links">
-				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">{{ site.data["strings"].products.contact }}</a>
 			</div>
 		</div>
 		<div class="products-content-product-screenshots">

@@ -7,15 +7,14 @@ permalink: /zenbuscollect/
 <section class="content-container zenbuscollect">
 
 	<div class="header-tile">
-		<h1 class="header-tile-title">Zenbus Collect</h1>
+		<h1 class="header-tile-title">{{ site.data["strings"].products.collect.title }}</h1>
 		<p class="header-tile-text">
-			Zenbus s’appuie sur des données temps-réel qu’elle maîtrise à la source, dans les véhicules de transport collectif.
-			Ces données peuvent être issues de l’une des sources suivantes :
+			{{ site.data["strings"].products.collect.description }}
 		</p>
 		<nav class="header-tile-nav">
-			<a class="header-tile-nav-icon icon-driver" href="#driver">Zenbus Driver</a>
-			<a class="header-tile-nav-icon icon-box" href="#box">Zenbus Box</a>
-			<a class="header-tile-nav-icon icon-connect" href="#connect">Zenbus Connect</a>
+			<a class="header-tile-nav-icon icon-driver" href="#driver">{{ site.data["strings"].products.collect.titles.driver }}</a>
+			<a class="header-tile-nav-icon icon-box" href="#box">{{ site.data["strings"].products.collect.titles.box }}</a>
+			<a class="header-tile-nav-icon icon-connect" href="#connect">{{ site.data["strings"].products.collect.titles.connect }}</a>
 		</nav>
 	</div>
 
@@ -23,15 +22,15 @@ permalink: /zenbuscollect/
 	<div id="driver" class="products-content-product driver">
 		<div class="products-content-product-description">
 			<div class="product-description-header">
-				<h4 class="product-description-header-title">App Conducteur</h4>
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.collect.driver.title }}</h4>
 				<span class="product-description-header-icon"></span>
 			</div>
 			<p class="product-description-text">
-				Zenbus Driver est une application android destinée aux conducteurs de transport collectif, très simple à prendre en main et non intrusive.
+				{{ site.data["strings"].products.collect.driver.desc1 }}
 				<span class="separator"></span>
-				Juste quelques clics à la prise de service et c’est parti : les données temps-réel sont produites, retraitées à la volée et alimentent l’ensemble de nos interfaces.
+				{{ site.data["strings"].products.collect.driver.desc2 }}
 				<span class="separator"></span>
-				Zenbus Driver est compatible avec tous types de terminaux android, smartphones et tablettes.
+				{{ site.data["strings"].products.collect.driver.desc3 }}
 			</p>
 			<div class="product-description-links">
 				<a href="https://play.google.com/store/apps/details?id=com.byjoul.code.zenbus.tracking.android&hl=fr&gl=US" target="_blank" class="download-link playstore"></a>
@@ -46,14 +45,14 @@ permalink: /zenbuscollect/
 	<div id="box" class="products-content-product box">
 		<div class="products-content-product-description">
 			<div class="product-description-header">
-				<h4 class="product-description-header-title">Zenbus Box</h4>
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.collect.titles.box }}</h4>
 				<span class="product-description-header-icon"></span>
 			</div>
 			<p class="product-description-text">
-				La Zenbus Box est un boîtier GPS connecté, raccordé à l’alimentation du véhicule, qui se charge de transmettre notamment des positions du véhicule en temps-réel. Il peut également se connecter à d’autres ports (bus CAN, FMS,...) et alors transmettre bien d’autres informations, telles que le taux d’occupation, des données métiers ou des données véhicules.
+				{{ site.data["strings"].products.collect.box.desc1 }}
 			</p>
 			<div class="product-description-links">
-				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">{{ site.data["strings"].products.contact }}</a>
 			</div>
 		</div>
 		<div class="products-content-product-screenshots">
@@ -65,18 +64,18 @@ permalink: /zenbuscollect/
 	<div id="connect" class="products-content-product connect">
 		<div class="products-content-product-description">
 			<div class="product-description-header">
-				<h4 class="product-description-header-title">Zenbus Connect</h4>
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.collect.titles.connect }}</h4>
 				<span class="product-description-header-icon"></span>
 			</div>
 			<p class="product-description-text">
-				Zenbus Connect regroupe l’ensemble des systèmes tiers capables d’alimenter Zenbus avec leurs propres données temps-réel.
+				{{ site.data["strings"].products.collect.connect.desc1 }}
 				<span class="separator"></span>
-				Il peut s’agir de systèmes variés (billettique, SIV, WIFI, boîtiers de diagnostic, capteurs,...) ayant en commun d’avoir, a minima, une carte sim et un module GPS embarqués.
+				{{ site.data["strings"].products.collect.connect.desc2 }}
 				<span class="separator"></span>
-				Ces systèmes alimentent Zenbus au travers d’une API qui leur permet de remonter des informations multiples, au delà de la géolocalisation, telles que l’identité du conducteur, le nom de la ligne, le nom de la course ou le taux d’occupation.
+				{{ site.data["strings"].products.collect.connect.desc3 }}
 			</p>
 			<div class="product-description-links">
-				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">{{ site.data["strings"].products.contact }}</a>
 			</div>
 		</div>
 		<div class="products-content-product-screenshots">

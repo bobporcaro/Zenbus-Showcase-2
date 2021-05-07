@@ -7,21 +7,22 @@ permalink: /zenbuslive/
 <section class="content-container products zenbuslive">
 
 	<div class="header-tile">
-		<h1 class="header-tile-title">Zenbus Live</h1>
+		<h1 class="header-tile-title">{{ site.data["strings"].products.live.title }}</h1>
 		<p class="header-tile-text">
-			ZenbusLive regroupe l’ensemble des interfaces Zenbus permettant de visualiser des informations temps-réel.<br>
-			Ces IHM sont principalement destinées à l’information voyageur et aux opérations. Certaines sont publiques, certaines sont liées à des droits d’accès.
+			{{ site.data["strings"].products.live.description1 }}
+			<span class="separator"></span>
+			{{ site.data["strings"].products.live.description2 }}
 		</p>
 		<nav class="header-tile-nav">
 			<!-- Passengers -->
-			<a class="header-tile-nav-icon icon-app" href="#app">Application Voyageurs</a>
-			<a class="header-tile-nav-icon icon-web" href="#web">Web Voyageurs</a>
-			<a class="header-tile-nav-icon icon-iframe" href="#iframe">Iframe</a>
-			<a class="header-tile-nav-icon icon-biv" href="#biv">BIV</a>
+			<a class="header-tile-nav-icon icon-app" href="#app">{{ site.data["strings"].products.live.titles.app }}</a>
+			<a class="header-tile-nav-icon icon-web" href="#web">{{ site.data["strings"].products.live.titles.web }}</a>
+			<a class="header-tile-nav-icon icon-iframe" href="#iframe">{{ site.data["strings"].products.live.titles.iframe }}</a>
+			<a class="header-tile-nav-icon icon-biv" href="#biv">{{ site.data["strings"].products.live.titles.biv }}</a>
 			<!-- Operators -->
-			<a class="header-tile-nav-icon icon-supervision" href="#supervision">Supervision</a>
-			<a class="header-tile-nav-icon icon-fleetmanagement" href="#fleetmanagement">Gestion de flotte</a>
-			<a class="header-tile-nav-icon icon-driverhelp" href="#driverhelp">Aide au conducteur</a>
+			<a class="header-tile-nav-icon icon-supervision" href="#supervision">{{ site.data["strings"].products.live.titles.supervision }}</a>
+			<a class="header-tile-nav-icon icon-fleetmanagement" href="#fleetmanagement">{{ site.data["strings"].products.live.titles.fleetmanagement }}</a>
+			<a class="header-tile-nav-icon icon-driverhelp" href="#driverhelp">{{ site.data["strings"].products.live.titles.driverhelp }}</a>
 		</nav>
 	</div>
 
@@ -31,13 +32,15 @@ permalink: /zenbuslive/
 	<div id="app" class="products-content-product app">
 		<div class="products-content-product-description">
 			<div class="product-description-header">
-				<h4 class="product-description-header-title">Application Voyageurs</h4>
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.live.titles.app }}</h4>
 				<span class="product-description-header-icon"></span>
 			</div>
 			<p class="product-description-text">
-				Voir son bus en temps-réel !<br>
-				L’app Zenbus iOS/android permet aux voyageurs d’accéder à tout moment à des informations fiables sur leur réseau de transport collectif. Le voyageur peut se géolocaliser sur une carte précise et voir en temps-réel la position des véhicules et les heures estimées de passage continuellement mises à jour.<br>
-				Une messagerie permet à l’usager de recevoir également des messages postés par l’Autorité Organisatrice, par l’exploitant ou par Zenbus afin de l’informer ou de recueillir son avis.
+				{{ site.data["strings"].products.live.app.desc1 }}
+				<span class="separator"></span>
+				{{ site.data["strings"].products.live.app.desc2 }}
+				<span class="separator"></span>
+				{{ site.data["strings"].products.live.app.desc3 }}
 			</p>
 			<div class="product-description-links">
 				<a href="https://itunes.apple.com/fr/app/zenbus/id808231328" target="_blank" class="download-link appstore"></a>
@@ -56,15 +59,14 @@ permalink: /zenbuslive/
 	<div id="web" class="products-content-product web">
 		<div class="products-content-product-description">
 			<div class="product-description-header">
-				<h4 class="product-description-header-title">Web Voyageurs</h4>
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.live.titles.web }}</h4>
 				<span class="product-description-header-icon"></span>
 			</div>
 			<p class="product-description-text">
-				La visualisation cartographique et temps-réel des bus à destination du grand-public est également accessible sur navigateurs web en responsive, de telle sorte que la carte Zenbus d’un réseau peut être consultée sur tout terminal connecté : ordinateur, tablette ou smartphone.
+				{{ site.data["strings"].products.live.web.desc1 }}
 			</p>
 			<div class="product-description-links">
-				<a href="https://zenbus.net/reseau-tam" target="_blank" class="product-description-links-exemple">Focus sur le réseau TAM</a>
-			</div>
+				<a href="https://zenbus.net/reseau-tam" target="_blank" class="product-description-links-exemple">{{ site.data["strings"].products.live.web.link }}
 		</div>
 		<div class="products-content-product-screenshots">
 			<img src="../assets/img/products/web_01.png" class="product-screenshots-img" alt="Site Web Zenbus Voyageurs">
@@ -75,14 +77,14 @@ permalink: /zenbuslive/
 	<div id="iframe" class="products-content-product iframe">
 		<div class="products-content-product-description">
 			<div class="product-description-header">
-				<h4 class="product-description-header-title">Iframe</h4>
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.live.titles.iframe }}</h4>
 				<span class="product-description-header-icon"></span>
 			</div>
 			<p class="product-description-text">
-				L’iframe permet d’intégrer simplement la carte Zenbus dans un site internet (en vue smartphone ou web). C’est également une possibilité d’intégration de Zenbus dans une application tierce.
+				{{ site.data["strings"].products.live.iframe.desc1 }}
 			</p>
 			<div class="product-description-links">
-				<a href="http://www.ville-mayenne.fr/#zenbus" target="_blank" class="product-description-links-exemple">Focus sur la ville de Mayenne</a>
+				<a href="http://www.ville-mayenne.fr/#zenbus" target="_blank" class="product-description-links-exemple">{{ site.data["strings"].products.live.iframe.link }}</a>
 			</div>
 		</div>
 		<div class="products-content-product-screenshots">
@@ -95,14 +97,14 @@ permalink: /zenbuslive/
 	<div id="biv" class="products-content-product biv">
 		<div class="products-content-product-description">
 			<div class="product-description-header">
-				<h4 class="product-description-header-title">BIV</h4>
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.live.titles.biv }}</h4>
 				<span class="product-description-header-icon"></span>
 			</div>
 			<p class="product-description-text">
-				Zenbus permet la diffusion de l’information Zenbus sur des écrans TFT disposant d’un navigateur internet. Une vue contextualisable (par arrêt mono ou multilignes) permet d’accéder simplement à une carte des bus à l’approche et aux horaires de prochains passages. Plus généralement, Zenbus peut alimenter tout type de BIV grâce à des APIs normalisées.
+				{{ site.data["strings"].products.live.biv.desc1 }}
 			</p>
 			<div class="product-description-links">
-				<a href="http://zenbusapi.zoomzoomzenlive.appspot.com/biv/5646620347596800" target="_blank" class="product-description-links-exemple">Focus sur la ville d'Alès</a>
+				<a href="http://zenbusapi.zoomzoomzenlive.appspot.com/biv/5646620347596800" target="_blank" class="product-description-links-exemple">{{ site.data["strings"].products.live.biv.link }}</a>
 			</div>
 		</div>
 		<div class="products-content-product-screenshots">
@@ -116,16 +118,18 @@ permalink: /zenbuslive/
 	<div id="supervision" class="products-content-product supervision">
 		<div class="products-content-product-description">
 			<div class="product-description-header">
-				<h4 class="product-description-header-title">Supervision</h4>
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.live.titles.supervision }}</h4>
 				<span class="product-description-header-icon"></span>
 			</div>
 			<p class="product-description-text">
-				La Supervision Zenbus est une interface d’Aide à l’Exploitation qui diffuse des informations et des alertes multiples et précises sur l’exploitation en cours d’un réseau de transport collectif.<br>
-				Accessible sur tout écran connecté via identifiant et mot de passe, elle permet à la fois d’avoir une vision générale de l’offre réalisée et du reste à faire, tout en offrant des informations très précises sur un véhicule ou une ligne, telles que la ponctualité par arrêt d’une course en cours, ou l’écart entre deux véhicules.<br>
-				Des alertes multiples et paramétrables ainsi qu’un accès à l’intégralité des heures de passage de la journée complètent cette console.
+				{{ site.data["strings"].products.live.supervision.desc1 }}
+				<span class="separator"></span>
+				{{ site.data["strings"].products.live.supervision.desc2 }}
+				<span class="separator"></span>
+				{{ site.data["strings"].products.live.supervision.desc3 }}
 			</p>
 			<div class="product-description-links">
-				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">{{ site.data["strings"].products.contact }}</a>
 			</div>
 		</div>
 		<div class="products-content-product-screenshots slider">
@@ -150,15 +154,14 @@ permalink: /zenbuslive/
 	<div id="fleetmanagement" class="products-content-product fleetmanagement">
 		<div class="products-content-product-description">
 			<div class="product-description-header">
-				<h4 class="product-description-header-title">Diagnostic</h4>
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.live.titles.fleetmanagement }}</h4>
 				<span class="product-description-header-icon"></span>
 			</div>
 			<p class="product-description-text">
-				L’interface de gestion de flotte a vocation à aider l’exploitant sur la gestion de ses véhicules et des équipements embarqués en charge de la production de donnée.
-				Elle offre de nombreuses capacités de visualisation de la flotte, de rejeu, d’analyses et de filtres liés notamment à la géolocalisation et à la qualité du réseau telecom  et GPS.
+				{{ site.data["strings"].products.live.fleetmanagement.desc1 }}
 			</p>
 			<div class="product-description-links">
-				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">{{ site.data["strings"].products.contact }}</a>
 			</div>
 		</div>
 		<div class="products-content-product-screenshots">
@@ -170,14 +173,14 @@ permalink: /zenbuslive/
 	<div id="driverhelp" class="products-content-product driverhelp">
 		<div class="products-content-product-description">
 			<div class="product-description-header">
-				<h4 class="product-description-header-title">Aide au conducteur</h4>
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.live.titles.driverhelp }}</h4>
 				<span class="product-description-header-icon"></span>
 			</div>
 			<p class="product-description-text">
-				L’application Zenbus Driver installée sur des tablettes permet aux conducteurs de visualiser facilement, à travers un thermomètre de ligne, l’avance/retard. Le conducteur peut également consulter les horaires de passage théoriques de la course en cours. Des paramètres donnent la possibilité de lancer l’application au démarrage de l’appareil et de garder l’écran allumé pendant la course.
+				{{ site.data["strings"].products.live.driverhelp.desc1 }}
 			</p>
 			<div class="product-description-links">
-				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">Contactez-nous</a>
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">{{ site.data["strings"].products.contact }}</a>
 			</div>
 		</div>
 		<div class="products-content-product-screenshots">

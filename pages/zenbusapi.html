@@ -7,29 +7,26 @@ permalink: /zenbusapi/
 <section class="content-container zenbusapi">
 
 	<div class="header-tile">
-		<h1 class="header-tile-title">Zenbus API</h1>
+		<h1 class="header-tile-title">{{ site.data["strings"].products.api.title }}</h1>
 		<p class="header-tile-text">
-			Pour l’ensemble de nos réseaux, des plus petits ou plus grands, nous produisons à date les formats d’APIs suivants :
+			{{ site.data["strings"].products.api.description1 }}
 			<span class="separator"></span>
-
-			GTFS,
+			{{ site.data["strings"].products.api.description2 }}
 			<span class="separator"></span>
-
-			<a href="../files/Documentation - Zenbus - GTFS-RT.pdf" target="_blank">GTFS-RT</a> dont nous implémentons les specs complètes  lorsque l’information existe de notre côté. Aujourd’hui ces APIs intègrent TripUpdate et VehiclePosition, et prochainement Alert,
-			<span class="separator"></span>
-			
-			SIRI Lite (et, via convertisseur, un SIRI mode Abo, profil IDF & France) avec l’ensemble des services essentiels : StopMonitoring, VehiculeMonitoring et LinesDiscovery. Nous avons enfin un format propriétaire, plus proche de notre format pivot interne.
+			{{ site.data["strings"].products.api.description3 }}
+			<span class="separator"></span>		
+			{{ site.data["strings"].products.api.description4 }}
 		</p>
 		<nav class="header-tile-nav">
-			<a class="header-tile-nav-icon icon-biv" href="#alimbiv">Alimentation BIV</a>
-			<a class="header-tile-nav-icon icon-web" href="#pan">Publication PAN</a>
-			<a class="header-tile-nav-icon icon-tiers" href="#tiers">Alimentation Systèmes Tiers</a>
+			<a class="header-tile-nav-icon icon-biv" href="#alimbiv">{{ site.data["strings"].products.api.titles.alimbiv }}</a>
+			<a class="header-tile-nav-icon icon-web" href="#pan">{{ site.data["strings"].products.api.titles.pan }}</a>
+			<a class="header-tile-nav-icon icon-tiers" href="#tiers">{{ site.data["strings"].products.api.titles.tiers }}</a>
 		</nav>
 	</div>
 
 	<!-- BIV -->
 	<section id="alimbiv" class="content-section alimbiv">
-		<h3 class="content-section-title">Alimentation BIV</h3>
+		<h3 class="content-section-title">{{ site.data["strings"].products.api.titles.alimbiv }}</h3>
 		<ul class="content-section-list">
 			<li class="content-section-list-item lumiplan"><a href="https://www.lumiplan.com/" target="_blank"></a></li>
 			<li class="content-section-list-item papercast"><a href="https://www.papercast.com/" target="_blank"></a></li>
@@ -39,28 +36,28 @@ permalink: /zenbusapi/
 
 	<!-- PAN -->
 	<section id="pan" class="content-section maas">
-		<h3 class="content-section-title">Publication Point d’Accès National</h3>
+		<h3 class="content-section-title">{{ site.data["strings"].products.api.titles.pan }}</h3>
 		<p class="content-section-text">
 			<a href="https://transport.data.gouv.fr/" target="_blank">
 				<img class="content-section-text-img" src="../assets/img/needs/pan.png" alt="Plan d'accès national">
 			</a>
 			<span class="separator"></span>
-			Pour en savoir plus, consultez notre page sur <a href="{{ site.baseurl }}/regulation/">la mise en conformité</a>.
+			{{ site.data["strings"].products.api.pan.desc1 }}
 		</p>
 	</section>
 
 	<!-- TIERS -->
 	<section id="tiers" class="content-section tiers">
-		<h3 class="content-section-title">Alimentation systèmes tiers</h3>
+		<h3 class="content-section-title">{{ site.data["strings"].products.api.titles.tiers }}</h3>
 		<ul class="content-section-list">
-			<li class="content-section-list-title">Applications multimodales</li>
+			<li class="content-section-list-title">{{ site.data["strings"].partners.type3 }}</li>
 			<li class="content-section-list-item googlemaps"><a href="https://www.google.fr/maps" target="_blank"></a></li>
 			<li class="content-section-list-item kisio"><a href="https://kisio.com/" target="_blank"></a></li>
 			<li class="content-section-list-item instantsystem"><a href="https://instant-system.com/" target="_blank"></a></li>
 			<li class="content-section-list-item mybus"><a href="https://www.mybus.io/" target="_blank"></a></li>
 			<li class="content-section-list-item cityway"><a href="https://www.cityway.fr/" target="_blank"></a></li>
 
-			<li class="content-section-list-title">Applications ville</li>
+			<li class="content-section-list-title">{{ site.data["strings"].partners.type3 }}</li>
 			<li class="content-section-list-item lumiplan"><a href="https://www.lumiplan.com/" target="_blank"></a></li>
 			<li class="content-section-list-item neocity"><a href="https://neocity.fr/" target="_blank"></a></li>
 			<li class="content-section-list-item useradgents"><a href="https://www.useradgents.com/" target="_blank"></a></li>
@@ -70,8 +67,9 @@ permalink: /zenbusapi/
 	<!-- OTHER -->
 	<section id="other" class="content-section other">
 		<p class="content-section-text">
-			Plus généralement, depuis le début de l’aventure, Zenbus s’est inscrit dans une logique d’ouverture de la donnée, convaincu de l’intérêt des réutilisations qu’elle permet, en particulier dans <a href="https://zenbus.fr/blog/2020/10/09/vous-avez-dit-maas/">une perspective de MaaS</a>.<br>
-			Zenbus a d’ailleurs été premier lauréat du <a href="https://www.etalab.gouv.fr/dataconnexions26projetsdouverturedesdonneespubliquesalhonneur">concours national Dataconnexion</a> en 2013 dans la catégorie “Mobilité”. L’architecture a ainsi été pensée “nativement” dans une double exigence d’ouverture et de scalabilité.
+			{{ site.data["strings"].products.api.tiers.desc1 }}
+			<span class="separator"></span>
+			{{ site.data["strings"].products.api.tiers.desc2 }}
 		</p>
 	</section>
 
