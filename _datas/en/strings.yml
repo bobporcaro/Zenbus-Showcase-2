@@ -17,8 +17,8 @@ nav:
 
   usecases:
     tab: "Solutions"
-    SAEIV-turnkey: "RTPI à la carte"
-    SAEIV-custom: "Turnkey RTPI system"
+    SAEIV-turnkey: "Turnkey RTPI system"
+    SAEIV-custom: "RTPI à la carte"
     interconnection: "Partnerships & Interconnection"
     networks: "Type of network"
 
