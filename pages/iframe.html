@@ -1,0 +1,144 @@
+---
+layout: page
+title: iframe
+permalink: /iframe/
+---
+
+<section class="content-container iframe">
+
+	<div class="iframe-message"></div>
+
+	<div class="header-tile">
+		<h1 class="header-tile-title">Créez votre propre iframe Zenbus !</h1>
+		<p class="header-tile-text">
+			Les éléments iframe sont conçus pour intégrer d'autres documents Web dans le document en cours de traitement. Insérez Zenbus dans votre site web ou votre application.
+		</p>
+	</div>
+
+	<section class="content-section">
+		<div class="content-section-left">
+			<label class="content-section-label">
+				<h3 class="content-section-title">Quel est votre réseau&nbsp;?</h3>
+				<select id="network"></select>
+			</label>
+			
+			<div class="sliders">
+				<label class="sliders-label">Largeur :
+					<span class="sliders-value" id="widthValue">800</span>px
+					<input class="sliders-input" type="range" min="1" max="3000" value="800" class="slider" id="iframeWidth">
+				</label>
+				<label class="sliders-label">Hauteur : 
+					<span  class="sliders-value" id="heightValue">600</span>px
+					<input class="sliders-input" type="range" min="1" max="3000" value="600" class="slider" id="iframeHeight">
+				</label>
+				
+				<section class="sliders-code">
+					<h4 class="sliders-code-title">Le code à insérer dans votre page :</h4>
+					<pre class="sliders-code-generated" id="generatedIframeHtml"></pre>
+				</section>
+			</div>
+		</div>
+		<div class="content-section-right">
+			<iframe class="iframe-preview" id="preview"></iframe>
+		</div>
+	</section>
+
+</section>
+
+<script type="text/javascript">
+	function jsonGet(endpoint){
+		return new Promise(function(accept, reject){
+			var xhr = new XMLHttpRequest();
+			xhr.onload = function(){
+				var resp = JSON.parse(this.responseText);
+				accept(resp)
+			};
+			xhr.onerror = reject;
+			xhr.open("get", endpoint, true);
+			xhr.send();
+		});
+	}
+	
+	function makeNetworkOption(json){
+		var opt = document.createElement("option");
+		opt.value = json["namespace"];
+		opt.textContent = json["pageTitle"] || json["name"];
+		return opt;
+	}
+	function loading(isLoading){
+		if (isLoading){
+			document.body.classList.add("loading");
+		}else {
+			document.body.classList.remove("loading");
+		}
+	}
+	function setContentVisibility(visible){
+		var dom = document.body;
+		if (visible){
+			dom.classList.remove("waiting");
+		}else {
+			dom.classList.add("waiting");
+		}
+	}
+	function updateSliderValues(){
+		var width = document.getElementById("iframeWidth").value;
+		var height = document.getElementById("iframeHeight").value;
+		document.getElementById("widthValue").textContent = width;
+		document.getElementById("heightValue").textContent = height;
+	}
+	function updateContent(){
+		var namespace = document.getElementById("network").value;
+		if (namespace){
+			setContentVisibility(true);
+			loading(true);
+			var width = document.getElementById("iframeWidth").value;
+			var height = document.getElementById("iframeHeight").value;
+			updateSliderValues();
+			var url = "https://zenbus.net/"+namespace;
+			
+			var iframe = document.getElementById("preview");
+			iframe.src = url;
+			iframe.width = width;
+			iframe.height = height;
+			
+			document.getElementById("generatedIframeHtml").textContent = "<iframe\n"+
+			"\twidth=\""+width+"\"\n"+
+			"\theight=\""+height+"\"\n"+
+			"\turl=\""+url+"\"\n"+
+			"</iframe>";
+			
+		}else {
+			setContentVisibility(false);
+		}
+	}
+	
+	document.getElementById("network").onchange = updateContent;
+	document.getElementById("preview").onload = function(){loading(false);};
+	document.getElementById("iframeWidth").onchange = updateContent;
+	document.getElementById("iframeHeight").onchange = updateContent;
+	document.getElementById("iframeWidth").oninput = updateSliderValues;
+	document.getElementById("iframeHeight").oninput = updateSliderValues;
+	
+	setContentVisibility(false);
+	loading(true);
+	jsonGet("https://zenbus.net/api?feedinfo=all").then(function(list){
+		var frag = document.createDocumentFragment();
+		frag.appendChild(makeNetworkOption({}));
+		list.sort(function(a, b){
+			var aName = a["pageTitle"] || a["name"];
+			var bName = b["pageTitle"] || b["name"];
+			if (aName < bName){
+				return -1;
+			}else if(aName > bName){
+				return 1;
+			}
+			return 0;
+		});
+		list.forEach(function(networkJson){
+			frag.appendChild(makeNetworkOption(networkJson));
+		});
+		document.getElementById("network").appendChild(frag);
+		loading(false);
+	});
+	
+</script>

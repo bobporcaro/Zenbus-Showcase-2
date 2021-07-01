@@ -1,6 +1,6 @@
 ---
 layout: blog-article
-title: Interview du mercredi - Andréanne Duchemin
+title: Andréanne Duchemin - Canada / Temps-réel / Information voyageurs
 date: 2021-04-28
 image: interview_andreanne_duchemin.png
 categories: [interview]

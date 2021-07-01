@@ -1,6 +1,6 @@
 ---
 layout: blog-article
-title: Interview du mercredi - Alexandre Geoffroy
+title: Alexandre Geoffroy - Crise sanitaire / Transports collectifs / Numérique
 date: 2021-04-21
 image: interview_Alexandre_Geoffroy.png
 categories: [interview]

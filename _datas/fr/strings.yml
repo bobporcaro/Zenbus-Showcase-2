@@ -4,9 +4,9 @@ nav:
 
   needs:
     tab: "Besoins"
-    performance: "Performance : SAE & Data"
+    performance: "Performance : <abbr title='système d&#39;aide à l&#39;exploitation'>SAE</abbr> & Data"
     attractiveness: "Attractivité : information voyageurs"
-    regulation: "Réglementation : conformité loi LOM"
+    regulation: "Réglementation : conformité loi <abbr title='Loi d&#39;orientation des mobilités'>LOM</abbr>"
 
   products:
     tab: "Produits"
@@ -17,8 +17,8 @@ nav:
 
   usecases:
     tab: "Cas d'usages"
-    SAEIV-turnkey: "SAEIV clé en main"
-    SAEIV-custom: "SAEIV à la carte"
+    SAEIV-turnkey: "<abbr title='système d&#39;aide à l&#39;exploitation et à l&#39;information voyageurs'>SAEIV</abbr> clé en main"
+    SAEIV-custom: "<abbr title='système d&#39;aide à l&#39;exploitation et à l&#39;information voyageurs'>SAEIV</abbr> à la carte"
     interconnection: "Partenariats & Interconnexion"
     networks: "Type de réseaux"
 
@@ -33,6 +33,7 @@ nav:
     blog: "Blog"
     press: "Presse"
     downloads: "Téléchargements"
+    iframe: "Mon iframe Zenbus"
 
   contact:
     tab: "Contact"
@@ -42,17 +43,17 @@ nav:
 # ----------- BALISES TITLE OF PAGES ---------- 
 titles_pages:
 
-  performance: "Performance : SAE & Data"
+  performance: "Performance : <abbr title='système d&#39;aide à l&#39;exploitation'>SAE</abbr> & Data"
   attractiveness: "Attractivité : information voyageurs"
-  regulation: "Réglementation : conformité loi LOM"
+  regulation: "Réglementation : conformité loi <abbr title='Loi d&#39;orientation des mobilités'>LOM</abbr>"
 
   zenbuscollect: "ZenbusCollect"
   zenbuslive: "ZenbusLive"
   zenbusanalytics: "ZenbusAnalytics"
   zenbusapi: "ZenbusAPI"
 
-  SAEIV-turnkey: "SAEIV clé en main"
-  SAEIV-custom: "SAEIV à la carte"
+  SAEIV-turnkey: "<abbr title='système d&#39;aide à l&#39;exploitation et à l&#39;information voyageurs'>SAEIV</abbr> clé en main"
+  SAEIV-custom: "<abbr title='système d&#39;aide à l&#39;exploitation et à l&#39;information voyageurs'>SAEIV</abbr> à la carte"
   interconnection: "Partenariats & Interconnexion"
   networks: "Type de réseaux"
 
@@ -63,12 +64,14 @@ titles_pages:
   blog: "Blog"
   press: "Presse"
   downloads: "Téléchargements"
+  iframe: "Mon iframe Zenbus"
 
   contact: "Contact"
 
 
 # --------- HOMEPAGE ----------
 homepage: 
+  title: "Le SAEIV light"
   baseline: "Nous mettons la donnée au service des transports collectifs"
   boxes:
     label: "Vous êtes"
@@ -87,7 +90,7 @@ homepage:
         text: "mon offre dans la durée"
       bullet4 :
         word: "Répondre"
-        text: "aux exigences de la LOM"
+        text: "aux exigences de la <abbr title='Loi d&#39;orientation des mobilités'>LOM</abbr>"
 
     operator:
       title: "Exploitant"
@@ -152,7 +155,7 @@ homepage:
 # --------- NEEDS ----------
 needs:
   performance:
-    title: "Performance : SAE & Data"
+    title: "Performance : <abbr title='système d&#39;aide à l&#39;exploitation'>SAE</abbr> & Data"
     description1: "Dans le contexte compliqué que nous connaissons pour les transports collectifs, l’optimisation des moyens est un enjeu fort. Le respect de l’offre et la maîtrise de la qualité de service est également primordiale pour satisfaire et fidéliser les voyageurs."
     description2: "Mettre le numérique au service de votre exploitation et de l’analyse du réalisé, est désormais à la portée de tous les réseaux, voici nos recettes associant agilité et efficacité :"
     titles:
@@ -184,6 +187,9 @@ needs:
       desc3: "Zenbus compte déjà de <a href='../interconnection/'>nombreuses interconnexions opérationnelles</a>. Nous pouvons aussi à la demande nous mettre en contact avec l'un de vos fournisseurs pour étudier la compatibilité de nos systèmes."
 
   attractiveness:
+    info:
+      text: "Découvrez notre livre blanc"
+      button: "Télécharger"
     title: "Attractivité : information voyageurs"
     description1: Les transports collectifs font face à une désaffection sans précédent….À la question<a href='https://www.lefigaro.fr/actualite-france/comment-la-crise-du-covid-a-bouleverse-l-usage-des-transports-en-commun-20210128' target='_blank'> 'Qu’est-ce qui vous inciterait à utiliser davantage les transports en commun ?'</a>, les réponses des Franciliens sont les suivantes :"
     description2: "Vous pouvez améliorer la fréquentation et le report modal !"
@@ -205,7 +211,7 @@ needs:
       desc2: "Mais où est mon bus ? c'est la question numéro 1 de tous les voyageurs. Sa réponse est clé pour l'intégration du transport collectif dans nos vies."
       desc3: "Grâce à Zenbus, sur tout terminal connecté, les voyageurs peuvent voir en temps-réel, à la seconde près, où est leur bus et à quelle heure il va arriver à l’arrêt."
       desc4: "Une carte temps-réel unique permet en effet de se géolocaliser, de visualiser très précisément lignes et arrêts et d’avoir à tout moment une vision précise de la réalité de l’offre (position des véhicules, heures estimées d’arrivée, déviations, avaries,...)."
-      desc5: "Vous allez permettre ainsi à vos voyageurs d’être rassurés, de mieux patienter, de mieux comprendre, d’avoir confiance.de mieux choisir, et en définitive, comme le révèle nos sondages : de mieux vivre leur trajet (34 %), voire de davantage prendre le bus (56% !)"
+      desc5: "Vous allez permettre ainsi à vos voyageurs d’être rassurés, de mieux patienter, de mieux comprendre, d’avoir confiance, de mieux choisir, et en définitive, comme le révèle nos sondages : de mieux vivre leur trajet (34 %), voire de davantage prendre le bus (56% !)"
     maas: 
       desc1: "Chacun a ses habitudes pour faire ses choix de mobilité."
       desc2: "Des décisions les plus impulsives, aux usages savamment planifiés."
@@ -232,8 +238,8 @@ needs:
       desc1: "Nous travaillons avec de nombreux acteurs pour optimiser l’attractivité auprès de vos voyageurs. Notre approche privilégiant les standards informatiques et transport nous permet d’être utilisé."
   
   regulation:
-    title: "Réglementation : conformité loi LOM"
-    description1: "<a href='https://doc.transport.data.gouv.fr/guide-du-pan' target='_blank'>La Loi d’orientation des mobilités (LOM)</a> du 24 décembre 2019 élargit le champ des données des services de transport et de mobilité, devant être ouvertes librement et gratuitement. Cette ouverture s’inscrit dans le cadre de l’accélération du développement des services numériques de mobilité, de type MaaS."
+    title: "Réglementation : conformité loi <abbr title='Loi d&#39;orientation des mobilités'>LOM</abbr>"
+    description1: "<a href='https://doc.transport.data.gouv.fr/guide-du-pan' target='_blank'>La Loi d’orientation des mobilités (<abbr title='Loi d&#39;orientation des mobilités'>LOM</abbr>)</a> du 24 décembre 2019 élargit le champ des données des services de transport et de mobilité, devant être ouvertes librement et gratuitement. Cette ouverture s’inscrit dans le cadre de l’accélération du développement des services numériques de mobilité, de type MaaS."
     description2: "<a href='https://transport.data.gouv.fr/stats' target='_blank'>Le chemin est encore long</a>, surtout pour l’ouverture des données dynamiques."
     description3: "Bonne nouvelle : se mettre en conformité est accessible à tous les réseaux !"
     description4: "Depuis notre <a href='https://www.etalab.gouv.fr/dataconnexions26projetsdouverturedesdonneespubliquesalhonneur' target='_blank'>premier prix à Dataconnexions</a> et notre participation au comité du débat sur l’ouverture des données, nous sommes pleinement investis dans l’ouverture des données transport."
@@ -300,12 +306,13 @@ products:
       link: "Focus sur le réseau TAM"
     iframe: 
       desc1: "L’iframe permet d’intégrer simplement la carte Zenbus dans un site internet (en vue smartphone ou web). C’est également une possibilité d’intégration de Zenbus dans une application tierce."
-      link: "Focus sur la ville de Mayenne"
+      link1: "Focus sur la ville de Mayenne"
+      link2: "Créez votre iframe"
     biv: 
       desc1: "Zenbus permet la diffusion de l’information Zenbus sur des écrans TFT disposant d’un navigateur internet. Une vue contextualisable (par arrêt mono ou multilignes) permet d’accéder simplement à une carte des bus à l’approche et aux horaires de prochains passages. Plus généralement, Zenbus peut alimenter tout type de BIV grâce à des APIs normalisées."
       link: "Focus sur la ville d'Alès"
     supervision: 
-      desc1: "La Supervision Zenbus est une interface d’Aide à l’Exploitation qui diffuse des informations et des alertes multiples et précises sur l’exploitation en cours d’un réseau de transport collectif."
+      desc1: "La Supervision Zenbus est une interface d’aide à l’exploitation qui diffuse des informations et des alertes multiples et précises sur l’exploitation en cours d’un réseau de transport collectif."
       desc2: "Accessible sur tout écran connecté via identifiant et mot de passe, elle permet à la fois d’avoir une vision générale de l’offre réalisée et du reste à faire, tout en offrant des informations très précises sur un véhicule ou une ligne, telles que la ponctualité par arrêt d’une course en cours, ou l’écart entre deux véhicules."
       desc3: "Des alertes multiples et paramétrables ainsi qu’un accès à l’intégralité des heures de passage de la journée complètent cette console."
     fleetmanagement: 
@@ -367,7 +374,7 @@ usecases:
     title: "Partenariats & Interconnexions"
     description1: "Zenbus est conçu pour s’interconnecter."
     description2: "Sur la partie <a href='#production'>“production”</a> : Zenbus peut être alimenté par les données de systèmes tiers, via ZenbusConnect"
-    description3: "Sur la partie <a href='#diffusion'>“diffusion”</a> : les données de Zenbus peuvent être ré-utilisées via des APIs standards."
+    description3: "Sur la partie <a href='#diffusion'>“diffusion”</a> : les données Zenbus peuvent être ré-utilisées via des APIs standards."
     titles:
       production: "Production de données - Zenbusconnect"
       diffusion: "Diffusion de données - ZenbusAPI"
@@ -466,7 +473,7 @@ footer:
   cgu: "CGU"
   faq: "FAQ"
   datas: "Données Zenbus"
-  lom: "Loi LOM"
+  lom: "Loi <abbr title='Loi d&#39;orientation des mobilités'>LOM</abbr>"
   copyrights: "© Zenbus 2021, tous droits réservés"
 
 # ---------- DATE -----------

@@ -300,7 +300,8 @@ products:
       link: "La red TAM en detalle"
     iframe: 
       desc1: "El iframe permite integrar fácilmente el mapa de Zenbus en un sitio web (vista de smartphone o web). También existe la posibilidad de integrar Zenbus en una aplicación de terceros."
-      link: "La ciudad de Mayenne en detalle"
+      link1: "La ciudad de Mayenne en detalle"
+      link2: "Crea tu propio iframe"
     biv: 
       desc1: "Zenbus permite la difusión de la información Zenbus en pantallas TFT con un navegador web. Una vista contextualizable (por parada de una o varias líneas) permite acceder fácilmente a un mapa de los autobuses que se aproximan y la hora en que volverán a pasar De manera más general, Zenbus puede alimentar cualquier tipo de BIV gracias a las API estandarizadas."
       link: "La ciudad de Alès en detalle"

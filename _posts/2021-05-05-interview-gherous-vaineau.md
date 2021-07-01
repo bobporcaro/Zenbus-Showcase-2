@@ -1,7 +1,7 @@
 ---
 layout: blog-article
-title: Interview du mercredi - Louiza Gherous et Pierre-Marie Vaineau
-date: 2021-05-03
+title: Louiza Gherous et Pierre-Marie Vaineau - Interconnexion / Révolution / Information voyageurs
+date: 2021-05-05
 image: interview_Vaineau_Gherous.png
 categories: [interview]
 tags: [Urbain, entre 70 et 120, Mantes la Jolie - France, Depuis 2020]
@@ -95,3 +95,5 @@ Nous, en mode bus&nbsp;; qui est un mode un peu plus traditionnel&nbsp;; il fall
 **PM.V&nbsp;:** Pour compléter la question de tout à l’heure, en exploitation comme pour Zenbus, il existe plusieurs manières d’utiliser Zenbus. On sait notamment que certains réseaux utilisent l’application pour les conducteurs. Dans notre cas, nous avions déjà des systèmes embarqués sur notre réseau SAEIV, on ne voulait pas rajouter un énième appareil pour le conducteur. Notre volonté était que ce soit pour le conducteur totalement transparent et qu’il n’ait pas de manipulation supplémentaire à faire.
 <br>
 Nous les exploitants, nous sommes réputés toujours un peu exigeants sur ce genre de choses. Nous comprenons l'intérêt commercial, mais nous ne voulions pas couvrir notre tableau de bord d’écrans. En effet, nous avons déjà la billettique, le SAE, la girouette, la vidéo embarquée et s’il faut en plus rajouter un smartphone Zenbus comme vous le proposez sur des réseaux de plus petite taille, pour nous, ce n'était pas possible. D’ailleurs ce que nous avons vraiment apprécié, c’est que **Zenbus a été à l’écoute de nos besoins, a bien compris cet enjeu et a su nous proposer une solution qui pour le conducteur est complètement transparente.** Zenbus c’est aussi le meilleur allié du conducteur parce que quelque part les voyageurs qui ont l’application, ce sont des voyageurs plus sereins quand ils montent à bord et qui râlent un peu moins. Cela a donc été aussi très bien accueilli par nos personnels.
+
+<iframe style="margin: 0 auto; display:block;" width="560" height="315" src="https://youtube.com/embed/z0INqzbPV80" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

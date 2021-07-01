@@ -300,7 +300,8 @@ products:
       link: "See the real-time map of the Mantes-la-Jolie network"
     iframe: 
       desc1: "iframe lets you easily integrate the Zenbus map in a website (smartphone or web view), or in a third party application."
-      link: "See iFrame in use on the city of Mayenne’s website"
+      link1: "See iFrame in use on the city of Mayenne’s website"
+      link2: "Create your own iFrame"
     biv: 
       desc1: "Zenbus can be used to display information on TFT monitors with a web browser. A contextualizable view (by single or multi-line stop) provides easy access to a map of approaching buses and information on when the next bus will arrive. More generally, Zenbus can feed data to any type of Passenger Information Display thanks to standardized APIs."
       link: "See the PID for the city of Alès"
