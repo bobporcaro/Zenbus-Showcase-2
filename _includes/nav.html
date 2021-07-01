@@ -1,82 +1,125 @@
 {% if page.title != "home" %}
 <button id="burgerButton" class="panel-hamburger"></button>
 {% endif %}
-<nav id="panel" class="panel">
-	<header class="panel-logo">
+<header id="panel" class="panel">
+	<div class="panel-logo">
 		<a href="{{ site.baseurl }}/" class="">
 			<img src="{{ site.baseurl }}/assets/img/zenbus_logotext@2x.png" alt="logo zenbus" class="panel-logo-img">
 		</a>
-	</header>
-	<menu class="panel-menu">
+	</div>
+	<nav class="panel-menu">
+		<ul>
+
+			<!-- NEEDS -->
+			<li class="panel-menu-item needs">
+				<button class="panel-menu-item-button">{{ site.data["strings"].nav.needs.tab }}</button>
+				<ul class="panel-menu-item-submenu">
+					<li class="submenu-item performance">
+						<a href="{{ site.baseurl }}/performance/" class="submenu-item-link">{{ site.data["strings"].nav.needs.performance }}</a>
+					</li>
+					<li class="submenu-item attractiveness">
+						<a href="{{ site.baseurl }}/attractiveness/" class="submenu-item-link">{{ site.data["strings"].nav.needs.attractiveness }}</a>
+					</li>
+					<li class="submenu-item regulation">
+						<a href="{{ site.baseurl }}/regulation/" class="submenu-item-link">{{ site.data["strings"].nav.needs.regulation }}</a>
+					</li>
+				</ul>
+			</li>
+
+			<!-- PRODUCTS -->
+			<li class="panel-menu-item products">
+				<button class="panel-menu-item-button">{{ site.data["strings"].nav.products.tab }}</button>
+				<ul class="panel-menu-item-submenu">
+					<li class="submenu-item zenbuscollect">
+						<a href="{{ site.baseurl }}/zenbuscollect/" class="submenu-item-link">{{ site.data["strings"].nav.products.zenbuscollect }}</a>
+					</li>
+					<li class="submenu-item zenbuslive">
+						<a href="{{ site.baseurl }}/zenbuslive/" class="submenu-item-link">{{ site.data["strings"].nav.products.zenbuslive }}</a>
+					</li>
+					<li class="submenu-item zenbusanalytics">
+						<a href="{{ site.baseurl }}/zenbusanalytics/" class="submenu-item-link">{{ site.data["strings"].nav.products.zenbusanalytics }}</a>
+					</li>
+					<li class="submenu-item zenbusapi">
+						<a href="{{ site.baseurl }}/zenbusapi/" class="submenu-item-link">{{ site.data["strings"].nav.products.zenbusapi }}</a>
+					</li>
+				</ul>
+			</li>
+
+			<!-- USE CASES -->
+			<li class="panel-menu-item usecases">
+				<button class="panel-menu-item-button">{{ site.data["strings"].nav.usecases.tab }}</button>
+				<ul class="panel-menu-item-submenu">
+					<li class="submenu-item SAEIV-custom">
+						<a href="{{ site.baseurl }}/SAEIV-custom/" class="submenu-item-link">{{ site.data["strings"].nav.usecases.SAEIV-custom }}</a>
+					</li>
+					<li class="submenu-item SAEIV-turnkey">
+						<a href="{{ site.baseurl }}/SAEIV-turnkey/" class="submenu-item-link">{{ site.data["strings"].nav.usecases.SAEIV-turnkey }}</a>
+					</li>
+					<li class="submenu-item interconnection">
+						<a href="{{ site.baseurl }}/interconnection/" class="submenu-item-link">{{ site.data["strings"].nav.usecases.interconnection }}</a>
+					</li>
+					<li class="submenu-item networks">
+						<a href="{{ site.baseurl }}/networks/" class="submenu-item-link">{{ site.data["strings"].nav.usecases.networks }}</a>
+					</li>
+				</ul>
+			</li>
+
+			<!-- COMPANY -->
+			<li class="panel-menu-item company">
+				<button class="panel-menu-item-button">{{ site.data["strings"].nav.company.tab }}</button>
+				<ul class="panel-menu-item-submenu">
+					<li class="submenu-item about">
+						<a href="{{ site.baseurl }}/about/" class="submenu-item-link">{{ site.data["strings"].nav.company.about }}</a>
+					</li>
+					<li class="submenu-item team">
+						<a href="{{ site.baseurl }}/team/" class="submenu-item-link">{{ site.data["strings"].nav.company.team }}</a>
+					</li>
+					<li class="submenu-item recruitment">
+						<a href="{{ site.baseurl }}/job/" class="submenu-item-link">{{ site.data["strings"].nav.company.recruitment }}</a>
+					</li>
+				</ul>
+			</li>
 
 
-		<!-- CONNECT & PLAY -->
-		<li class="panel-menu-item connectandplay sub-active">
-			<button class="panel-menu-item-button">{{ site.data["strings"].nav.collectandplay.tab }}</button>
-			<ul class="panel-menu-item-submenu">
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/innovation/" class="submenu-item-link">{{ site.data["strings"].nav.collectandplay.innovation }}</a>
-				</li>
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/mynetwork/" class="submenu-item-link">{{ site.data["strings"].nav.collectandplay.mynetwork }}</a>
-				</li>
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/partners/" class="submenu-item-link">{{ site.data["strings"].nav.collectandplay.partners }}</a>
-				</li>
-			</ul>
-		</li>
-
-		<!-- PRODUCTS -->
-		<li class="panel-menu-item products">
-			<button class="panel-menu-item-button">{{ site.data["strings"].nav.products.tab }}</button>
-			<ul class="panel-menu-item-submenu">
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/transport-authorities/" class="submenu-item-link">{{ site.data["strings"].nav.products.analytics }}</a>
-				</li>
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/operators/" class="submenu-item-link">{{ site.data["strings"].nav.products.operation }}</a>
-				</li>
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/ZenbusLive-Travellers/" class="submenu-item-link">{{ site.data["strings"].nav.products.iv }}</a>
-				</li>
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/apis/" class="submenu-item-link">{{ site.data["strings"].nav.products.api }}</a>
-				</li>
-			</ul>
-		</li>
+			<!-- RESOURCES -->
+			<li class="panel-menu-item resources">
+				<button class="panel-menu-item-button">{{ site.data["strings"].nav.resources.tab }}</button>
+				<ul class="panel-menu-item-submenu">
+					<li class="submenu-item blog">
+						<a href="{{ site.baseurl }}/blog/" class="submenu-item-link">{{ site.data["strings"].nav.resources.blog }}</a>
+					</li>
+					<li class="submenu-item press">
+						<a href="{{ site.baseurl }}/press/" class="submenu-item-link">{{ site.data["strings"].nav.resources.press }}</a>
+					</li>
+					<li class="submenu-item downloads">
+						<a href="{{ site.baseurl }}/downloads/" class="submenu-item-link">{{ site.data["strings"].nav.resources.downloads }}</a>
+					</li>
+					<li class="submenu-item iframe">
+						<a href="{{ site.baseurl }}/iframe/" class="submenu-item-link">{{ site.data["strings"].nav.resources.iframe }}</a>
+					</li>
+				</ul>
+			</li>
 
 
-		<!-- COMPANY -->
-		<li class="panel-menu-item company">
-			<button class="panel-menu-item-button">{{ site.data["strings"].nav.company.tab }}</button>
-			<ul class="panel-menu-item-submenu">
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/team/" class="submenu-item-link">{{ site.data["strings"].nav.company.team }}</a>
-				</li>
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/contact/" class="submenu-item-link">{{ site.data["strings"].nav.company.contact }}</a>
-				</li>
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/job/" class="submenu-item-link">{{ site.data["strings"].nav.company.recruitment }}</a>
-				</li>
-			</ul>
-		</li>
+			<!-- CONTACT -->
+			<li class="panel-menu-item contact">
+				<a href="{{ site.baseurl }}/contact/" class="contact-button">{{ site.data["strings"].nav.contact.tab }}</a>
+			</li>
 
-		<!-- RESOURCES -->
-		<li class="panel-menu-item resources">
-			<button class="panel-menu-item-button">{{ site.data["strings"].nav.resources.tab }}</button>
-			<ul class="panel-menu-item-submenu">
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/blog/" class="submenu-item-link">{{ site.data["strings"].nav.resources.blog }}</a>
-				</li>
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/press/" class="submenu-item-link">{{ site.data["strings"].nav.resources.press }}</a>
-				</li>
-				<li class="submenu-item">
-					<a href="{{ site.baseurl }}/downloads/" class="submenu-item-link">{{ site.data["strings"].nav.resources.downloads }}</a>
-				</li>
-			</ul>
-		</li>
-		
-	</menu>
-</nav>
+			<!-- LANG -->
+			<li class="panel-menu-item lang">
+				{% for lang in site.languages %}
+					{% if lang == site.active_lang %}
+						<a class="lang-button active">{{ lang }}</a>
+					{% else %}
+						{% if lang == site.default_lang %}
+							<a href=" {{ page.url }}" class="lang-button">{{ lang }}</a>
+						{% else %}
+							<a href="/{{ lang }}{{ page.url }}" class="lang-button">{{ lang }}</a>
+						{% endif %}
+					{% endif %}
+				{% endfor %}
+			</li>
+		</ul>
+	</nav>
+</header>

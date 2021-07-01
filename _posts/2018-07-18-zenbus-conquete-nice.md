@@ -4,7 +4,7 @@ title: Zenbus, la Régie Ligne d’Azur et le soleil niçois&nbsp;!
 date: 2018-07-20
 image: nice_plage.jpg
 categories: [business, news]
-tags: nice azur ligne63
+tags: [Scolaire - Urbain - Interurbain, 40 à 100 véhicules, Nice - France, Depuis 2018]
 author: marie
 lang: fr
 ---

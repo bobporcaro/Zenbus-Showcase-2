@@ -4,7 +4,7 @@ title: Nos coups de coeur de l'UITP 2019 Stockholm
 date: 2019-06-26
 image: article16_couv.jpg
 categories: [events, news]
-tags: juin france uitp stockholm swiss innovation lab cummins handheld ilostandfound itxpt
+tags:
 author: marie
 lang: fr
 ---

@@ -4,7 +4,7 @@ title: Chantal, quoi de neuf docteur&nbsp;?
 date: 2021-01-13
 image: interview_chantal.jpg
 categories: [team, interview]
-tags: interview chantal r&d docteur
+tags:
 author: anais
 lang: fr
 ---

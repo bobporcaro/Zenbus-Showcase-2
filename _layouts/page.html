@@ -3,14 +3,14 @@
 
 	{% include head.html %}
    
-   <body>
+   <body class="{{ page.title }}">
    	{% assign lang = site.active_lang %}
 			{% include nav.html %}
 			{{ content }}
 			{% include footer.html %}
    	{% include loader.html %}
 		<script src="{{ site.baseurl }}/assets/js/dev-harpoon.js"></script>
-   	<script src="{{ site.baseurl }}/assets/js/footer.min.js"></script>
+	   	<script src="{{ site.baseurl }}/assets/js/footer.min.js"></script>
 		<script src="{{ site.baseurl }}/assets/js/menu.min.js"></script>
 		{% if page.permalink == "/contact/" %}
 			<script src="{{ site.baseurl }}/assets/js/contact.min.js"></script>

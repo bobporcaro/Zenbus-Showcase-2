@@ -1,12 +1,16 @@
 ---
-title: recruit
 layout: page
+title: recruitment
 permalink: /job/
 ---
 <div class="content-container job">
 	<div class="header-tile">
-		<h2 class="header-tile-title">{{ site.data["strings"].job.tile_title }}</h2>
-		<p class="header-tile-text">{{ site.data["strings"].job.tile_text }}</p>
+		<h1 class="header-tile-title">{{ site.data["strings"].company.recruit.title }}</h1>
+		<p class="header-tile-text">
+			{{ site.data["strings"].company.recruit.description1 }}
+			<span class="separator"></span>
+			{{ site.data["strings"].company.recruit.description2 }}
+		</p>
 	</div>
 	
 	{% assign poles = site.data["jobs"] %}

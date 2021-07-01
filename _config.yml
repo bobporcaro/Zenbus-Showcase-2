@@ -22,6 +22,7 @@ github_username:  jekyll
 destination: 
 source: .
 data_dir: _datas
+host: 0.0.0.0
 
 permalink: /blog/:year/:month/:day/:title/
 
@@ -43,6 +44,7 @@ pagination:
   permalink: '/page/:num/'
   per_page: 4
 
+destination: /mnt/c/Users/User/eclipse-workspace/Zenbus Showcase/src/main/webapp 
 #destination: /home/boris/eclipse-workspace/ZenbusShowCase/src/main/webapp 
 #destination: /home/simon/Documents/ZENBUS_DEV/ZB-SC-DEPLOYED-V3/src/main/webapp
 keep_files: ['META-INF/MANIFEST.MF']

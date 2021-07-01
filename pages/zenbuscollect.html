@@ -1,0 +1,86 @@
+---
+layout: page
+title: zenbuscollect
+permalink: /zenbuscollect/
+---
+
+<section class="content-container zenbuscollect">
+
+	<div class="header-tile">
+		<h1 class="header-tile-title">{{ site.data["strings"].products.collect.title }}</h1>
+		<p class="header-tile-text">
+			{{ site.data["strings"].products.collect.description }}
+		</p>
+		<nav class="header-tile-nav">
+			<a class="header-tile-nav-icon icon-driver" href="#driver">{{ site.data["strings"].products.collect.titles.driver }}</a>
+			<a class="header-tile-nav-icon icon-box" href="#box">{{ site.data["strings"].products.collect.titles.box }}</a>
+			<a class="header-tile-nav-icon icon-connect" href="#connect">{{ site.data["strings"].products.collect.titles.connect }}</a>
+		</nav>
+	</div>
+
+	<!-- Driver -->
+	<div id="driver" class="products-content-product driver">
+		<div class="products-content-product-description">
+			<div class="product-description-header">
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.collect.driver.title }}</h4>
+				<span class="product-description-header-icon"></span>
+			</div>
+			<p class="product-description-text">
+				{{ site.data["strings"].products.collect.driver.desc1 }}
+				<span class="separator"></span>
+				{{ site.data["strings"].products.collect.driver.desc2 }}
+				<span class="separator"></span>
+				{{ site.data["strings"].products.collect.driver.desc3 }}
+			</p>
+			<div class="product-description-links">
+				<a href="https://play.google.com/store/apps/details?id=com.byjoul.code.zenbus.tracking.android&hl=fr&gl=US" target="_blank" class="download-link playstore"></a>
+			</div>
+		</div>
+		<div class="products-content-product-screenshots">
+			<img src="/assets/img/products/zenbusdriver_01.png" class="product-screenshots-img" alt="interface collect application conducteur">
+		</div>
+	</div>
+
+	<!-- Box -->
+	<div id="box" class="products-content-product box">
+		<div class="products-content-product-description">
+			<div class="product-description-header">
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.collect.titles.box }}</h4>
+				<span class="product-description-header-icon"></span>
+			</div>
+			<p class="product-description-text">
+				{{ site.data["strings"].products.collect.box.desc1 }}
+			</p>
+			<div class="product-description-links">
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">{{ site.data["strings"].products.contact }}</a>
+			</div>
+		</div>
+		<div class="products-content-product-screenshots">
+			<img src="/assets/img/products/zenbusbox_01.png" class="product-screenshots-img" alt="interface collect boitier embarqué">
+		</div>
+	</div>
+
+	<!-- Connect -->
+	<div id="connect" class="products-content-product connect">
+		<div class="products-content-product-description">
+			<div class="product-description-header">
+				<h4 class="product-description-header-title">{{ site.data["strings"].products.collect.titles.connect }}</h4>
+				<span class="product-description-header-icon"></span>
+			</div>
+			<p class="product-description-text">
+				{{ site.data["strings"].products.collect.connect.desc1 }}
+				<span class="separator"></span>
+				{{ site.data["strings"].products.collect.connect.desc2 }}
+				<span class="separator"></span>
+				{{ site.data["strings"].products.collect.connect.desc3 }}
+			</p>
+			<div class="product-description-links">
+				<a href="{{ site.baseurl }}/contact/" class="product-description-links-contact">{{ site.data["strings"].products.contact }}</a>
+			</div>
+		</div>
+		<div class="products-content-product-screenshots">
+			<img src="/assets/img/products/zenbuscollect_01.png" class="product-screenshots-img" alt="interface collect systèmes tiers">
+		</div>
+	</div>
+
+</section>

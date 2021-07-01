@@ -1,20 +1,435 @@
-# --------- HOMEPAGE ----------
-homepage: 
-  title: "Mobility transformed"
-  back_to_home: "Home"
 # ----------- NAV ------------
 nav:
   home: "Home"
-  customers: "Customers"
-  ao: "Transport Authorities"
-  operators: "Transport operators"
-  passengers: "Passengers"
-  blog: "Blog"
+
+  needs:
+    tab: "Requirements"
+    performance: "Performance: Real Time Passenger Information System & Data"
+    attractiveness: "Attract users: passenger information"
+    regulation: "Legal issues: compliance with the French mobility orientation law (LOM)"
+
+  products:
+    tab: "Products"
+    zenbuscollect: "ZenbusCollect"
+    zenbuslive: "ZenbusLive"
+    zenbusanalytics: "ZenbusAnalytics"
+    zenbusapi: "ZenbusAPI"
+
+  usecases:
+    tab: "Solutions"
+    SAEIV-turnkey: "Turnkey RTPI system"
+    SAEIV-custom: "RTPI à la carte"
+    interconnection: "Partnerships & Interconnection"
+    networks: "Type of network"
+
+  company:
+    tab: "Company"
+    about: "About us"
+    team: "Team"
+    recruitment: "Careers"
+
+  resources:
+    tab: "Resources"
+    blog: "Blog"
+    press: "Media"
+    downloads: "Downloads"
+
+  contact:
+    tab: "Contact"
+
+  feedback: "Merci!"
+
+# ----------- BALISES TITLE OF PAGES ---------- 
+titles_pages:
+
+  performance: "Performance: Real Time Passenger Information System & Data"
+  attractiveness: "Attract users: passenger information"
+  regulation: "Legal issues: compliance with the French mobility orientation law (LOM)"
+
+  zenbuscollect: "ZenbusCollect"
+  zenbuslive: "ZenbusLive"
+  zenbusanalytics: "ZenbusAnalytics"
+  zenbusapi: "ZenbusAPI"
+
+  SAEIV-turnkey: "RTPI à la carte"
+  SAEIV-custom: "Turnkey RTPI system"
+  interconnection: "Partnerships & Interconnection"
+  networks: "Type of network"
+
+  about: "About us"
   team: "Team"
+  recruitment: "Careers"
+
+  blog: "Blog"
+  press: "Media"
+  downloads: "Downloads"
+
   contact: "Contact"
-  recruit: "Recruitment"
-  press: "Press"
-  feedback: "Thank you !"
+
+
+# --------- HOMEPAGE ----------
+homepage: 
+  baseline: "We put data to work for public transit"
+  boxes:
+    label: "You are"
+
+    ao:
+      title: "a transit authority"
+      description: "Zenbus helps you deal with the societal, regulatory and budgetary issues related to mobility in your area."
+      bullet1 :
+        word: "Encourage"
+        text: "people to use public transit and facilitate modal shift"
+      bullet2 :
+        word: "Enhance"
+        text: "the quality of service on my network"
+      bullet3 :
+        word: "Optimize"
+        text: "my offer over the long term"
+      bullet4 :
+        word: "Comply with"
+        text: "the French mobility orientation law"
+
+    operator:
+      title: "an Operator"
+      description: "Zenbus helps you deal with your operations and ridership issues"
+      bullet1 :
+        word: "Maximize"
+        text: "ridership and revenue"
+      bullet2 :
+        word: "Efficiently regulate"
+        text: "and optimize operations"
+      bullet3 :
+        word: "Facilitate"
+        text: "reporting to the transit authority"
+    
+    passenger:
+      title: "a Passenger"
+      description: "Our goal is simple: to make sure you enjoy riding the bus!"
+      bullet1 :
+        word: "Find out"
+        text: "if Zenbus is on your network"
+      bullet2 :
+        word: "Zenbus is not on your network"
+        text: "and you wish it were?"
+      bullet3 :
+        word: "Do you want to encourage us?"
+
+  map: "A map is worth a thousand words: find all our networks!"
+
+  schema:
+    title: "How does it work?"
+    image:
+      label: "The Zenbus"
+      title: "data path"
+      caption1: "zenbus server"
+      caption2: "GTFS, GTFS-RT, SIRI..."
+      buttons:
+        production: "Production"
+        processing: "Processing"
+        display: "Display"
+        opendata: "Open data"
+
+  section:
+    supervision:
+      title: "Supervision"
+      description: "Track your vehicles and help with regulation"
+    passenger:
+      title: "Passenger Information"
+      description: "Show your passengers they can rely on public transit"
+    statistics:
+      title: "Statistics"
+      description: "Analyse schedule adherence and problems encountered in the field"
+    driver:
+      title: "Driver App"
+      description: "Make life easier for your drivers with the early / late and counting options"
+    button: "Find out more"
+
+  interested:
+    label: "Are you interested? Let’s work together!"
+    button: "Contact us"
+
+
+# --------- NEEDS ----------
+needs:
+  performance:
+    title: "Performance: Real Time Information System & Data"
+    description1: "In today’s difficult climate for public transit, it is extremely important to optimize resources. Adhering to the schedule and delivering the expected quality of service is also essential to satisfy and retain passengers."
+    description2: "All networks can now use digital technology to improve operations and analyse results, using our agile and efficient solutions."
+    titles:
+      offer: "Supervise operations in real time"
+      diagnostic: "Review the history"
+      control: "Control schedule adherence"
+      analyse: "Analyse actual performance"
+      access: "Share access and empower your employees"
+      partners: "Take advantage of our partnerships"
+    offer:
+      desc1: "Our <a href='../zenbuslive/#supervision'>supervision interface</a>  is a powerful tool that will give you a comprehensive and real-time view of your operation."
+      desc2: "Track your vehicles in real time"
+      desc3: "Operational alerts"
+      desc4: "Assess the punctuality of the current trips"
+    diagnostic: 
+      desc1: "Our video recorder allows you to play back all the movements of your vehicles to the second (revenue trips, deviations, deadheading)"
+    control:
+      desc1: "Our reporting interfaces provide you with a simple overview of schedule adherence"
+    analyse:
+      desc1: "You can analyse actual performance, including travel times, kilometres travelled and punctuality, line by line, stop by stop."
+      desc2: "You can also cross-reference usage data (<a href='../zenbusanalytics/#uses'>Zenbus usage</a>, <a href='../zenbusanalytics/#survey'>survey responses</a>, <a href='../zenbusanalytics/#counting'>counts</a>) in order to compare supply and demand."
+    access:
+      desc1: "You can assign rights so people can access the system based on their requirements and responsibilities."
+      desc2: "Most of our interfaces are responsive and can display information at any time, on any smart device."
+      desc3: "In the field, from the depot, when working from home."
+    partners:
+      desc1: "Zenbus can interface with third party systems to produce and distribute our data."
+      desc2: "In terms of data production, the ZenbusConnect interconnection lets you use a system already present in your vehicles to feed data to Zenbus and benefit from all our features, without any additional investment."
+      desc3: "Zenbus already has <a href='../interconnection/'>many operational interconnections</a>. On request, we can also contact your supplier directly to explore the compatibility of our systems."
+
+  attractiveness:
+    title: "Passenger Information: Attract more passengers"
+    description1: Public transit is experiencing an unprecedented drop in ridership. When asked <a href='https://www.lefigaro.fr/actualite-france/comment-la-crise-du-covid-a-bouleverse-l-usage-des-transports-en-commun-20210128' target='_blank'> 'What would encourage you to use public transit more?'</a>, Ile-de-France residents answered as follows:"
+    description2: "You can improve ridership and modal shift!"
+    description3: "This has been our mission for 10 years: here are our solutions for your network!"
+    graphs:
+      text1: "Increase the frequency"
+      text2: "Have real-time information on schedules"
+      text3: "Ensure that distancing is respected everywhere"
+      text4: "Know in advance if vehicles are crowded"
+    titles:
+      waouh: "Provide awesome passenger information"
+      maas: "Offer 'multi-channel' and Mobility as a Service options"
+      opinion: "Get feedback from your passengers"
+      analyse: "Analyse the uses"
+      innovation: "Innovate constantly"
+      partners: "Take advantage of our partnerships and solutions"
+    waouh: 
+      desc1: "Zenbus offers a unique experience to public transit users."
+      desc2: "Where is my bus? is the number one question of all passengers. Being able to track the bus is key to attracting riders to public transit."
+      desc3: "Thanks to Zenbus, passengers can see where their bus is and exactly when it will arrive at the stop on any connected device, in real time."
+      desc4: "A unique real-time map provides geolocation information, giving riders exact data about lines and stops, the location of the vehicles, estimated times of arrival, deviations, disruptions, etc."
+      desc5: "This improves the passenger experience, allowing them to plan their trips with confidence. As our surveys show, riders say this makes their experience more enjoyable (34%), and that they are likely to take the bus more often (56%!)"
+    maas: 
+      desc1: "Everyone has their own habits when it comes to making mobility choices."
+      desc2: "From the most impulsive decisions, to the most carefully planned routes."
+      desc3: "This depends to a large extent on the transport offer, the tools and the data available."
+      desc4: "The key is to provide all these interfaces with reliable and consistent data."
+      desc5: "The city’s app? The region’s multimodal calculator? The most popular map apps?"
+      desc6: "But also the display terminals at bus stops, the city’s website, the display monitors at the town hall or the tourist office."
+      desc7: "How? Either with our <a href='../zenbuslive/#iframe'>iframe</a>, or our <a href='../zenbuslive/#biv'>Passenger Information Displays</a>, or through our <a href='../zenbusapi'>GTFS-RT and SIRI APIs</a>."
+      desc8: "Our commitment to standardized open-source data is reflected in our active participation in providing open data, in particular to the "
+      desc9: "French National Access Point for transportation-related data."
+      desc10: "To find out more, read <a href='https://zenbus.fr/blog/2020/10/09/vous-avez-dit-maas/'>our blog post on MaaS</a>."
+    opinion: 
+      desc1: "To attract more users, you need to know the mobility habits and <a href='../zenbusanalytics/#survey'>expectations of your passengers</a>. Zenbus helps operators and Transit Authorities take passenger surveys."
+      desc2: "With our high completion rates, you collect valuable data."
+    analyse: 
+      desc1: "We provide you with accurate reports that tell you <a href='../zenbusanalytics/#uses'>how the service is used so you can address actual passenger expectations</a>. How do your passengers view our real-time information? On a smartphone? On a computer? How often? Which stops or lines are they interested in?"
+    innovation: 
+      desc1: "Digital technology allows pure players in the mobility sector to provide an optimized experience for their customers, like Uber, which, when it entered the market, was the only one to provide real-time geolocation of the approaching vehicle."
+      desc2: "Public transit must also respond to the growing demands of users: constant access to accurate, real-time information."
+      desc3: "More recently, the pandemic has raised the question of distancing and has made information about occupancy and crowding all the more necessary in real time."
+      desc4: "With Zenbus you can provide this information, so your passengers can feel safe while riding!"
+      desc5: "Ultimately, we build our roadmap with our customers!"
+    partners:
+      desc1: "We work with many stakeholders to help you attract more passengers. We use IT and transit standards for a better passenger experience"
+  
+  regulation:
+    title: "Legal issues: compliance with the French mobility orientation law (LOM)"
+    description1: "<a href='https://doc.transport.data.gouv.fr/guide-du-pan' target='_blank'>The French mobility orientation law (LOM)</a> of 24 December 2019 expands the scope of transport and mobility service data, which must be open and free of charge. This is in line with the accelerated development of digital mobility services, such as MaaS."
+    description2: "<a href='https://transport.data.gouv.fr/stats' target='_blank'>There is still a long way to go</a>, especially when it comes to open dynamic data."
+    description3: "The good news is that it’s easy for all networks to be in compliance!"
+    description4: "Since our <a href='https://www.etalab.gouv.fr/dataconnexions26projetsdouverturedesdonneespubliquesalhonneur' target='_blank'>first prize at Dataconnexions</a> and our participation in the committee of the debate on open data, we have been fully committed to open-source transport data."
+    description5: "Zenbus is the open data-as-a-service for your transit system!"
+    titles:
+      offer: "We integrate the theoretical offer"
+      collect: "We collect real-time data"
+      api: "We generate standard APIs on the fly"
+      pan: "We publish these APIs on the French National Access Point"
+      externs: "We work hand in hand with reusers"
+    offer: 
+      desc1: "To do this, we import your static data and, if necessary, we upgrade it and format it in GTFS."
+    collect: 
+      desc1: "Zenbus Driver"
+      desc2: "Zenbus Box"
+      desc3: "Zenbus Connect"
+    api: 
+      desc1: "<a href='../files/Documentation - Zenbus - GTFS-RT.pdf' target='_blank'>GTFS-RT</a> and SIRI StopMonitoring"
+    pan: 
+      desc1: "Dozens of networks have already opened up their data thanks to Zenbus. We support all types of Transit Authorities in this area."
+    externs:
+      desc1: ""
+
+
+# --------- PRODUCTS ----------
+products:
+  collect:
+    title: "Zenbus Collect"
+    description: "Zenbus relies on real-time data that it controls at the source, in the public transit vehicles. The data can be derived from any of the following sources:"
+    titles:
+      driver: "Zenbus Driver"
+      box: "Zenbus Box"
+      connect: "Zenbus Connect"
+    driver: 
+      title: "Driver App"
+      desc1: "Zenbus Driver is an android application for public transit drivers that is very easy to use and non intrusive."
+      desc2: "Just a few clicks at the start of your shift and that’s it: real-time data is produced, processed on the fly and fed into all our interfaces."
+      desc3: "Zenbus Driver is compatible with all types of android terminals, smartphones and tablets."
+    box: 
+      desc1: "The Zenbus Box is a smart GPS unit connected to the vehicle's power supply that transmits the vehicle's position in real time. It can also connect to other ports (CANbus, FMS) and then transmit additional information, such as the occupancy rate, business data or vehicle data."
+    connect: 
+      desc1: "Zenbus Connect links to all the third party systems able to supply Zenbus with their own real time data,"
+      desc2: "such as ticket sales, passenger information systems, WIFI, diagnostic units and sensors, as long as they have a sim card and a GPS module."
+      desc3: "These systems provide Zenbus with data through an API, such as the identity of the driver, the name of the line, the name of the route and the occupancy rate."
+
+  live:
+    title: "Zenbus Live"
+    description1: "ZenbusLive includes all the Zenbus interfaces that provide real time information."
+    description2: "These HMIs are mainly intended for passenger information and operations. Some are public, and others require access rights."
+    titles:
+      app: "Passenger application"
+      web: "Passenger website"
+      iframe: "Iframe"
+      biv: "Passenger information display"
+      supervision: "Supervision"
+      fleetmanagement: "Diagnostics"
+      driverhelp: "Driver assistance"
+    app: 
+      desc1: "See your bus in real time!"
+      desc2: "The Zenbus iOS/android app provides passengers with reliable information about their public transit network at all times. Passengers can geolocate themselves on a map, see where the vehicles are and get continuously updated information about when the bus will be at each stop, in real time."
+      desc3: "There is also a text message system that the Transit Authority, the operator or Zenbus can use to send the users information or to ask them for feedback."
+    web: 
+      desc1: "A responsive real-time map of the buses for the general public is also available on web browsers so that the Zenbus map of a network can be viewed on any computer, tablet or smartphone."
+      link: "See the real-time map of the Mantes-la-Jolie network"
+    iframe: 
+      desc1: "iframe lets you easily integrate the Zenbus map in a website (smartphone or web view), or in a third party application."
+      link1: "See iFrame in use on the city of Mayenne’s website"
+      link2: "Create your own iFrame"
+    biv: 
+      desc1: "Zenbus can be used to display information on TFT monitors with a web browser. A contextualizable view (by single or multi-line stop) provides easy access to a map of approaching buses and information on when the next bus will arrive. More generally, Zenbus can feed data to any type of Passenger Information Display thanks to standardized APIs."
+      link: "See the PID for the city of Alès"
+    supervision: 
+      desc1: "Zenbus Supervision is an Operations Assistance interface that provides valuable information and alerts on the current operation of a public transport network."
+      desc2: "Accessible on any connected monitor via a login and password, it provides a general overview of the service completed and the remaining service to be provided, and offers accurate information on a vehicle or a line, such as the punctuality per stop and the distance between two vehicles."
+      desc3: "The console also features multiple, configurable alerts as well as access to all the arrival times for the day."
+    fleetmanagement: 
+      desc1: "The fleet management interface is designed to help the operator manage the vehicles and the on-board equipment that produces data. It offers many capabilities for fleet visualization, replay, analysis and filters related to geolocation and the quality of the telecom and GPS network."
+    driverhelp: 
+      desc1: "The Zenbus Driver application installed on tablets lets drivers easily see if they are running early or late, via the route map. Drivers can also view the theoretical arrival times of the current trip. The application can be configured to launch when the vehicle is started and to stay on during the trip."
+
+  analytics: 
+    title: "Zenbus Analytics"
+    description: "Zenbus produces, processes, structures and stores a huge amount of transit data. Zenbus also collects interesting data on ridership and how our interfaces are used. Several modules can be used to analyse these data and statistics."
+    titles:
+      reporting: "Reporting"
+      punctuality: "Punctuality"
+      traveltime: "Travel times"
+      kilometers: "Kilometres travelled"
+      dailystoptimes: "Service completed"
+      uses: "Uses"
+      survey: "Survey"
+      counting: "Comptage"
+    reporting:
+      desc1: "This interface provides an instant summary of actual trips vs. theoretical trips, punctuality at stops and kilometres travelled, for part or all of a network. This information can be exported in .csv format and is accessible for an unlimited period of time, making it easy to generate monthly reports."
+    punctuality:
+      desc1: "This interface provides details on the punctuality by stop or by line over a selected period."
+    traveltime:
+      desc1: "This interface displays the travel times for a same route over a selected period, including median times and the difference between the theoretical and actual times. The trips can be replayed by clicking on any point on the graph."
+    kilometers:
+      desc1: "This interface displays kilometres travelled by line, by vehicle, for a selected period (revenue trips and deadheading) as well as the average speed and speed between stops."
+    dailystoptimes:
+      desc1: "This interface displays the arrival times down to the second and the difference with the theoretical times, by line, by trip and by vehicle. It also provides a replay function."
+    uses:
+      desc1: "Zenbus provides monthly usage reports of the application and Zenbus iframe, including an overview (number of users, number of sessions) and a detailed version (lines and stops used, lines and stops added to favourites, geographical origin of the user)."
+    survey:
+      desc1: "Zenbus can conduct user surveys to get their feedback on their transit system or on mobility in general, through the Zenbus messaging system on the app and online."
+    counting:
+      desc1: "Une fonction comptage accessible directement sur le terminal du conducteur dans Zenbus Driver permet de recueillir les données de montées-descentes de voyageurs par lignes, arrêts et date."
+
+  api:
+    title: "Zenbus API"
+    description1: "For all our networks, from the smallest to the largest, we currently produce the following API formats: "
+    description2: "GTFS,"
+    description3: "<a href='../files/Documentation - Zenbus - GTFS-RT.pdf' target='_blank'>GTFS-RT</a>, for which we implement the complete specs when the data exists on our side. Today these APIs integrate TripUpdate and VehiclePosition, and soon Alert, "
+    description4: "SIRI Lite (and, via converter, an Abo mode SIRI, Paris region & France profile) with all essential services, including StopMonitoring, VehicleMonitoring and LinesDiscovery. We also have a proprietary format, more similar to our internal interchange format."
+    titles:
+      alimbiv: "PID Data Feed"
+      pan: "National Access Point Publication"
+      tiers: "Third Party System Data Feed"
+    pan:
+      desc1: "For more information, see our page on <a href='{{ site.baseurl }}/regulation/'>compliance</a>."
+    tiers:
+      desc1: "From the very outset, Zenbus has been committed to open data. We firmly believe in the value of data reuse, in particular for <a href='https://zenbus.fr/blog/2020/10/09/vous-avez-dit-maas/' target='_blank'>Mobility as a Service</a>."
+      desc2: "We won first prize in <a href='https://www.etalab.gouv.fr/dataconnexions26projetsdouverturedesdonneespubliquesalhonneur' target='_blank'>the French Dataconnexions competition</a>  in 2013 in the “Mobility” category. The architecture was designed “natively” with a dual requirement of open-source data and scalability."
+
+  contact: "Contact us"
+
+
+# --------- USE CASES ----------
+usecases:
+  interconnection:
+    title: "Interconnections"
+    description1: "Zenbus is designed to be interconnected."
+    description2: "When it comes to <a href='#production'>“data production”</a>, Zenbus can accept data feeds from third party systems, via ZenbusConnect."
+    description3: "When it comes to <a href='#diffusion'>“data diffusion”</a>, Zenbus data can be re-used via standard APIs."
+    titles:
+      production: "Data production - Zenbusconnect"
+      diffusion: "Data diffusion - ZenbusAPI"
+
+
+# --------- COMPANY ----------
+company:
+  about:
+    title: "Our history"
+    description1: "As a pioneer since 2011 of real-time geolocation services from a simple smartphone, Zenbus has become a leading supplier to public transit systems and the first provider of standardized real-time data on the French National Access Point."
+    description2: "Zenbus is a full SaaS solution that easily connects drivers or vehicles and generates real time, statistical and predictive data with high added value."
+    description3: "Zenbus is now deployed on more than 190 networks in France, North America and Africa, serving thousands of cities, operators and passengers."
+    description4: "We have some twenty employees dedicated to constantly improving the solution and ensuring user satisfaction."
+    subtitle: "The founding partners"
+    julien:
+      name: "Julien Devade"
+      title: "CEO & Co-founder"
+      text: "Julien graduated from École Polytechnique in 1997. He started his career as Project Manager at MASA Group - specialist in Artificial Intelligence, then joined SNCF in 2004 as Project Manager and later Strategy Manager in the IT department. In 2011, he co-founded Zenbus and became CEO."
+    olivier:
+      name: "Olivier Deschaseaux"
+      title: "VP of Sales & Co-founder"
+      text: "Olivier graduated from Audencia Business School in 1998. After several years of experience, he became Operational Director, then Director of Innovation, Services and Solutions at Altran Telecom and Media. In 2011, he co-founded Zenbus and became VP of Sales."
+    ulric:
+      name: "Ulric Le Grand"
+      title: "CFO & Co-founder"
+      text: "Ulric earned a Master of Arts degree from Heriot-Watt University in 2001, as well as a management degree from the Strasbourg School of Management. After more than 9 years of experience as a Financial Advisor at Banque Populaire, Ulric founded several startups, including Zenbus in 2011, where he is the Chief Financial Officer."
+    lionel:
+      name: "Lionel Delourme"
+      title: "CTO & Co-founder"
+      text: "Lionel graduated from École Polytechnique in 2000. He is a high-level physicist, mathematician, and computer scientist who has worked as an IS architect at Altran. He has also patented an invention in the field of data processing."
+
+  team:
+    title: "Team"
+    description: "The Zenbus Team is made up of advanced engineers, extreme developers, seasoned salespeople, creative people, curious people, psycho-enthusiasts, disordered people, musicians, writers, sportsmen, Swiss, Belgians, Nantais, Parisians, ... but it is above all a dynamic and ambitious team that seeks to revolutionize mobility."
+    what_if: "Why not you?"
+    we_recruit: "We are hiring!"
+    description_job: "Want to join in the fun? Discover the missions that we propose!"
+
+  recruit:
+    title: "We are hiring!"
+    description1: "Zenbus’s mission is to transform mobility by providing a simple public transit vehicle location service."
+    description2: "Our people are a diverse group of specialized engineers, expert & innovative developers, experienced sales reps, creatives, makers, musicians, writers, athletes, hailing from Switzerland, Belgium, Nantes and Paris. Check out our job offers and join our dynamic and ambitious team!"
+    technic:
+      team_title: "Developer jobs"
+      team_text: "Small team, peer programming, architecture & product decisions taken by the developers unanimously, zero framework (but we don’t reinvent the wheel), no technical debt, no bullshit, no magic method, before writing java we write algorithms, no sysadmin (thanks GAE). We play around with scalability, concurrency, parallelism & magic latencies on virtualized machines with mass data."
+    sales:
+      team_title: "Du côté des bizdev..."
+      team_text: "Tu es déterminé(e), sensible à la qualité de la relation client, autonome et tourné(e) vers l'action ? Nous t'attendons ! "
+    customer:
+      team_title: "Project Manager jobs"
+      team_text: "Are you looking for an internship in a totally Zen team where you can discover the joys of customer relations while travelling virtually?"
+    label: "Here are our job offers: "
+    offer: "Send us your <a onclick='mailto()'>application!</a>."
+
+# --------- PARTNERS (CROSS PAGES) ----------
+partners: 
+  type1: "Passenger Information Displays"
+  type2: "Street furniture"
+  type3: "Multimodal applications"
+  type4: "City applications"
+
 
 # ----------- BLOG ------------
 # ----- Template Article
@@ -70,123 +485,6 @@ date:
   october: "october"
   november: "november"
   december: "december"
-  
-# ---------- TEAM -----------
-team:
-  tile_title: "Our Team"
-  tile_text: "The Zenbus Team is made up of advanced engineers, extreme developers, seasoned salespeople, creative people, curious people, psycho-enthusiasts, disordered people, musicians, writers, sportsmen, Swiss, Belgians, Nantais, Parisians, ... but it is above all a dynamic and ambitious team that seeks to revolutionize mobility."
-  what_if: "Why not you ?"
-  we_recruit: "We recruit !"
-  description_job: "Want to join in the fun? Discover the missions that we propose!"
-  job1: "1 Junior Commercial"
-  job2: "2 Developers"
-
-# ---------- AO -----------
-ao:
-  tile_title: "Zenbus for Mobility Organising Authorities (AOM)"
-  profit1:
-    title: "Enhance your bus network and facilitate modal shift"
-  profit2:
-    title: "Track and optimise your transport offering"
-  profit3:
-    title: "Comply with your regulatory obligations"
-  small_urban:
-    name: "Small Urban Networks"
-    title: "Why not provide a quality service?"
-    text: "There is no such thing as a \"small network\" for Zenbus! Our solution is designed to be implemented easily, regardless of the size of your network.<br>1 or 2 lines? 1 or 2 vehicles? You’ll be surprised by how easy it is to implement and you’ll appreciate the business model that’s just right for you."
-  mid_urban:
-    name: "Medium Urban Networks"
-    title: "Zenbus, the Passenger Information System tailored to your needs"
-    text: "Quality passenger information systems are not just for very large networks. Zenbus will help you enhance your bus service by providing passengers with accurate information when and where they need it!<br>More broadly, Zenbus provides solutions for all your transport management needs: operations monitoring, video recorder, driver assistance systems and statistical analyses.<br>Zenbus also helps you to comply with the new regulations under the future Mobility Orientation Law"
-  big_urban:
-    name: "Large Urban Networks "
-    title: "BOOST your passenger information system!"
-    text: "You already have a passenger information system, but are you completely satisfied with your user experience? Do passengers have access to accurate and easy to understand information at all times?<br><br>Is your system agile enough to deal with temporary disruptions such as construction work requiring bus replacement service/modified routes?<br><br>Are some of your chartered or city centre shuttle lines not included in the system?"
-  scolar_inter:
-    name: "Intercity & School Service"
-    title: "Choose our agile and efficient passenger information system"
-    text: "Improve the quality of service (punctuality, passenger information) with a technologically simple and cost-effective solution. Gain in flexibility and performance with an agile solution connected to each of your vehicles, services or drivers.<br>Enjoy a collaborative solution that keeps everyone informed so they can make the right decisions at the right time, be they drivers, operations managers, fleet managers or network managers, wherever they are and whatever they need."
-  see_others: "See all our references on the network map"
-  contract:
-    title: "How to implement Zenbus on your network?"
-    span1: "Contract with us directly!"
-    text1: "We are approved providers with a central procurement agency, making the process simple and fast."
-    span2: "Put us in touch with your operator."
-    text2: "We probably already work with them, but if not, we will be happy to form a new business relationship!"
-  estimate:
-    tile_title: "Contact us"
-    tile_text: "We will respond promptly to your requests and are happy to answer any technical or financial questions you may have. Contact us today!"
-    button_call1: "Call us (+33 9 87 36 12 46)"
-    button_call2: "Call me back"
-    policy1: "By filling in this field you agree that your phone number may be used for commercial purposes and you have read our <a href='/mentions.html#donnees' class='form-link'>privacy policy</a>"
-    intertitle: "Or write to us"
-    form:
-      label1: "I am the Mobility Organising Authority for the network of"
-      placeholder1: "e.g. London, New-York, Chicago, Brisbane, etc..."
-      label2: "My operators"
-      placeholder2: "e.g. Operator A, Operator B, etc..."
-      label3: "There isn't any operator"
-      label4: "Lastname"
-      label5: "Firstname"
-      label6: "Mail address"
-      label7: "Phone number"
-      placeholder3: "Ideally, describe your transportation network (number of lines, number of vehicles, timetables/frequency), your main challenges (optimize your travellers' experience, gain a better understanding of the realization, meet the regulatory requirements of the LOM,...) and your schedule."
-      submit: "Send"
-      rgpd: "By submitting this form, you agree to the information provided being used to satisfy your request."
-      contact_error: "To reply, a valid email address or a phone number is required."
-      rgpd_error: "To submit the form, you must check the box above."
-      success: "Your message has been sent, we will respond promptly."
-  
-# ---------- PASSENGERS -----------
-passengers:
-  tile_title: "Simple. Effective. Free."
-  tile_text: "Zenbus’s mission is to transform mobility by providing a simple solution to locate public transport."
-  appstore:
-    download: "Download from"
-    brand: "the App Store"
-  playstore:
-    download: "Available on"
-    brand: "Play Store"
-  tile2_title: "Don’t have a smartphone? We’ve got you covered"
-  tile2_text: "If you’d rather view Zenbus from the comfort of a cosy armchair, use the <a target='_blank' href='/en/#map'>web version</a>. Easily access a wide range of equipped networks."
-  tile3_title: "Still not convinced? See what other users have to say"
-  tile3_text: "We’ve received feedback from hundreds of users&nbsp;—&nbsp;many say they’re looking forward to new developments and features, and most are very enthusiastic!"
-  tile4_title: "Wait a second... Is something missing?"
-  tile4_text: "Zenbus might not be available in your city (see <a target='_blank' href='/en/#map'>network map</a>), your network or even just your line. Feel free to let us know with this short questionnaire (it won’t take long!)."
-  form_label1: "Your e-mail address"
-  form_placeholder1: "Your e-mail address"
-  form_label2: "Which lines would you like to see?"
-  form_placeholder2: "e.g. Line 1, Line 2, A, B, Blue Line, etc."
-  form_label3: "I’d like to see as many as possible"
-  form_label4: "Which transport network are we talking about?"
-  form_placeholder4: "e.g. TAN, Ales'Y, RATP, TBM, etc."
-  form_label5: "I don't know the exact name of the network"
-  form_label6: "Which city/town is it in?"
-  form_placeholder6: "e.g. Paris, New York, Moutiers-les-Mauxfaits, etc."
-  form_submit: "Send"
-  form_success: "Thanks for the feedback! Your request will be handled as soon as possible"
-  tile5_title: "Know that you’re not alone"
-  #tile5_text: "Des centaines de personnes sont dans le même cas que vous. Nous, on s'occupe de recueillir vos besoins et de les prendre en compte afin de savoir vers où diriger nos efforts."
-  tile5_text: "You’ll soon be able to find out all the request results, network by network."
-  tile6_title: "You also have some responsibilities"
-  tile6_text: "As a Zenbus user, there are other ways you can contribute: spread the word, help Zenbus run better, make each and every day pure heaven. Here are the guidelines for responsible Zenbus users"
-  rule1: "Tell others about the app (if you like it, of course)"
-  rule2: "Feel free to send us your feedback, because we always look forward to hearing from you"
-  rule3: "Tell us about your specific needs, because we’re there to listen"
-  rule4: "If a specific transport operator is involved, contact them directly"
-  rule5: "Be constructive, and not destructive, in your feedback"
-  verbatim1_title: "Très bonne application"
-  verbatim1_name: "by Louis"
-  verbatim1_comment: "La géolocalisation des bus est très pratique surtout en cas de correspondance entre plusieurs lignes ce qui est mon cas sur le réseau TAN Nantes Métropole (E5 et 86), je suis « zen » au moment de correspondance ! 😊 Ce serait cool que le concept soit étendu au réseau LILA Loire-Atlantique"
-  verbatim2_title: "Enfin ! J'en ai rêvé, vous l'avez fait"
-  verbatim2_name: "by Nono"
-  verbatim2_comment: "Je ne prends pas le bus à cause du stress généré par l'attente (jusqu'à 40 mn dans le pire des cas) Cette application pourrait me réconcilier avec les transports en commun. Voir où est son bus sur la carte et avoir le délai jusqu'à l'arrivée au prochain arrêt, c'est tout simplement génial !"
-  verbatim3_title: "Superbe idée & concept"
-  verbatim3_name: "by Elena"
-  verbatim3_comment: "Super application dans une région où les infos bus sont rarement au point. Merci ! Vivement que d'autres compagnies et leurs chauffeurs soient convertis !!!"
-  verbatim4_title: "Indispensable"
-  verbatim4_name: "by Mathiieuc"
-  verbatim4_comment: "Application indispensable pour tous les usagers de transports en commun : on peut anticiper son départ de chez soi pour ne pas attendre trop longtemps à l'arrêt et ça rassure de savoir que le bus va bien arriver."
 
 # ---------- CONTACT -----------
 contact:

@@ -4,7 +4,7 @@ title: Vous avez dit MaaS¹&nbsp;?
 date: 2020-10-09
 image: gmaps4.png
 categories: [technical, business]
-tags: maas google maps gtfs lom
+tags:
 author: simon
 lang: fr
 ---
