@@ -323,3 +323,8 @@ function activeFiltersLabel(){
 function filterLabel(typeV){
 	return messages[this.getLang()].homepage.map.mapexpand.types[typeV];
 }
+
+function getMapString(key){
+	console.log(this.getLang());
+	return messages[this.getLang()].homepage.map.mapexpand[key];
+}

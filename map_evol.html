@@ -1,48 +1,9 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
-
-	<head>
-   	<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
-      <meta name="viewport" content="initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-      <meta name="apple-mobile-web-app-capable" content="yes">
-      <meta name="apple-mobile-web-app-status-bar-style" content="default">
-      <link rel="stylesheet" type="text/css" href="assets/css/showcase.css">
-      <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700,900" rel="stylesheet">
-   	<title>Zenbus Map</title>
-		
-		 <!-- Leaflet map --> 
-    <link rel="stylesheet" href="/assets/css/leaflet.css" /> 
-    <script src="/assets/js/leaflet.js"></script> 
-   
-    <!-- Leaflet marker clusterer plugin --> 
-    <link rel="stylesheet" href="/assets/css/MarkerCluster.css" /> 
-
-    <script src="/assets/js/leaflet.markercluster.js"></script> 
- 
-    <!-- Vue --> 
-    <script src="/assets/js/vue.min.js"></script> 
-    <script src="/assets/js/vue-resource@1.5.0"></script> 
- 
-    <!-- i18n --> 
-    <script src="/assets/js/vue-i18n.js"></script> 
-		
-	<!-- Analytics -->
-	<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-48957810-1']);
-			_gaq.push(['_setDomainName', 'zenbus.fr']);
-			_gaq.push(['_setAllowLinker', true]);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-				 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-    </script>
-   </head>
-   	
-   <body>
+---
+layout: map
+title: map
+permalink: /map
+lang: fr
+---
 		<div id="app" v-cloak>
         	<section id="map" class="map" v-bind:class="{'show-map': isActiveMap}">
       			 <!--<div class="map-tile tile">
@@ -57,7 +18,7 @@
                  	<div class="map-expand">
                     <aside class="filters">
                          <header class="filters-header" v-on:click="showSearchResults = false">
-                           <h4 class="filters-header-title">Carte</h4> 
+                           <h4 class="filters-header-title">[% getMapString('title')%] t</h4> 
                            <p class="filters-header-text">Vous pouvez filtrer la carte par typologie de réseau</p>
                         </header>
                        
@@ -182,7 +143,4 @@
       			 
       		</section>
 			</div>
-		<script src="/assets/js/datas.js"></script> 
-  		<script src="/assets/js/index.min.js"></script>
-   </body>
-</html>
+		
