@@ -1,7 +1,7 @@
 ---
 layout: blog-article
 title: Michaël Jonvel - Open Data transport / ZenbusBox / SAEIV
-date: 2021-07-07
+date: 2021-07-06
 image: interview_michael_jonvel.png
 categories: [interview]
 tags: [Urbain, entre 1 et 15, Sel et Vermois - France, Depuis 2019]
